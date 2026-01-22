@@ -130,25 +130,40 @@ const ProductExplorer = ({ initialProducts }: ProductExplorerProps) => {
 
       {/* Grid de Productos estilo Amazon/Booking */}
       <div className="lg:col-span-9 xl:col-span-10 space-y-6">
-        {/* Header del Grid compacto */}
-        <div className="flex flex-col sm:flex-row justify-between items-center bg-white p-3 rounded-2xl border border-gray-100 shadow-sm gap-4">
-          <div className="text-sm text-gray-500 font-medium ml-2">
-            Mostrando <span className="text-[#722F37] font-bold">{filteredProducts.length}</span> produktu
+        {/* Header del Grid compacto con Buscador 50/50 */}
+        <div className="flex flex-col md:flex-row items-center bg-white p-2 rounded-2xl border border-gray-100 shadow-sm gap-4">
+          {/* Lado Izquierdo: Buscador */}
+          <div className="w-full md:w-1/2 relative group">
+            <input
+              type="text"
+              placeholder="Bilatu produktuak..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full pl-10 pr-4 py-2.5 bg-gray-50/50 border border-transparent rounded-xl focus:bg-white focus:ring-2 focus:ring-[#722F37]/10 focus:border-[#722F37]/30 outline-none transition-all placeholder:text-gray-400 text-sm"
+            />
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-[#722F37] transition-colors" size={16} />
           </div>
-          
-          <div className="flex items-center gap-2 bg-gray-50 p-1 rounded-xl">
-             <button 
-                onClick={() => setViewMode('grid')}
-                className={`p-2 rounded-lg transition-all ${viewMode === 'grid' ? 'bg-white shadow-sm text-[#722F37]' : 'text-gray-400 hover:text-gray-600'}`}
-             >
-               <Grid size={18} />
-             </button>
-             <button 
-                onClick={() => setViewMode('list')}
-                className={`p-2 rounded-lg transition-all ${viewMode === 'list' ? 'bg-white shadow-sm text-[#722F37]' : 'text-gray-400 hover:text-gray-600'}`}
-             >
-               <ListIcon size={18} />
-             </button>
+
+          {/* Lado Derecho: Info y Vistas */}
+          <div className="w-full md:w-1/2 flex items-center justify-between pl-4">
+            <div className="text-sm text-gray-500 font-medium">
+              Mostrando <span className="text-[#722F37] font-bold">{filteredProducts.length}</span> produktu
+            </div>
+            
+            <div className="flex items-center gap-2 bg-gray-50 p-1 rounded-xl">
+               <button 
+                  onClick={() => setViewMode('grid')}
+                  className={`p-2 rounded-lg transition-all ${viewMode === 'grid' ? 'bg-white shadow-sm text-[#722F37]' : 'text-gray-400 hover:text-gray-600'}`}
+               >
+                 <Grid size={18} />
+               </button>
+               <button 
+                  onClick={() => setViewMode('list')}
+                  className={`p-2 rounded-lg transition-all ${viewMode === 'list' ? 'bg-white shadow-sm text-[#722F37]' : 'text-gray-400 hover:text-gray-600'}`}
+               >
+                 <ListIcon size={18} />
+               </button>
+            </div>
           </div>
         </div>
 
