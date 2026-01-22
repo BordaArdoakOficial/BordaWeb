@@ -124,29 +124,28 @@ const ProductExplorer = ({ initialProducts }: ProductExplorerProps) => {
               );
             })}
           </nav>
-        </div>
 
           {/* Decoración lateral en el card */}
           <div className="absolute top-0 right-0 w-1 h-full bg-[#722F37]/10"></div>
         </div>
 
-        {/* Banner informativo o CTA lateral */}
-        <div className="bg-[#1A1A1A] rounded-[2rem] p-8 text-white relative overflow-hidden group">
-          <div className="absolute -top-10 -right-10 w-32 h-32 bg-white/10 rounded-full blur-3xl transition-transform duration-700 group-hover:scale-150"></div>
-          <p className="text-[#722F37] font-bold text-xs uppercase tracking-widest mb-2">Laguntza behar duzu?</p>
-          <h4 className="font-bold text-lg mb-4">Ez duzu bilatzen ari zarena aurkitzen?</h4>
-          <a href="/kontaktua" className="text-sm font-bold border-b-2 border-[#722F37] pb-1 hover:text-[#722F37] transition-colors inline-block">
+        {/* Banner informativo compacto */}
+        <div className="bg-[#1A1A1A] rounded-2xl p-6 text-white relative overflow-hidden group">
+          <div className="absolute -top-10 -right-10 w-24 h-24 bg-white/5 rounded-full blur-2xl transition-transform duration-700 group-hover:scale-150"></div>
+          <p className="text-[#722F37] font-bold text-[10px] uppercase tracking-widest mb-1">Laguntza?</p>
+          <h4 className="font-bold text-sm mb-3">Ez duzu aurkitzen?</h4>
+          <a href="/kontaktua" className="text-xs font-bold border-b border-[#722F37] pb-0.5 hover:text-[#722F37] transition-colors inline-block">
             Deitu iezaguzu →
           </a>
         </div>
       </aside>
 
-      {/* Grid de Productos */}
-      <main className="lg:col-span-9 space-y-8">
-        {/* Header del Grid */}
-        <div className="flex flex-col sm:flex-row justify-between items-center bg-white p-4 rounded-3xl border border-gray-100 shadow-sm gap-4">
+      {/* Grid de Productos estilo Amazon/Booking */}
+      <div className="lg:col-span-9 xl:col-span-10 space-y-6">
+        {/* Header del Grid compacto */}
+        <div className="flex flex-col sm:flex-row justify-between items-center bg-white p-3 rounded-2xl border border-gray-100 shadow-sm gap-4">
           <div className="text-sm text-gray-500 font-medium ml-2">
-            <span className="text-[#1A1A1A] font-bold">{filteredProducts.length}</span> produktu aurkitu dira
+            Mostrando <span className="text-[#722F37] font-bold">{filteredProducts.length}</span> produktu
           </div>
           
           <div className="flex items-center gap-2 bg-gray-50 p-1 rounded-xl">
@@ -235,7 +234,7 @@ const ProductExplorer = ({ initialProducts }: ProductExplorerProps) => {
             </button>
           </div>
         )}
-      </main>
+      </div>
     </div>
   );
 };
