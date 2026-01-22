@@ -1,0 +1,148 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import { Mail, Phone, MapPin, Send } from "lucide-react";
+---
+
+<Layout title="Kontaktua">
+    <Navbar client:load pathname={Astro.url.pathname} />
+    <main class="pt-32 pb-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <header class="mb-20">
+                <h1
+                    class="text-6xl font-bold tracking-tight text-[#1A1A1A] mb-6"
+                >
+                    Jarri gurekin <br /><span class="font-light italic"
+                        >harremanetan</span
+                    >.
+                </h1>
+                <p class="text-xl text-gray-600 max-w-2xl">
+                    Edozein zalantza izanez gero, idatzi edo deitu iezaguzu.
+                    Gustura lagunduko dizugu.
+                </p>
+            </header>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+                <!-- Contact Form -->
+                <div
+                    class="bg-white rounded-[3rem] p-8 md:p-12 shadow-2xl shadow-gray-200"
+                >
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="space-y-2">
+                                <label
+                                    class="text-sm font-bold text-gray-700 ml-1"
+                                    >Izena</label
+                                >
+                                <input
+                                    type="text"
+                                    class="w-full px-6 py-4 rounded-2xl bg-gray-50 border border-transparent focus:bg-white focus:border-[#722F37] transition-all outline-none"
+                                    placeholder="Zure izena"
+                                />
+                            </div>
+                            <div class="space-y-2">
+                                <label
+                                    class="text-sm font-bold text-gray-700 ml-1"
+                                    >Emaila</label
+                                >
+                                <input
+                                    type="email"
+                                    class="w-full px-6 py-4 rounded-2xl bg-gray-50 border border-transparent focus:bg-white focus:border-[#722F37] transition-all outline-none"
+                                    placeholder="zure@emaila.eus"
+                                />
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-sm font-bold text-gray-700 ml-1"
+                                >Gaia</label
+                            >
+                            <input
+                                type="text"
+                                class="w-full px-6 py-4 rounded-2xl bg-gray-50 border border-transparent focus:bg-white focus:border-[#722F37] transition-all outline-none"
+                                placeholder="Nola lagun zaitzakegu?"
+                            />
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-sm font-bold text-gray-700 ml-1"
+                                >Mezua</label
+                            >
+                            <textarea
+                                class="w-full px-6 py-4 rounded-2xl bg-gray-50 border border-transparent focus:bg-white focus:border-[#722F37] transition-all outline-none h-40"
+                                placeholder="Idatzi hemen zure mezua..."
+                            ></textarea>
+                        </div>
+                        <button
+                            class="w-full py-5 bg-[#722F37] text-white rounded-2xl font-bold text-lg hover:bg-[#8B2323] transition-all transform active:scale-95 flex items-center justify-center space-x-2"
+                        >
+                            <span>Mezua Bidali</span>
+                            <Send className="w-5 h-5" />
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Info & Map -->
+                <div class="flex flex-col justify-between">
+                    <div class="space-y-12">
+                        <div class="flex items-start space-x-6">
+                            <div class="p-4 bg-white rounded-2xl shadow-lg">
+                                <MapPin className="text-[#722F37] w-6 h-6" />
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">
+                                    Gure Kokapena
+                                </h4>
+                                <p class="text-gray-600 leading-relaxed">
+                                    Araba Kalea, 45<br />20800 Zarautz, Gipuzkoa
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-6">
+                            <div class="p-4 bg-white rounded-2xl shadow-lg">
+                                <Phone className="text-[#722F37] w-6 h-6" />
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">
+                                    Telefonoa
+                                </h4>
+                                <p class="text-gray-600 font-medium">
+                                    +34 943 000 000
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-6">
+                            <div class="p-4 bg-white rounded-2xl shadow-lg">
+                                <Mail className="text-[#722F37] w-6 h-6" />
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">
+                                    Posta Elektronikoa
+                                </h4>
+                                <p class="text-gray-600 font-medium">
+                                    info@bordaardoak.eus
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Map -->
+                    <div
+                        class="mt-16 rounded-[3rem] overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 h-80 shadow-2xl"
+                    >
+                        <iframe
+                            width="100%"
+                            height="100%"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            src="https://www.google.com/maps?q=Borda%20Ardoak%20S.L.%2C%20Araba%20Kalea%2045%2C%2020800%20Zarautz&output=embed"
+                        >
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <Footer client:load />
+</Layout>

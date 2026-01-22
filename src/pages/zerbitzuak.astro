@@ -1,0 +1,57 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+---
+
+<Layout title="Zerbitzuak">
+    <Navbar client:load pathname={Astro.url.pathname} />
+    <main class="pt-32 pb-20 bg-[#FDFCFB]">
+        <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <header class="mb-14 text-center">
+                <p class="text-sm font-semibold uppercase tracking-[0.18em] text-[#722F37]/80">Zerbitzuak</p>
+                <h1 class="text-5xl font-bold text-[#1A1A1A] mt-3">Gure espezializazioak</h1>
+                <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
+                    Dendako ardo hautaketatik ostalaritza banaketara, kalitatea eta zerbitzu pertsonalizatua eskaintzen ditugu.
+                </p>
+            </header>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                <article class="rounded-[2.5rem] overflow-hidden bg-white border border-gray-100 shadow-xl">
+                    <div class="aspect-[4/3] bg-gradient-to-br from-[#722F37]/10 to-[#D9C2B0]/20">
+                        <img
+                            src="https://bordaardoak.eus/wp-content/uploads/2021/03/Borda-zerbitzuak-1-800x534.jpg"
+                            alt="Ardo eskaintza, upelak eta mahats sorta"
+                            class="w-full h-full object-cover"
+                            loading="lazy"
+                        />
+                    </div>
+                    <div class="p-8 space-y-4">
+                        <h2 class="text-2xl font-bold text-[#1A1A1A]">Dendako ardo eskaintza</h2>
+                        <p class="text-gray-600 leading-relaxed">
+                            Ardo eskaintza izugarri zabala dugu eta punta-puntako upategiekin egiten dugu lan.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="rounded-[2.5rem] overflow-hidden bg-white border border-gray-100 shadow-xl">
+                    <div class="aspect-[4/3] bg-gradient-to-br from-[#722F37]/10 to-[#D9C2B0]/20">
+                        <img
+                            src="https://bordaardoak.eus/wp-content/uploads/2021/03/Borda-zerbitzuak-800x534.jpg"
+                            alt="Banaketa zerbitzua, kutxak garraiatzen"
+                            class="w-full h-full object-cover"
+                            loading="lazy"
+                        />
+                    </div>
+                    <div class="p-8 space-y-4">
+                        <h2 class="text-2xl font-bold text-[#1A1A1A]">Banaketa zerbitzua</h2>
+                        <p class="text-gray-600 leading-relaxed">
+                            Ostalaritza sektoreari zuzendutako banaketa zerbitzua ere eskeintzen dugu: Jatetxe, taberna, hotel… eta abarretara.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <Footer client:load />
+</Layout>
