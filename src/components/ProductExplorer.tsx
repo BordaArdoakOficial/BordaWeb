@@ -79,18 +79,6 @@ const ProductExplorer = ({ initialProducts }: ProductExplorerProps) => {
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 xl:gap-8">
       {/* Sidebar - Filtros Sticky estilo Amazon/Booking */}
       <aside className="lg:col-span-3 xl:col-span-2 space-y-6 lg:sticky lg:top-28 h-fit">
-        {/* Barra de búsqueda */}
-        <div className="relative group">
-          <input
-            type="text"
-            placeholder="Bilatu..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full pl-10 pr-4 py-3 bg-white border border-gray-200 rounded-xl shadow-sm focus:ring-2 focus:ring-[#722F37]/20 focus:border-[#722F37] outline-none transition-all placeholder:text-gray-400 text-sm"
-          />
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-[#722F37] transition-colors" size={16} />
-        </div>
-
         {/* Categorías Card */}
         <div className="bg-white rounded-2xl border border-gray-100 p-4 shadow-sm overflow-hidden relative">
           <div className="flex items-center gap-2 mb-4 px-1">
