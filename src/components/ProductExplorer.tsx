@@ -167,21 +167,21 @@ const ProductExplorer = ({ initialProducts }: ProductExplorerProps) => {
           </div>
         </div>
 
-        {/* Grid animado con imágenes más pequeñas */}
+        {/* Grid animado con imágenes un poco más grandes */}
         {filteredProducts.length > 0 ? (
           <div className={viewMode === 'grid' 
-            ? "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4"
+            ? "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6"
             : "flex flex-col gap-4"
           }>
             {filteredProducts.map((product) => (
               <div 
                 key={product.id}
                 className={`group bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-500 ${
-                  viewMode === 'list' ? 'flex flex-row items-center gap-4 p-3' : 'p-3'
+                  viewMode === 'list' ? 'flex flex-row items-center gap-6 p-4' : 'p-4'
                 }`}
               >
                 <div className={`relative overflow-hidden bg-gray-50 rounded-xl ${
-                  viewMode === 'list' ? 'w-24 h-24 flex-shrink-0' : 'aspect-square mb-3'
+                  viewMode === 'list' ? 'w-28 h-28 flex-shrink-0' : 'aspect-square mb-4'
                 }`}>
                   <img
                     src={product.data.image}
@@ -191,14 +191,14 @@ const ProductExplorer = ({ initialProducts }: ProductExplorerProps) => {
                   <div className="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 </div>
 
-                <div className={`flex flex-col ${viewMode === 'list' ? 'flex-1' : 'px-2 pb-2'}`}>
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="text-[10px] font-black uppercase tracking-[0.15em] text-[#722F37] bg-[#722F37]/5 px-2 py-0.5 rounded-md">
+                <div className={`flex flex-col ${viewMode === 'list' ? 'flex-1' : 'px-1'}`}>
+                  <div className="flex items-center gap-2 mb-1">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-[#722F37]/60">
                       {product.data.category}
                     </span>
                   </div>
                   
-                  <h3 className="text-lg font-bold text-[#1A1A1A] group-hover:text-[#722F37] transition-colors mb-2">
+                  <h3 className="text-base font-bold text-[#1A1A1A] group-hover:text-[#722F37] transition-colors mb-1 line-clamp-1">
                     {product.data.name}
                   </h3>
                   
@@ -206,16 +206,15 @@ const ProductExplorer = ({ initialProducts }: ProductExplorerProps) => {
                     {product.data.description}
                   </p>
                   
-                  <div className="flex justify-between items-center mt-auto">
+                  <div className="flex justify-between items-center mt-auto pt-2 border-t border-gray-100">
                     <div>
-                      <span className="text-xs text-gray-400 block uppercase font-bold tracking-widest">Prezioa</span>
                       <span className="text-xl font-black text-[#1A1A1A]">
                         {product.data.price}€
                       </span>
                     </div>
-                    <button className="flex items-center gap-2 px-4 py-3 bg-[#722F37] text-white rounded-xl hover:bg-[#5a252c] transition-all transform active:scale-95 font-bold text-sm shadow-lg shadow-[#722F37]/20">
+                    <button className="flex items-center gap-2 px-3 py-2 bg-[#722F37] text-white rounded-xl hover:bg-[#5a252c] transition-all transform active:scale-95 font-bold text-xs shadow-md">
                       Gehitu
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
                     </button>
                   </div>
                 </div>
