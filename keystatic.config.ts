@@ -1,9 +1,14 @@
 import { config, fields, collection } from '@keystatic/core';
 
 export default config({
-    storage: {
-        kind: 'local',
-    },
+    storage: import.meta.env.PROD
+        ? {
+            kind: 'github',
+            repo: 'Zer0Dev-exe/Webremake',
+        }
+        : {
+            kind: 'local',
+        },
     collections: {
         products: collection({
             label: 'Products',
