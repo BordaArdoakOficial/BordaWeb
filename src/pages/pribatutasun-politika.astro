@@ -1,0 +1,47 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+---
+
+<Layout title="Pribatutasun Politika | Borda Ardoak">
+    <Navbar client:load pathname={Astro.url.pathname} />
+    <main class="pt-32 pb-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="text-4xl font-bold text-[#1A1A1A] mb-12">Pribatutasun Politika</h1>
+            
+            <div class="prose prose-lg max-w-none text-gray-600 space-y-12">
+                <!-- PRIVACY POLICY SECTION -->
+                <section>
+                    <div class="space-y-4">
+                        <p>El Titular le informa sobre su Política de Privacidad respecto del tratamiento y protección de los datos de carácter personal de los usuarios que puedan ser recabados durante la navegación a través del Sitio Web: <a href="https://bordaardoak.eus" class="text-[#722F37]">https://bordaardoak.eus</a></p>
+                        <p>En este sentido, el Titular garantiza el cumplimiento de la normativa vigente en materia de protección de datos personales (RGPD y LOPD GDD).</p>
+                        
+                        <h3 class="text-xl font-bold text-[#1A1A1A] mt-8 mb-4">Identidad del Responsable</h3>
+                        <ul class="list-none space-y-1">
+                            <li><strong>Responsable:</strong> Borda Ardoak S.L..</li>
+                            <li><strong>NIF:</strong> B75238618</li>
+                            <li><strong>Domicilio:</strong> Foruen Kalea, 12 · 20.800 ZARAUTZ (Gipuzkoa), Gipuzkoa - España.</li>
+                            <li><strong>Correo electrónico:</strong> administrazioa@bordaardoak.eus</li>
+                        </ul>
+
+                        <h3 class="text-xl font-bold text-[#1A1A1A] mt-8 mb-4">Principios aplicados</h3>
+                        <p>En el tratamiento de sus datos personales, el Titular aplicará los principios de licitud, lealtad y transparencia, minimización de datos, limitación del plazo de conservación e integridad y confidencialidad.</p>
+
+                        <h3 class="text-xl font-bold text-[#1A1A1A] mt-8 mb-4">Derechos</h3>
+                        <p>Usted tiene derecho a solicitar el acceso, rectificación, supresión o limitación del tratamiento de sus datos. Para ejercitar estos derechos, puede enviar su petición junto con una fotocopia del DNI a: <a href="mailto:administrazioa@bordaardoak.eus" class="text-[#722F37]">administrazioa@bordaardoak.eus</a></p>
+                    </div>
+                </section>
+
+                <hr class="border-gray-100" />
+
+                <section>
+                    <h2 class="text-2xl font-bold text-[#1A1A1A] mb-4">Seguridad de los datos</h2>
+                    <p>Para proteger sus datos personales, el Titular sigue las mejores prácticas de la industria y aloja el sitio en Webempresa, garantizando medidas de seguridad adecuadas para evitar pérdida o acceso indebido.</p>
+                    <p>Sus datos no serán cedidos a terceros salvo obligación legal o servicio contractual específico.</p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <Footer client:load />
+</Layout>

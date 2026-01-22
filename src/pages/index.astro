@@ -2,7 +2,6 @@
 import Layout from "../layouts/Layout.astro";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import FeaturedProducts from "../components/FeaturedProducts";
 import Footer from "../components/Footer";
 ---
 
@@ -10,118 +9,6 @@ import Footer from "../components/Footer";
 	<Navbar client:load pathname={Astro.url.pathname} />
 	<main>
 		<Hero client:load />
-		<FeaturedProducts client:load />
-
-		<!-- About Section with AI Image -->
-		<section class="py-32 bg-white overflow-hidden">
-			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-				<div
-					class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center"
-				>
-					<div class="relative">
-						<div
-							class="absolute -top-10 -left-10 w-64 h-64 bg-[#722F37]/5 rounded-full blur-3xl"
-						>
-						</div>
-						<div
-							class="relative rounded-[3rem] overflow-hidden shadow-2xl"
-						>
-							<img
-								src="/images/sections/store.png"
-								alt="Our Store"
-								class="w-full h-auto"
-							/>
-						</div>
-						<div
-							class="absolute -bottom-10 -right-10 px-10 py-8 bg-[#722F37] text-white rounded-[2rem] shadow-xl"
-						>
-							<span class="block text-4xl font-bold mb-1">2ª</span
-							>
-							<span
-								class="text-sm font-light uppercase tracking-widest"
-								>Generazioko Familia</span
-							>
-						</div>
-					</div>
-					<div>
-						<h2
-							class="text-[#722F37] text-sm font-bold uppercase tracking-[0.2em] mb-4"
-						>
-							Gure Historia
-						</h2>
-						<h3
-							class="text-4xl md:text-5xl font-bold tracking-tight text-[#1A1A1A] mb-8 leading-tight"
-						>
-							Zarautzen sustraituriko <br />
-							<span class="font-light italic">konpromisoa</span>.
-						</h3>
-						<p class="text-lg text-gray-600 mb-8 leading-relaxed">
-							Bigarren belaunaldiko familia-enpresa gara, 1980tik
-							Zarautzen eta inguruetan ardo, garagardo eta
-							elikagaien banaketan diharduguna. Gure helburua beti
-							izan da bezeroari tratu hurbila eta produktu
-							bikainak eskaintzea.
-						</p>
-						<ul class="space-y-4 mb-10">
-							{
-								[
-									"Banaketa Propioa",
-									"Aholkularitza Gastronomikoa",
-									"Eskaera Pertsonalizatuak",
-								].map((item) => (
-									<li class="flex items-center space-x-3 text-gray-800 font-medium">
-										<div class="h-1.5 w-1.5 rounded-full bg-[#722F37]" />
-										<span>{item}</span>
-									</li>
-								))
-							}
-						</ul>
-						<a
-							href="/nor-gara"
-							class="inline-flex py-4 px-10 border-2 border-black rounded-full font-bold hover:bg-black hover:text-white transition-all"
-						>
-							Gehiago Irakurri
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Newsletter / CTA -->
-		<section class="py-32 bg-[#722F37] relative overflow-hidden">
-			<div
-				class="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-[100px] -mr-48 -mt-48"
-			>
-			</div>
-			<div
-				class="absolute bottom-0 left-0 w-96 h-96 bg-black/20 rounded-full blur-[100px] -ml-48 -mb-48"
-			>
-			</div>
-
-			<div
-				class="relative z-10 max-w-4xl mx-auto px-4 text-center text-white"
-			>
-				<h2 class="text-3xl md:text-5xl font-bold mb-8">
-					Egon gure berrikuntzen berri.
-				</h2>
-				<p class="text-white/70 text-lg mb-12">
-					Harpidetu gure buletinera eta jaso eskaintza esklusiboak eta
-					produktu berrien aurkezpenak.
-				</p>
-				<form class="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-					<input
-						type="email"
-						placeholder="Zure posta elektronikoa"
-						class="flex-1 px-6 py-4 rounded-full bg-white/10 border border-white/20 text-white placeholder:text-white/40 focus:outline-none focus:bg-white/20 transition-all font-medium"
-					/>
-					<button
-						class="px-8 py-4 bg-white text-[#722F37] rounded-full font-bold hover:bg-gray-100 transition-all transform active:scale-95 shadow-xl"
-					>
-						Harpidetu
-					</button>
-				</form>
-			</div>
-		</section>
 	</main>
 	<Footer client:load />
 </Layout>

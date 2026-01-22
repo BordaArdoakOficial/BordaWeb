@@ -1,0 +1,75 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+---
+
+<Layout title="Cookies Politika | Borda Ardoak">
+    <Navbar client:load pathname={Astro.url.pathname} />
+    <main class="pt-32 pb-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="text-4xl font-bold text-[#1A1A1A] mb-12">Cookies Politika</h1>
+            
+            <div class="prose prose-lg max-w-none text-gray-600 space-y-8">
+                <section>
+                    <h2 class="text-2xl font-bold text-[#1A1A1A] mb-4">¿Qué son las cookies?</h2>
+                    <p>En inglés, el término "cookie" significa galleta, pero en el ámbito de la navegación web, una "cookie" es algo completamente distinto. Cuando accede a nuestro Sitio Web, en el navegador de su dispositivo se almacena una pequeña cantidad de texto que se denomina "cookie". Este texto contiene información variada sobre su navegación, hábitos, preferencias, personalizaciones de contenidos, etc...</p>
+                    <p>Existen otras tecnologías que funcionan de manera similar y que también se usan para recopilar datos sobre tu actividad de navegación. Llamaremos "cookies" a todas estas tecnologías en su conjunto.</p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-[#1A1A1A] mb-4">¿Para qué se utilizan las cookies en esta web?</h2>
+                    <p>Las cookies son una parte esencial de cómo funciona el Sitio Web. El objetivo principal de nuestras cookies es mejorar su experiencia en la navegación. Por ejemplo, para recordar sus preferencias (idioma, país, etc.) durante la navegación y en futuras visitas. La información recogida en las cookies nos permite además mejorar la web, adaptarla a sus intereses como usuario, acelerar las búsquedas que realice, etc..</p>
+                    <p>En determinados casos, si hemos obtenido su previo consentimiento informado, podremos utilizar cookies para otros usos, como por ejemplo para obtener información que nos permita mostrarle publicidad basada en el análisis de sus hábitos de navegación.</p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-[#1A1A1A] mb-4">¿Para qué NO se utilizan las cookies en esta web?</h2>
+                    <p>En las cookies que utilizamos no se almacena información sensible de identificación personal como su nombre, dirección, tu contraseña, etc...</p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-[#1A1A1A] mb-4">¿Quién utiliza la información almacenada en las cookies?</h2>
+                    <p>La información almacenada en las cookies de nuestro Sitio Web es utilizada exclusivamente por nosotros, a excepción de aquellas identificadas más adelante como "cookie de terceros", que son utilizadas y gestionadas por entidades externas que nos proporcionan servicios que mejoran la experiencia del usuario. Por ejemplo las estadísticas que se recogen sobre el número de visitas, el contenido que más gusta, etc... lo suele gestionar Google Analytics.</p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-[#1A1A1A] mb-4">¿Cómo puede evitar el uso de cookies en este Sitio Web?</h2>
+                    <p>Si prefiere evitar el uso de las cookies, puede RECHAZAR su uso o puede CONFIGURAR las que quiere evitar y las que permite utilizar. Si las ha aceptado, no volveremos a preguntarle a menos que borre las cookies en su dispositivo. Si quiere revocar el consentimiento tendrá que eliminar las cookies y volver a configurarlas.</p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-[#1A1A1A] mb-4">¿Cómo deshabilito y elimino la utilización de cookies?</h2>
+                    <p>Para restringir, bloquear o borrar las cookies de este Sitio Web puede hacerlo, en cualquier momento, modificando la configuración de su navegador:</p>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li><a href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias" target="_blank" class="text-[#722F37] hover:underline">Firefox</a></li>
+                        <li><a href="https://support.google.com/chrome/answer/95647?hl=es" target="_blank" class="text-[#722F37] hover:underline">Google Chrome</a></li>
+                        <li><a href="https://support.microsoft.com/es-es/windows/eliminar-y-administrar-cookies-168dab11-0753-043d-7c16-ede5947fc64d" target="_blank" class="text-[#722F37] hover:underline">Microsoft Edge</a></li>
+                        <li><a href="https://support.apple.com/es-es/guide/safari/sfri11471/mac" target="_blank" class="text-[#722F37] hover:underline">Safari</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-[#1A1A1A] mb-4">Detalle de cookies utilizadas</h2>
+                    <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100">
+                        <ul class="space-y-4">
+                            <li>
+                                <strong class="text-[#1A1A1A]">Cookies técnicas:</strong>
+                                <p class="text-sm mt-1">Necesarias para la navegación y el buen funcionamiento de nuestro Sitio Web (control de tráfico, identificar la sesión, etc.).</p>
+                            </li>
+                            <li>
+                                <strong class="text-[#1A1A1A]">Cookies de análisis:</strong>
+                                <p class="text-sm mt-1">Permiten cuantificar el número de usuarios y realizar el análisis estadístico de la utilización que hacen los usuarios del Sitio Web.</p>
+                            </li>
+                            <li>
+                                <strong class="text-[#1A1A1A]">Cookies de personalización:</strong>
+                                <p class="text-sm mt-1">Permiten recordar información para que el Usuario acceda al servicio con determinadas características (idioma, región, etc.).</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <Footer client:load />
+</Layout>

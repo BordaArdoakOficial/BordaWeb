@@ -2,7 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { History, Store, Truck, CheckCircle2, UserCheck, Zap, Users } from "lucide-react";
+import { History, Store, Truck, CheckCircle2, UserCheck, Zap, Users, MapPin } from "lucide-react";
 ---
 
 <Layout title="Nor Gara">
@@ -28,24 +28,69 @@ import { History, Store, Truck, CheckCircle2, UserCheck, Zap, Users } from "luci
             </div>
         </section>
 
-        <!-- Image Grid -->
-        <section class="pb-32 px-4 sm:px-6 lg:px-8">
-            <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="rounded-[3rem] overflow-hidden h-[500px] shadow-2xl relative group">
-                    <img
-                        src="/images/hero/vineyard.png"
-                        class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                        alt="Vineyards"
-                    />
-                    <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
+        <!-- Secciones de Instalaciones -->
+        <section class="pb-32 space-y-32">
+            <!-- Sección Denda -->
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                    <div class="order-2 lg:order-1 grid grid-cols-2 gap-4">
+                        <div class="rounded-[2rem] overflow-hidden shadow-xl aspect-[3/4] relative group">
+                            <img src="/norgara/denda.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Borda Ardoak Denda" />
+                            <div class="absolute inset-0 bg-black/10"></div>
+                        </div>
+                        <div class="rounded-[2rem] overflow-hidden shadow-xl aspect-[3/4] mt-8 relative group">
+                            <img src="/norgara/denda2.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Borda Ardoak Denda Barrualdea" />
+                            <div class="absolute inset-0 bg-black/10"></div>
+                        </div>
+                    </div>
+                    <div class="order-1 lg:order-2 space-y-8">
+                        <div class="w-12 h-1.5 bg-[#722F37] rounded-full"></div>
+                        <h2 class="text-4xl font-bold text-[#1A1A1A]">Gure Denda Zarautzen</h2>
+                        <div class="space-y-6 text-lg text-gray-600 leading-relaxed">
+                            <p>
+                                Zarautzen bihotzean kokatua, gure denda fisikoa herritarren eta bisitarien topaleku bihurtu da. Produktu guztiak bertatik bertara ezagutzeko aukera ematen dugu.
+                            </p>
+                            <p>
+                                Tratu hurbila eta aholkularitza profesionala dira gure bereizgarriak. Ardo bakoitzaren historia eta ezaugarriak ezagutzen lagunduko dizugu.
+                            </p>
+                            <div class="pt-4 flex items-center gap-4 text-[#1A1A1A] font-bold">
+                                <MapPin size={24} class="text-[#722F37]" />
+                                <span>Foruen Kalea, 12 · Zarautz</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="rounded-[3rem] overflow-hidden h-[500px] shadow-2xl relative group">
-                    <img
-                        src="/images/sections/store.png"
-                        class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                        alt="Store Interior"
-                    />
-                    <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
+            </div>
+
+            <!-- Sección Biltegia -->
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                    <div class="space-y-8">
+                        <div class="w-12 h-1.5 bg-[#722F37] rounded-full"></div>
+                        <h2 class="text-4xl font-bold text-[#1A1A1A]">Biltegia eta Logistika</h2>
+                        <div class="space-y-6 text-lg text-gray-600 leading-relaxed">
+                            <p>
+                                Banaketa profesionalerako instalazio modernoak ditugu. Gure biltegiak produktuen baldintza optimoak bermatzeko diseinatuta daude.
+                            </p>
+                            <p>
+                                Hemendik koordinatzen dugu Gipuzkoa osora iristen den gure banaketa sarea, ostalaritza eta enpresetara zuzendutako zerbitzu azkar eta fidagarria bermatuz.
+                            </p>
+                            <div class="pt-4 flex items-center gap-4 text-[#1A1A1A] font-bold">
+                                <Truck size={24} class="text-[#722F37]" />
+                                <span>Banaketa propioa eta azkarra</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="rounded-[2rem] overflow-hidden shadow-xl aspect-square relative group">
+                            <img src="/norgara/almacen.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Borda Ardoak Biltegia" />
+                            <div class="absolute inset-0 bg-black/10"></div>
+                        </div>
+                        <div class="rounded-[2rem] overflow-hidden shadow-xl aspect-square mt-12 relative group">
+                            <img src="/norgara/almacen2.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Logistika Instalazioak" />
+                            <div class="absolute inset-0 bg-black/10"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

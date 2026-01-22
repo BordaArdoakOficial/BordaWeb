@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wine, Instagram, Facebook, Mail, Phone, MapPin } from 'lucide-react';
+import { Wine, Instagram, Facebook, Youtube, Mail, Phone, MapPin } from 'lucide-react';
 
 const Footer = () => {
     return (
@@ -15,11 +15,29 @@ const Footer = () => {
                             Ardoaren eta gourmet produktuen banaketan adituak Zarautzen. Kalitatea eta arretarik onena zuretzat.
                         </p>
                         <div className="flex space-x-4">
-                            <a href="#" className="p-2 bg-white/5 rounded-full hover:bg-white/10 transition-colors">
+                            <a href="https://www.instagram.com/bordaardoak/" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/5 rounded-full hover:bg-white/10 transition-colors">
                                 <Instagram className="h-5 w-5" />
                             </a>
-                            <a href="#" className="p-2 bg-white/5 rounded-full hover:bg-white/10 transition-colors">
+                            <a href="https://www.facebook.com/bordaardoak" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/5 rounded-full hover:bg-white/10 transition-colors">
                                 <Facebook className="h-5 w-5" />
+                            </a>
+                            <a href="https://www.youtube.com/@BordaArdoak" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/5 rounded-full hover:bg-white/10 transition-colors">
+                                <Youtube className="h-5 w-5" />
+                            </a>
+                            <a href="https://www.tiktok.com/@bordaardoak" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/5 rounded-full hover:bg-white/10 transition-colors">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" 
+                                    width="20" 
+                                    height="20" 
+                                    viewBox="0 0 24 24" 
+                                    fill="none" 
+                                    stroke="currentColor" 
+                                    strokeWidth="2" 
+                                    strokeLinecap="round" 
+                                    strokeLinejoin="round"
+                                >
+                                    <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+                                </svg>
                             </a>
                         </div>
                     </div>
@@ -68,9 +86,10 @@ const Footer = () => {
                     <p className="text-gray-500 text-xs text-center md:text-left">
                         © {new Date().getFullYear()} Borda Ardoak. Eskubide guztiak erreserbatuta.
                     </p>
-                    <div className="flex space-x-6">
-                        <a href="#" className="text-gray-500 hover:text-white transition-colors text-xs">Lege Oharra</a>
-                        <a href="#" className="text-gray-500 hover:text-white transition-colors text-xs">Pribatutasun Politika</a>
+                    <div className="flex flex-wrap justify-center md:justify-end gap-x-6 gap-y-2">
+                        <a href="/lege-oharra" className="text-gray-500 hover:text-white transition-colors text-xs whitespace-nowrap">Lege Oharra</a>
+                        <a href="/cookies-politika" className="text-gray-500 hover:text-white transition-colors text-xs whitespace-nowrap">Cookies Politika</a>
+                        <a href="/pribatutasun-politika" className="text-gray-500 hover:text-white transition-colors text-xs whitespace-nowrap">Pribatutasun Politika</a>
                     </div>
                 </div>
             </div>
