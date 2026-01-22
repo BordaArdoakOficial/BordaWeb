@@ -167,21 +167,21 @@ const ProductExplorer = ({ initialProducts }: ProductExplorerProps) => {
           </div>
         </div>
 
-        {/* Grid animado */}
+        {/* Grid animado con imágenes más pequeñas */}
         {filteredProducts.length > 0 ? (
           <div className={viewMode === 'grid' 
-            ? "grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6"
+            ? "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4"
             : "flex flex-col gap-4"
           }>
             {filteredProducts.map((product) => (
               <div 
                 key={product.id}
-                className={`group bg-white rounded-[2rem] border border-gray-100 overflow-hidden hover:shadow-[0_20px_50px_rgba(0,0,0,0.08)] transition-all duration-500 ${
-                  viewMode === 'list' ? 'flex flex-row items-center gap-6 p-4' : 'p-4'
+                className={`group bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-500 ${
+                  viewMode === 'list' ? 'flex flex-row items-center gap-4 p-3' : 'p-3'
                 }`}
               >
-                <div className={`relative overflow-hidden bg-gray-50 rounded-2xl ${
-                  viewMode === 'list' ? 'w-32 h-32 flex-shrink-0' : 'aspect-square mb-6'
+                <div className={`relative overflow-hidden bg-gray-50 rounded-xl ${
+                  viewMode === 'list' ? 'w-24 h-24 flex-shrink-0' : 'aspect-square mb-3'
                 }`}>
                   <img
                     src={product.data.image}
