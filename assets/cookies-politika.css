@@ -1,0 +1,15 @@
+.policy-content {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.policy-content section {
+  border-radius: 1.5rem;
+  background: white;
+  border: 1px solid var(--border);
+  padding: 2rem;
+}
+
+.policy-content ul {
+  padding-left: 1.25rem;
+}

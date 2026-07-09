@@ -1,0 +1,23 @@
+.nor-gara-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+}
+
+.nor-gara-media {
+  display: grid;
+  gap: 1rem;
+}
+
+.nor-gara-media img {
+  border-radius: 2rem;
+}
+
+.nor-gara-list {
+  padding-left: 1rem;
+}
+
+.nor-gara-list li {
+  margin-bottom: 0.75rem;
+}

@@ -1,0 +1,39 @@
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+form label {
+  display: grid;
+  gap: 0.5rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  border: 1px solid var(--border);
+  background: #f9fafb;
+  outline: none;
+  font: inherit;
+}
+
+form textarea {
+  min-height: 12rem;
+  resize: vertical;
+}
+
+.contact-panel {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.map-wrapper {
+  margin-top: 2rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}

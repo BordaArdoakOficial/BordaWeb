@@ -1,0 +1,17 @@
+.produktuak-header {
+  margin-bottom: 2rem;
+}
+
+.produktuak-header p {
+  max-width: 48rem;
+  color: var(--muted);
+}
+
+.product-card img {
+  border-radius: 1.5rem;
+}
+
+.product-card .price {
+  margin-top: 1rem;
+  font-weight: 900;
+}

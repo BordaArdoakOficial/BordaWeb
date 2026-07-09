@@ -1,0 +1,72 @@
+.blog-hero {
+  padding: 6rem 0 4rem;
+  background: linear-gradient(180deg, rgba(114,47,55,0.9), rgba(114,47,55,0.75)), linear-gradient(135deg, #722F37 0%, #4a1f24 100%);
+  background-image: linear-gradient(180deg, rgba(114,47,55,0.9), rgba(114,47,55,0.75)), url('../media/images/hero/vineyard.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+}
+
+.blog-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.25);
+}
+
+.blog-hero .container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.blog-hero h1 {
+  margin: 0;
+  font-size: clamp(3rem, 5vw, 5.5rem);
+  line-height: 1.05;
+}
+
+.blog-hero p {
+  max-width: 42rem;
+  margin: 1.5rem auto 0;
+  color: rgba(255,255,255,0.92);
+}
+
+.blog-list {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.blog-card {
+  background: white;
+  border: 1px solid rgba(229,231,235,0.85);
+  border-radius: 1.75rem;
+  padding: 2rem;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.06);
+}
+
+.blog-card h2 {
+  margin-top: 0;
+}
+
+.blog-meta {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.blog-card a {
+  display: inline-flex;
+  color: var(--primary);
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+@media (max-width: 900px) {
+  .blog-hero {
+    padding: 4rem 0 3rem;
+  }
+}
