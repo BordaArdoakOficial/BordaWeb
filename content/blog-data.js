@@ -10,4 +10,4 @@
 // Jarri behean zure WordPress guneko helbidea (https barne, azken
 // barra "/" GABE), adibidez: "https://bordaardoak.eus"
 // ============================================================
-window.WP_BLOG_BASE = "PASTE_YOUR_WORDPRESS_SITE_URL_HERE";
+window.WP_BLOG_BASE = "https://bordaardoak.eus";

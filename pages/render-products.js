@@ -1,9 +1,39 @@
 (function () {
+  var DOMAIN = 'https://bordaardoak.eus';
   var inEs = /\/es\//.test(location.pathname);
   var lang = inEs ? 'es' : 'eu';
   var imgPrefix = inEs ? '../' : '';
   var detailPage = inEs ? 'producto.html' : 'produktua.html';
   var listPage = inEs ? 'productos.html' : 'produktuak.html';
+
+  /* Updates the static fallback <head> tags (set by the build-time SEO pass)
+     with the actual product being viewed, since this page is one template
+     shared by every product via ?slug=. Without this every product would
+     share the same generic title/description/canonical in search results. */
+  function setSeo(opts) {
+    document.title = opts.title;
+    var descTag = document.querySelector('meta[name="description"]');
+    if (descTag) descTag.setAttribute('content', opts.description);
+    [['meta[property="og:title"]', opts.title], ['meta[name="twitter:title"]', opts.title],
+     ['meta[property="og:description"]', opts.description], ['meta[name="twitter:description"]', opts.description],
+     ['meta[property="og:url"]', opts.url], ['meta[property="og:image"]', opts.image], ['meta[name="twitter:image"]', opts.image]
+    ].forEach(function (pair) {
+      var el = document.querySelector(pair[0]);
+      if (el) el.setAttribute('content', pair[1]);
+    });
+    var canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) canonical.setAttribute('href', opts.url);
+    var hreflangEu = document.querySelector('link[hreflang="eu"]');
+    var hreflangEs = document.querySelector('link[hreflang="es"]');
+    var hreflangDefault = document.querySelector('link[hreflang="x-default"]');
+    if (hreflangEu) hreflangEu.setAttribute('href', opts.euUrl);
+    if (hreflangEs) hreflangEs.setAttribute('href', opts.esUrl);
+    if (hreflangDefault) hreflangDefault.setAttribute('href', opts.euUrl);
+    var ld = document.createElement('script');
+    ld.type = 'application/ld+json';
+    ld.textContent = JSON.stringify(opts.jsonLd);
+    document.head.appendChild(ld);
+  }
   var notFoundHtml = inEs
     ? '<p>Producto no encontrado. <a href="' + listPage + '">Volver a productos</a>.</p>'
     : '<p>Produktua ez da aurkitu. <a href="' + listPage + '">Itzuli produktuetara</a>.</p>';
@@ -91,8 +121,28 @@
       var category = typeLabel(product.type);
       var excerpt = (product.excerpt && product.excerpt[lang]) || '';
       var description = (product.description && product.description[lang]) || '';
+      var absImage = DOMAIN + '/media/' + product.image.replace(/^(\.\.\/)+media\//, '');
+      var pageUrl = DOMAIN + (inEs ? '/es/' + detailPage : '/' + detailPage) + '?slug=' + encodeURIComponent(slug);
 
-      document.title = product.name + ' | Borda Ardoak';
+      setSeo({
+        title: product.name + ' | Borda Ardoak',
+        description: excerpt || description || (product.name + ' — ' + category + ', ' + dokLabel(product.dok) + '.'),
+        image: absImage,
+        url: pageUrl,
+        euUrl: DOMAIN + '/produktua.html?slug=' + encodeURIComponent(slug),
+        esUrl: DOMAIN + '/es/producto.html?slug=' + encodeURIComponent(slug),
+        jsonLd: {
+          '@context': 'https://schema.org',
+          '@type': 'Product',
+          name: product.name,
+          image: absImage,
+          description: excerpt || description || undefined,
+          category: category || undefined,
+          brand: product.winery ? { '@type': 'Brand', name: product.winery } : undefined,
+          url: pageUrl
+        }
+      });
+
       document.getElementById('product-image').src = imgPrefix + product.image;
       document.getElementById('product-image').alt = product.name;
       document.getElementById('product-tag').textContent = category;

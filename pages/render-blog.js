@@ -1,7 +1,37 @@
 (function () {
+  var DOMAIN = 'https://bordaardoak.eus';
   var inEs = /\/es\//.test(location.pathname);
   var base = window.WP_BLOG_BASE;
   var articleFile = inEs ? 'articulo.html' : 'artikulua.html';
+
+  /* Updates the static fallback <head> tags (set by the build-time SEO pass)
+     with the actual post being viewed, since this page is one template
+     shared by every article via ?slug=. Without this every article would
+     share the same generic title/description/canonical in search results. */
+  function setSeo(opts) {
+    document.title = opts.title;
+    var descTag = document.querySelector('meta[name="description"]');
+    if (descTag) descTag.setAttribute('content', opts.description);
+    [['meta[property="og:title"]', opts.title], ['meta[name="twitter:title"]', opts.title],
+     ['meta[property="og:description"]', opts.description], ['meta[name="twitter:description"]', opts.description],
+     ['meta[property="og:url"]', opts.url], ['meta[property="og:image"]', opts.image], ['meta[name="twitter:image"]', opts.image]
+    ].forEach(function (pair) {
+      var el = document.querySelector(pair[0]);
+      if (el) el.setAttribute('content', pair[1]);
+    });
+    var canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) canonical.setAttribute('href', opts.url);
+    var hreflangEu = document.querySelector('link[hreflang="eu"]');
+    var hreflangEs = document.querySelector('link[hreflang="es"]');
+    var hreflangDefault = document.querySelector('link[hreflang="x-default"]');
+    if (hreflangEu) hreflangEu.setAttribute('href', opts.euUrl);
+    if (hreflangEs) hreflangEs.setAttribute('href', opts.esUrl);
+    if (hreflangDefault) hreflangDefault.setAttribute('href', opts.euUrl);
+    var ld = document.createElement('script');
+    ld.type = 'application/ld+json';
+    ld.textContent = JSON.stringify(opts.jsonLd);
+    document.head.appendChild(ld);
+  }
 
   var TEXT = inEs
     ? {
@@ -115,8 +145,29 @@
           var raw = items && items[0];
           if (!raw) { detail.innerHTML = '<p>' + TEXT.notFound + '<a href="blog.html">' + TEXT.backLink + '</a>.</p>'; return; }
           var post = mapPost(raw);
+          var pageUrl = DOMAIN + (inEs ? '/es/' + articleFile : '/' + articleFile) + '?slug=' + encodeURIComponent(post.slug);
+          var image = post.image || (DOMAIN + '/media/images/hero/fondo1.png');
 
-          document.title = post.title + ' | Borda Ardoak';
+          setSeo({
+            title: post.title + ' | Borda Ardoak',
+            description: post.excerpt || post.title,
+            image: image,
+            url: pageUrl,
+            euUrl: DOMAIN + '/artikulua.html?slug=' + encodeURIComponent(post.slug),
+            esUrl: DOMAIN + '/es/articulo.html?slug=' + encodeURIComponent(post.slug),
+            jsonLd: {
+              '@context': 'https://schema.org',
+              '@type': 'Article',
+              headline: post.title,
+              image: image,
+              datePublished: post.date,
+              description: post.excerpt || undefined,
+              author: { '@type': 'Organization', name: 'Borda Ardoak' },
+              publisher: { '@type': 'Organization', name: 'Borda Ardoak', logo: { '@type': 'ImageObject', url: DOMAIN + '/media/logo/logo-footer.png' } },
+              mainEntityOfPage: pageUrl
+            }
+          });
+
           document.getElementById('article-title').textContent = post.title;
           document.getElementById('article-meta').textContent = formatDate(post.date);
           document.getElementById('article-tags').innerHTML = tagPills(post.tags);
