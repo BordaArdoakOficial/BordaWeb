@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Mahats-ondoak">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#722F37"/>
+      <stop offset="1" stop-color="#3a171b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg3)"/>
+  <g transform="translate(800 380)" fill="rgba(255,255,255,.09)" stroke="#f6e9d8" stroke-width="6">
+    <line x1="0" y1="-90" x2="0" y2="-50" stroke-width="8"/>
+    <circle cx="0" cy="-30" r="26"/>
+    <circle cx="-38" cy="6" r="26"/>
+    <circle cx="38" cy="6" r="26"/>
+    <circle cx="-64" cy="52" r="26"/>
+    <circle cx="0" cy="52" r="26"/>
+    <circle cx="64" cy="52" r="26"/>
+    <circle cx="-32" cy="96" r="26"/>
+    <circle cx="32" cy="96" r="26"/>
+    <circle cx="0" cy="140" r="26"/>
+  </g>
+  <text x="800" y="620" text-anchor="middle" font-family="'Outfit',sans-serif" font-size="42" font-weight="700" fill="#f6e9d8" letter-spacing="4">MAHATS-ONDOAK</text>
+</svg>

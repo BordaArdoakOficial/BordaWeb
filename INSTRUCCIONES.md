@@ -27,10 +27,20 @@ Las imágenes actualmente son placeholders SVG. Necesitas reemplazarlas con las 
 - `media/norgara/almacen.jpg` - Foto del almacén
 - `media/norgara/almacen2.jpg` - Segunda foto del almacén
 
+### 1b. Imágenes del Blog
+
+Cada artículo del blog tiene una imagen. Los placeholders actuales dicen "AQUÍ PON LA IMAGEN":
+
+- `media/images/blog/txakolina.svg` → sube tu foto como `txakolina.jpg` (1200x675)
+- `media/images/blog/kontserbak.svg` → sube tu foto como `kontserbak.jpg` (1200x675)
+- `media/images/blog/katalogoa.svg` → sube tu foto como `katalogoa.jpg` (1200x675)
+
+Después cambia la ruta en `content/blog-data.js` (campo `image` de cada artículo, de `.svg` a `.jpg`). En `pages/es/blog.html` las imágenes están puestas directamente en el HTML.
+
 ### 2. Agregar Catálogo PDF
 
-- Sube tu catálogo a: `media/pdf/Katalogoa2025-2.pdf`
-- Las páginas ya tienen links al PDF
+- Catálogos actuales: `media/pdf/Katalogoa-Zarautz-2026.pdf` y `media/pdf/Katalogoa-Donostia-2026.pdf`
+- Para añadir/actualizar catálogos, edita `content/catalogs-data.js` (título, descripción y ruta al PDF)
 
 ### 3. Ver el Sitio Localmente
 
@@ -63,6 +73,13 @@ Si vas a usar esto con WordPress:
 4. **Sube imágenes** - Sube todas las imágenes a la biblioteca de medios
 5. **Actualiza rutas** - Reemplaza las rutas relativas por URLs de WordPress
    - Ejemplo: `../media/images/hero/vineyard.svg` → `https://tudominio.com/wp-content/uploads/vineyard.png`
+
+### 4b. RRSS (Instagram, Facebook, YouTube, TikTok)
+
+La página `rrss.html` muestra las últimas publicaciones de cada red social directamente incrustadas (no solo un enlace).
+
+- **Instagram, Facebook y TikTok**: usan los widgets oficiales de cada plataforma (son solo HTML/JS, se pegan tal cual en WordPress sin cambios). Para activarlos, edita `content/social-data.js`: pega el enlace directo de la publicación en `postUrl` y cambia `ready` a `true`. Instrucciones detalladas de cómo copiar cada enlace están en los comentarios del propio archivo.
+- **YouTube**: en el sitio estático funciona igual que las demás (enlace manual). En **WordPress** puede ser automático de verdad — usa `wordpress/rrss-youtube-shortcode.php`: pega su contenido en `functions.php` (o mejor, en el plugin gratuito "Code Snippets") y añade el shortcode `[rrss_youtube]` donde quieras que aparezca. WordPress consulta solo el feed público del canal (sin clave ni login) y siempre muestra el último vídeo subido, sin tocar nada más.
 
 ### 5. Personalizar Contenido
 

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Banaketa zerbitzua">
+  <defs>
+    <linearGradient id="bg5" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#722F37"/>
+      <stop offset="1" stop-color="#4a1f24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg5)"/>
+  <g transform="translate(800 380)" fill="none" stroke="#f6e9d8" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M-140 -40h150v-90H-140zM10 -55h40l30 30v50h-70z" fill="rgba(255,255,255,.06)"/>
+    <path d="M-140 -40h150v-90H-140v90zM10 -55h40l30 30v50h-70v-80z"/>
+    <circle cx="-95" cy="30" r="24"/>
+    <circle cx="25" cy="30" r="24"/>
+  </g>
+  <text x="800" y="620" text-anchor="middle" font-family="'Outfit',sans-serif" font-size="42" font-weight="700" fill="#f6e9d8" letter-spacing="4">BANAKETA ZERBITZUA</text>
+</svg>

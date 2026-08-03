@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-label="Txakoli">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf6ef"/>
+      <stop offset="1" stop-color="#f0e3d2"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bg)"/>
+  <g transform="translate(300 225)" fill="none" stroke="#722F37" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M-26 -150 h52 v34 q0 14 10 26 l14 18 q10 12 10 30 v168 q0 18 -18 18 h-108 q-18 0 -18 -18 v-168 q0 -18 10 -30 l14 -18 q10 -12 10 -26 v-34 z" fill="#ffffff"/>
+    <rect x="-26" y="-160" width="52" height="12" rx="3" fill="#722F37"/>
+    <rect x="-44" y="34" width="88" height="70" rx="6" fill="#722F37" stroke="none"/>
+  </g>
+  <text x="300" y="405" text-anchor="middle" font-family="'Outfit',sans-serif" font-size="26" font-weight="700" fill="#722F37" letter-spacing="2">TXAKOLINA</text>
+</svg>

@@ -1,10 +1,18 @@
 [
   {
+    "name": "Txakoli Egia Etxea",
+    "description": "Zarautzeko Txakoli klasikoa, freskoa eta dotorea.",
+    "price": 12.5,
+    "category": "Txakolinak",
+    "image": "images/products/txakoli.svg",
+    "slug": "txakoli-egia-etxea"
+  },
+  {
     "name": "Bonito del Norte Ortiz",
     "description": "Kantauriko hegaluze onena, oliba olioan kontserbatua.",
     "price": 9.95,
-    "category": "Elikagaiak",
-    "image": "images/sections/products.png",
+    "category": "Kontserbak",
+    "image": "images/products/bonito.svg",
     "slug": "bonito-del-norte-ortiz"
   },
   {
@@ -12,15 +20,7 @@
     "description": "Garagardo klasikoa, orekatua eta freskagarria.",
     "price": 1.5,
     "category": "Garagardoak",
-    "image": "images/sections/products.png",
+    "image": "images/products/garagardo.svg",
     "slug": "mahou-bost-izar"
-  },
-  {
-    "name": "Txakoli Egia Etxea",
-    "description": "Zarautzeko Txakoli klasikoa, freskoa eta dotorea.",
-    "price": 12.5,
-    "category": "Txakolinak",
-    "image": "images/hero/vineyard.png",
-    "slug": "txakoli-egia-etxea"
   }
 ]

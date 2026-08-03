@@ -12,7 +12,8 @@ Imágenes:
 - images/nextgen-logo.svg
 
 PDF:
-- pdf/Katalogoa2025-2.pdf
+- pdf/Katalogoa-Zarautz-2026.pdf
+- pdf/Katalogoa-Donostia-2026.pdf
 
 Uso:
 - Sube estos activos a la biblioteca de medios.

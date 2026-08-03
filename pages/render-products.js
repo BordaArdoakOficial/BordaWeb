@@ -1,0 +1,130 @@
+(function () {
+  var inEs = /\/es\//.test(location.pathname);
+  var lang = inEs ? 'es' : 'eu';
+  var imgPrefix = inEs ? '../' : '';
+  var detailPage = inEs ? 'producto.html' : 'produktua.html';
+  var listPage = inEs ? 'productos.html' : 'produktuak.html';
+  var notFoundHtml = inEs
+    ? '<p>Producto no encontrado. <a href="' + listPage + '">Volver a productos</a>.</p>'
+    : '<p>Produktua ez da aurkitu. <a href="' + listPage + '">Itzuli produktuetara</a>.</p>';
+
+  /* Canonical type/dok keys stored on each product are language-neutral; these
+     tables translate them to the label shown on cards and matched against the
+     facet checkboxes in products-filter.js (whose values differ by language). */
+  var TYPE_LABELS = {
+    urtekoak: { eu: 'Urtekoak', es: 'Del año' },
+    onduak: { eu: 'Onduak', es: 'Crianza' },
+    erreserbak: { eu: 'Erreserbak', es: 'Reservas' },
+    zuriak: { eu: 'Zuriak', es: 'Blancos' },
+    gorriak: { eu: 'Gorriak', es: 'Rosados' },
+    sagardoak: { eu: 'Sagardoak', es: 'Sidras' },
+    txakolinak: { eu: 'Txakoliñak', es: 'Txakolis' },
+    cavak: { eu: 'Cavak', es: 'Cavas' },
+    freskagarriak: { eu: 'Freskagarriak', es: 'Refrescos' },
+    esneak: { eu: 'Esneak', es: 'Lácteos' },
+    patatak: { eu: 'Patatak', es: 'Patatas' },
+    kontserbak: { eu: 'Kontserbak', es: 'Conservas' },
+    olioak: { eu: 'Olioak', es: 'Aceites' }
+  };
+  var DOK_LABELS = {
+    rioja: { eu: 'Rioja', es: 'Rioja' },
+    navarra: { eu: 'Navarra', es: 'Navarra' },
+    bierzo: { eu: 'Bierzo', es: 'Bierzo' },
+    'ribera-duero': { eu: 'Ribera del Duero', es: 'Ribera del Duero' },
+    rueda: { eu: 'Rueda', es: 'Rueda' },
+    somontano: { eu: 'Somontano', es: 'Somontano' },
+    'rias-baixas': { eu: 'Rias Baixas', es: 'Rias Baixas' },
+    valdeorras: { eu: 'Valdeorras', es: 'Valdeorras' },
+    ribeiro: { eu: 'Ribeiro', es: 'Ribeiro' },
+    besteak: { eu: 'Besteak', es: 'Otros' }
+  };
+  function typeLabel(key) { return key && TYPE_LABELS[key] ? TYPE_LABELS[key][lang] : ''; }
+  function dokLabel(key) { return key && DOK_LABELS[key] ? DOK_LABELS[key][lang] : (key || ''); }
+
+  /* Same priority order as the Mota/DOK/Upategia facets in products-filter.js,
+     so the grid lists products grouped by type, then D.O., then winery. */
+  var TYPE_ORDER = [
+    'urtekoak', 'onduak', 'erreserbak', 'zuriak', 'gorriak',
+    'sagardoak', 'txakolinak', 'cavak', 'freskagarriak', 'esneak', 'patatak', 'kontserbak', 'olioak'
+  ];
+  var DOK_ORDER = ['rioja', 'navarra', 'bierzo', 'ribera-duero', 'rueda', 'somontano', 'rias-baixas', 'valdeorras', 'ribeiro', 'besteak'];
+  function rank(order, v) {
+    var i = order.indexOf(v);
+    return i === -1 ? order.length : i;
+  }
+
+  var data = (window.PRODUCTS_DATA || []).slice().sort(function (a, b) {
+    return rank(TYPE_ORDER, a.type) - rank(TYPE_ORDER, b.type) ||
+      rank(DOK_ORDER, a.dok) - rank(DOK_ORDER, b.dok) ||
+      (a.winery || '').localeCompare(b.winery || '');
+  });
+
+  function attr(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+  }
+
+  function productCard(p) {
+    var category = typeLabel(p.type);
+    return '<a class="product-card" href="' + detailPage + '?slug=' + p.slug + '"' +
+      ' data-category="' + attr(category) + '" data-name="' + attr(p.name.toLowerCase()) + '"' +
+      ' data-type="' + attr(category) + '" data-dok="' + attr(dokLabel(p.dok)) + '" data-winery="' + attr(p.winery || '') + '">' +
+      '<img src="' + imgPrefix + p.image + '" alt="' + attr(p.name) + '" loading="lazy" />' +
+      '<div class="product-body">' +
+      '<span class="tag">' + category + '</span>' +
+      '<h3>' + p.name + '</h3>' +
+      '</div></a>';
+  }
+
+  var grid = document.getElementById('products-grid');
+  if (grid) {
+    grid.innerHTML = data.map(productCard).join('');
+  }
+
+  var detail = document.getElementById('product-detail');
+  if (detail) {
+    var slug = new URLSearchParams(location.search).get('slug');
+    var product = data.filter(function (p) { return p.slug === slug; })[0];
+
+    if (!product) {
+      detail.innerHTML = notFoundHtml;
+    } else {
+      var category = typeLabel(product.type);
+      var excerpt = (product.excerpt && product.excerpt[lang]) || '';
+      var description = (product.description && product.description[lang]) || '';
+
+      document.title = product.name + ' | Borda Ardoak';
+      document.getElementById('product-image').src = imgPrefix + product.image;
+      document.getElementById('product-image').alt = product.name;
+      document.getElementById('product-tag').textContent = category;
+      document.getElementById('product-name').textContent = product.name;
+      document.getElementById('product-description').textContent = description;
+
+      var excerptEl = document.getElementById('product-excerpt');
+      if (excerptEl) excerptEl.textContent = excerpt;
+
+      var metaEl = document.getElementById('product-meta');
+      if (metaEl) {
+        var metaRows = [
+          { label: inEs ? 'Tipo' : 'Mota', value: category },
+          { label: 'DOK', value: dokLabel(product.dok) },
+          { label: inEs ? 'Bodega' : 'Upategia', value: product.winery }
+        ].filter(function (r) { return r.value; });
+        metaEl.innerHTML = metaRows.map(function (r) {
+          return '<li><span>' + r.label + '</span><strong>' + r.value + '</strong></li>';
+        }).join('');
+      }
+
+      var related = data.filter(function (p) {
+        return p.type === product.type && p.slug !== product.slug;
+      }).slice(0, 3);
+
+      var relatedSection = document.getElementById('related-products');
+      var relatedGrid = document.getElementById('related-products-grid');
+      if (related.length && relatedGrid) {
+        relatedGrid.innerHTML = related.map(productCard).join('');
+      } else if (relatedSection) {
+        relatedSection.style.display = 'none';
+      }
+    }
+  }
+})();

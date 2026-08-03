@@ -51,7 +51,7 @@ El sitio actualmente usa **placeholders SVG**. Necesitas reemplazar:
 - **media/norgara/denda.jpg** - Foto de la denda
 - **media/norgara/almacen.jpg** - Foto del almacén
 - **media/norgara/almacen2.jpg** - Segunda foto del almacén
-- **media/pdf/Katalogoa2025-2.pdf** - Catálogo en PDF
+- **media/pdf/Katalogoa-Zarautz-2026.pdf** y **media/pdf/Katalogoa-Donostia-2026.pdf** - Catálogos en PDF
 
 Ver `media/README.md` para más detalles.
 
