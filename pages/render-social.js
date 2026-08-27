@@ -82,7 +82,27 @@
 
   function widgetCard(item) {
     return '<div class="social-card social-card-embed">' + badge(item) +
-      '<div class="social-widget-wrap"><div class="' + attr(item.widgetClass) + '" data-elfsight-app-lazy></div></div></div>';
+      '<div class="social-widget-wrap is-loading" id="social-widget-wrap-' + item.platform + '">' +
+      '<div class="' + attr(item.widgetClass) + '" data-elfsight-app-lazy></div>' +
+      '<div class="social-widget-cover"></div>' +
+      '</div></div>';
+  }
+
+  function watchWidgetLoad(item) {
+    var wrap = document.getElementById('social-widget-wrap-' + item.platform);
+    var target = document.querySelector('.' + item.widgetClass.split(' ')[0]);
+    if (!wrap || !target) return;
+    var done = false;
+    var finish = function () {
+      if (done) return;
+      done = true;
+      clearInterval(poll);
+      wrap.classList.remove('is-loading');
+    };
+    var poll = setInterval(function () {
+      if (target.querySelector('img, video, iframe')) finish();
+    }, 300);
+    setTimeout(finish, 8000);
   }
 
   function loadScriptOnce(id, src) {
@@ -138,7 +158,7 @@
   }
 
   data.forEach(function (item) {
-    if (item.widgetClass) return;
+    if (item.widgetClass) { watchWidgetLoad(item); return; }
     if (item.platform === 'facebook') loadFacebook(item);
   });
 })();

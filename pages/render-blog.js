@@ -88,6 +88,55 @@
     };
   }
 
+  /* WordPress ships images with a lazyload plugin: the real file lives in data-orig-src /
+     data-srcset, while src/srcset point at a transparent placeholder sized to the image's
+     box (so it reserves the space but never shows anything, since this site doesn't load
+     that plugin's JS). Swap the real attributes back in so the image actually renders. */
+  function fixLazyImages(container) {
+    var imgs = container.querySelectorAll('img');
+    Array.prototype.forEach.call(imgs, function (img) {
+      var realSrc = img.getAttribute('data-orig-src') || img.getAttribute('data-src');
+      var realSrcset = img.getAttribute('data-srcset');
+      var realSizes = img.getAttribute('data-orig-sizes') || img.getAttribute('data-sizes');
+      if (realSrc) img.setAttribute('src', realSrc);
+      if (realSrcset) { img.setAttribute('srcset', realSrcset); } else { img.removeAttribute('srcset'); }
+      if (realSizes && realSizes !== 'auto') { img.setAttribute('sizes', realSizes); } else { img.removeAttribute('sizes'); }
+      img.classList.remove('lazyload');
+      img.removeAttribute('width');
+      img.removeAttribute('height');
+    });
+  }
+
+  /* WordPress content sometimes contains plain paragraphs starting with "-" instead of
+     a real list block. Group consecutive ones into an actual <ul><li> so they can be
+     styled as wine-colored bullets instead of showing as literal dashes. */
+  function convertDashParagraphsToLists(container) {
+    var nodes = Array.prototype.slice.call(container.children);
+    var i = 0;
+    while (i < nodes.length) {
+      var node = nodes[i];
+      if (node.tagName === 'P' && /^-\s*\S/.test(node.textContent.trim())) {
+        var group = [];
+        var j = i;
+        while (j < nodes.length && nodes[j].tagName === 'P' && /^-\s*\S/.test(nodes[j].textContent.trim())) {
+          group.push(nodes[j]);
+          j++;
+        }
+        var ul = document.createElement('ul');
+        group.forEach(function (p) {
+          var li = document.createElement('li');
+          li.innerHTML = p.innerHTML.replace(/^\s*-\s*/, '');
+          ul.appendChild(li);
+        });
+        group[0].parentNode.insertBefore(ul, group[0]);
+        group.forEach(function (p) { p.remove(); });
+        i = j;
+      } else {
+        i++;
+      }
+    }
+  }
+
   function tagPills(tags) {
     return tags.map(function (t) { return '<span class="tag">' + t + '</span>'; }).join(' ');
   }
@@ -174,15 +223,21 @@
           var heroImg = document.getElementById('article-image');
           if (heroImg) {
             var heroWrap = heroImg.closest('.article-hero-image');
+            var articleMain = heroWrap && heroWrap.closest('.article-main');
             if (post.image) {
               heroImg.src = post.image;
               heroImg.alt = post.title;
               if (heroWrap) heroWrap.style.display = '';
-            } else if (heroWrap) {
-              heroWrap.style.display = 'none';
+              if (articleMain) articleMain.classList.remove('no-hero');
+            } else {
+              if (heroWrap) heroWrap.style.display = 'none';
+              if (articleMain) articleMain.classList.add('no-hero');
             }
           }
-          document.getElementById('article-content').innerHTML = post.content;
+          var contentEl = document.getElementById('article-content');
+          contentEl.innerHTML = post.content;
+          fixLazyImages(contentEl);
+          convertDashParagraphsToLists(contentEl);
 
           var relatedSection = document.getElementById('related-posts');
           var relatedList = document.getElementById('related-posts-list');

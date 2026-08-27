@@ -923,11 +923,11 @@ window.PRODUCTS_DATA = [
     excerpt: { eu: 'Asturiana produktua.', es: 'Producto Asturiana.' }
   },
   {
-    slug: 'asturiana-paquetes-sal-esneak',
-    type: 'esneak',
+    slug: 'asturiana-paquetes-sal-ostalaritza',
+    type: 'ostalaritza',
     winery: 'Asturiana',
     price: null,
-    image: '../media/images/products/asturiana-paquetes-sal-esneak.png',
+    image: '../media/images/products/asturiana-paquetes-sal-ostalaritza.png',
     name: 'Asturiana Paquetes Sal',
     excerpt: { eu: 'Asturiana produktua.', es: 'Producto Asturiana.' }
   },
@@ -941,11 +941,11 @@ window.PRODUCTS_DATA = [
     excerpt: { eu: 'Asturiana produktua.', es: 'Producto Asturiana.' }
   },
   {
-    slug: 'cola-cao-original-esneak',
-    type: 'esneak',
+    slug: 'cola-cao-original-ostalaritza',
+    type: 'ostalaritza',
     winery: 'Cola Cao',
     price: null,
-    image: '../media/images/products/cola-cao-original-esneak.png',
+    image: '../media/images/products/cola-cao-original-ostalaritza.png',
     name: 'Cola Cao Original',
     excerpt: { eu: 'Cola Cao produktua.', es: 'Producto Cola Cao.' }
   },
@@ -1004,38 +1004,38 @@ window.PRODUCTS_DATA = [
     excerpt: { eu: 'Frutanea produktua.', es: 'Producto Frutanea.' }
   },
   {
-    slug: 'frutos-secos-kontserbak',
-    type: 'kontserbak',
+    slug: 'frutos-secos-ostalaritza',
+    type: 'ostalaritza',
     winery: 'Frutos Secos',
     price: null,
-    image: '../media/images/products/frutos-secos-kontserbak.png',
+    image: '../media/images/products/frutos-secos-ostalaritza.png',
     name: 'Frutos Secos',
     excerpt: { eu: 'Frutos Secos produktua.', es: 'Producto Frutos Secos.' }
   },
   {
-    slug: 'maribel-patata-130gr-esneak',
-    type: 'esneak',
+    slug: 'maribel-patata-130gr-patatak',
+    type: 'patatak',
     winery: 'Maribel',
     price: null,
-    image: '../media/images/products/maribel-patata-130gr-esneak.png',
+    image: '../media/images/products/maribel-patata-130gr-patatak.png',
     name: 'Maribel Patata 130gr',
     excerpt: { eu: 'Maribel produktua.', es: 'Producto Maribel.' }
   },
   {
-    slug: 'maribel-patata-50gr-esneak',
-    type: 'esneak',
+    slug: 'maribel-patata-50gr-patatak',
+    type: 'patatak',
     winery: 'Maribel',
     price: null,
-    image: '../media/images/products/maribel-patata-50gr-esneak.png',
+    image: '../media/images/products/maribel-patata-50gr-patatak.png',
     name: 'Maribel Patata 50gr',
     excerpt: { eu: 'Maribel produktua.', es: 'Producto Maribel.' }
   },
   {
-    slug: 'vermeiren-traditional-esneak',
-    type: 'esneak',
+    slug: 'vermeiren-traditional-ostalaritza',
+    type: 'ostalaritza',
     winery: 'Vermeiren',
     price: null,
-    image: '../media/images/products/vermeiren-traditional-esneak.png',
+    image: '../media/images/products/vermeiren-traditional-ostalaritza.png',
     name: 'VERMEIREN TRADITIONAL',
     excerpt: { eu: 'Vermeiren produktua.', es: 'Producto Vermeiren.' }
   },
@@ -1103,15 +1103,6 @@ window.PRODUCTS_DATA = [
     excerpt: { eu: 'Ardo gorria (arrosea), Inurrieta upategiak egina.', es: 'Vino rosado, elaborado por la bodega Inurrieta.' }
   },
   {
-    slug: 'irache-navarra-gorriak',
-    type: 'gorriak',
-    winery: 'Irache',
-    price: null,
-    image: '../media/images/products/irache-navarra-gorriak.png',
-    name: 'Irache (Navarra)',
-    excerpt: { eu: 'Ardo gorria (arrosea), Irache upategiak egina.', es: 'Vino rosado, elaborado por la bodega Irache.' }
-  },
-  {
     slug: 'la-cacciatora-gorriak',
     type: 'gorriak',
     winery: 'La cacciatora',
@@ -1157,20 +1148,20 @@ window.PRODUCTS_DATA = [
     excerpt: { eu: 'Ardo gorria (arrosea), Zaramendil upategiak egina.', es: 'Vino rosado, elaborado por la bodega Zaramendil.' }
   },
   {
-    slug: 'ketchup-ybarra-252x12ml-kontserbak',
-    type: 'kontserbak',
+    slug: 'ketchup-ybarra-252x12ml-ostalaritza',
+    type: 'ostalaritza',
     winery: 'Ybarra',
     price: null,
-    image: '../media/images/products/ketchup-ybarra-252x12ml-kontserbak.png',
+    image: '../media/images/products/ketchup-ybarra-252x12ml-ostalaritza.png',
     name: 'Ketchup Ybarra (252x12ml)',
     excerpt: { eu: 'Ybarra produktua.', es: 'Producto Ybarra.' }
   },
   {
-    slug: 'mayonesa-ybarra-252x12ml-kontserbak',
-    type: 'kontserbak',
+    slug: 'mayonesa-ybarra-252x12ml-ostalaritza',
+    type: 'ostalaritza',
     winery: 'Ybarra',
     price: null,
-    image: '../media/images/products/mayonesa-ybarra-252x12ml-kontserbak.png',
+    image: '../media/images/products/mayonesa-ybarra-252x12ml-ostalaritza.png',
     name: 'MAYONESA YBARRA (252x12ml)',
     excerpt: { eu: 'Ybarra produktua.', es: 'Producto Ybarra.' }
   },
@@ -1229,11 +1220,11 @@ window.PRODUCTS_DATA = [
     excerpt: { eu: 'SANDUA produktua.', es: 'Producto SANDUA.' }
   },
   {
-    slug: 'sandua-sal-1000-unid-olioak',
-    type: 'olioak',
+    slug: 'sandua-sal-1000-unid-ostalaritza',
+    type: 'ostalaritza',
     winery: 'SANDUA',
     price: null,
-    image: '../media/images/products/sandua-sal-1000-unid-olioak.png',
+    image: '../media/images/products/sandua-sal-1000-unid-ostalaritza.png',
     name: 'SANDUA SAL 1000 unid',
     excerpt: { eu: 'SANDUA produktua.', es: 'Producto SANDUA.' }
   },
@@ -1820,26 +1811,6 @@ window.PRODUCTS_DATA = [
     excerpt: { eu: 'Navarra D.O.ko ardo zuria, Ledea upategiak egina.', es: 'Vino blanco con D.O. Navarra, elaborado por la bodega Ledea.' }
   },
   {
-    slug: 'eido-da-fonte-albarino-zuriak-rias-baixas',
-    type: 'zuriak',
-    dok: 'rias-baixas',
-    winery: 'Eido da Fonte',
-    price: null,
-    image: '../media/images/products/eido-da-fonte-albarino-zuriak-rias-baixas.png',
-    name: 'Eido da fonte albariño',
-    excerpt: { eu: 'Rias Baixas D.O.ko ardo zuria, Eido da Fonte upategiak egina.', es: 'Vino blanco con D.O. Rias Baixas, elaborado por la bodega Eido da Fonte.' }
-  },
-  {
-    slug: 'lagar-de-besada-albarino-zuriak-rias-baixas',
-    type: 'zuriak',
-    dok: 'rias-baixas',
-    winery: 'Lagar de Besada',
-    price: null,
-    image: '../media/images/products/lagar-de-besada-albarino-zuriak-rias-baixas.png',
-    name: 'lagar de besada albariño',
-    excerpt: { eu: 'Rias Baixas D.O.ko ardo zuria, Lagar de Besada upategiak egina.', es: 'Vino blanco con D.O. Rias Baixas, elaborado por la bodega Lagar de Besada.' }
-  },
-  {
     slug: 'gran-leirina-traixadura-zuriak-ribeiro',
     type: 'zuriak',
     dok: 'ribeiro',
@@ -1988,5 +1959,789 @@ window.PRODUCTS_DATA = [
     image: '../media/images/products/quinta-da-peza-godello-zuriak-valdeorras.png',
     name: 'Quinta da Peza Godello',
     excerpt: { eu: 'Valdeorras D.O.ko ardo zuria, Quinta da Peza upategiak egina.', es: 'Vino blanco con D.O. Valdeorras, elaborado por la bodega Quinta da Peza.' }
+  },
+  {
+    slug: 'corona-garagardoak',
+    type: 'garagardoak',
+    winery: 'Corona',
+    price: null,
+    image: '../media/images/products/corona-garagardoak.png',
+    name: 'Corona',
+    excerpt: { eu: 'Corona produktua.', es: 'Producto Corona.' }
+  },
+  {
+    slug: 'franziskaner-barril-30l-garagardoak',
+    type: 'garagardoak',
+    winery: 'Franziskaner',
+    price: null,
+    size: 2,
+    image: '../media/images/products/franziskaner-barril-30l-garagardoak.png',
+    name: 'Franziskaner Barril 30L',
+    excerpt: { eu: 'Franziskaner produktua.', es: 'Producto Franziskaner.' }
+  },
+  {
+    slug: 'franziskaner-garagardoak',
+    type: 'garagardoak',
+    winery: 'Franziskaner',
+    price: null,
+    image: '../media/images/products/franziskaner-garagardoak.png',
+    name: 'Franziskaner',
+    excerpt: { eu: 'Franziskaner produktua.', es: 'Producto Franziskaner.' }
+  },
+  {
+    slug: 'leffe-barril-garagardoak',
+    type: 'garagardoak',
+    winery: 'Leffe',
+    price: null,
+    size: 2,
+    image: '../media/images/products/leffe-barril-garagardoak.png',
+    name: 'Leffe Barril',
+    excerpt: { eu: 'Leffe produktua.', es: 'Producto Leffe.' }
+  },
+  {
+    slug: 'leffe-blonde-33cl-garagardoak',
+    type: 'garagardoak',
+    winery: 'Leffe',
+    price: null,
+    image: '../media/images/products/leffe-blonde-33cl-garagardoak.png',
+    name: 'Leffe Blonde 33cl',
+    excerpt: { eu: 'Leffe produktua.', es: 'Producto Leffe.' }
+  },
+  {
+    slug: 'leffe-brune-33cl-garagardoak',
+    type: 'garagardoak',
+    winery: 'Leffe',
+    price: null,
+    image: '../media/images/products/leffe-brune-33cl-garagardoak.png',
+    name: 'Leffe Brune 33cl',
+    excerpt: { eu: 'Leffe produktua.', es: 'Producto Leffe.' }
+  },
+  {
+    slug: 'leffe-triple-garagardoak',
+    type: 'garagardoak',
+    winery: 'Leffe',
+    price: null,
+    image: '../media/images/products/leffe-triple-garagardoak.png',
+    name: 'Leffe Triple',
+    excerpt: { eu: 'Leffe produktua.', es: 'Producto Leffe.' }
+  },
+  {
+    slug: 'mahou-0-0-tostada-barril-20l-garagardoak',
+    type: 'garagardoak',
+    winery: 'Mahou',
+    price: null,
+    image: '../media/images/products/mahou-0-0-tostada-barril-20l-garagardoak.png',
+    name: 'Mahou 0,0 Tostada Barril 20L',
+    excerpt: { eu: 'Mahou produktua.', es: 'Producto Mahou.' }
+  },
+  {
+    slug: 'mahou-0-0-tostada-33cl-garagardoak',
+    type: 'garagardoak',
+    winery: 'Mahou',
+    price: null,
+    image: '../media/images/products/mahou-0-0-tostada-33cl-garagardoak.png',
+    name: 'Mahou 0,0 Tostada 33cl',
+    excerpt: { eu: 'Mahou produktua.', es: 'Producto Mahou.' }
+  },
+  {
+    slug: 'mahou-0-0-tostada-lata-garagardoak',
+    type: 'garagardoak',
+    winery: 'Mahou',
+    price: null,
+    image: '../media/images/products/mahou-0-0-tostada-lata-garagardoak.png',
+    name: 'Mahou 0,0 Tostada Lata',
+    excerpt: { eu: 'Mahou produktua.', es: 'Producto Mahou.' }
+  },
+  {
+    slug: 'mahou-0-0-tostada-sin-gluten-33cl-garagardoak',
+    type: 'garagardoak',
+    winery: 'Mahou',
+    price: null,
+    image: '../media/images/products/mahou-0-0-tostada-sin-gluten-33cl-garagardoak.png',
+    name: 'Mahou 0,0 Tostada Sin Gluten 33cl',
+    excerpt: { eu: 'Mahou produktua.', es: 'Producto Mahou.' }
+  },
+  {
+    slug: 'mahou-0-0-tostada-sin-gluten-garagardoak',
+    type: 'garagardoak',
+    winery: 'Mahou',
+    price: null,
+    image: '../media/images/products/mahou-0-0-tostada-sin-gluten-garagardoak.png',
+    name: 'Mahou 0,0 Tostada Sin Gluten',
+    excerpt: { eu: 'Mahou produktua.', es: 'Producto Mahou.' }
+  },
+  {
+    slug: 'mahou-0-0-tostada-20cl-garagardoak',
+    type: 'garagardoak',
+    winery: 'Mahou',
+    price: null,
+    image: '../media/images/products/mahou-0-0-tostada-20cl-garagardoak.png',
+    name: 'Mahou 0,0 Tostada 20cl',
+    excerpt: { eu: 'Mahou produktua.', es: 'Producto Mahou.' }
+  },
+  {
+    slug: 'modelo-negra-garagardoak',
+    type: 'garagardoak',
+    winery: 'Modelo',
+    price: null,
+    image: '../media/images/products/modelo-negra-garagardoak.png',
+    name: 'Modelo Negra',
+    excerpt: { eu: 'Modelo produktua.', es: 'Producto Modelo.' }
+  },
+  {
+    slug: 'modelo-especial-garagardoak',
+    type: 'garagardoak',
+    winery: 'Modelo',
+    price: null,
+    image: '../media/images/products/modelo-especial-garagardoak.png',
+    name: 'Modelo Especial',
+    excerpt: { eu: 'Modelo produktua.', es: 'Producto Modelo.' }
+  },
+  {
+    slug: 'stella-artois-garagardoak',
+    type: 'garagardoak',
+    winery: 'Stella Artois',
+    price: null,
+    image: '../media/images/products/stella-artois-garagardoak.png',
+    name: 'Stella Artois',
+    excerpt: { eu: 'Stella Artois produktua.', es: 'Producto Stella Artois.' }
+  },
+  {
+    slug: 'stella-artois-barril-30l-garagardoak',
+    type: 'garagardoak',
+    winery: 'Stella Artois',
+    price: null,
+    size: 2,
+    image: '../media/images/products/stella-artois-barril-30l-garagardoak.png',
+    name: 'Stella Artois Barril 30L',
+    excerpt: { eu: 'Stella Artois produktua.', es: 'Producto Stella Artois.' }
+  },
+  {
+    slug: 'budweiser-garagardoak',
+    type: 'garagardoak',
+    winery: 'Budweiser',
+    price: null,
+    image: '../media/images/products/budweiser-garagardoak.png',
+    name: 'Budweiser',
+    excerpt: { eu: 'Budweiser produktua.', es: 'Producto Budweiser.' }
+  },
+  {
+    slug: 'hoegaarden-garagardoak',
+    type: 'garagardoak',
+    winery: 'Hoegaarden',
+    price: null,
+    image: '../media/images/products/hoegaarden-garagardoak.png',
+    name: 'Hoegaarden',
+    excerpt: { eu: 'Hoegaarden produktua.', es: 'Producto Hoegaarden.' }
+  },
+  {
+    slug: 'pacifico-clara-garagardoak',
+    type: 'garagardoak',
+    winery: 'Pacífico',
+    price: null,
+    image: '../media/images/products/pacifico-clara-garagardoak.png',
+    name: 'Pacífico Clara',
+    excerpt: { eu: 'Pacífico produktua.', es: 'Producto Pacífico.' }
+  },
+  {
+    slug: '7up-20cl-freskagarriak',
+    type: 'freskagarriak',
+    winery: '7UP',
+    price: null,
+    image: '../media/images/products/7up-20cl-freskagarriak.png',
+    name: '7UP 20cl',
+    excerpt: { eu: '7UP produktua.', es: 'Producto 7UP.' }
+  },
+  {
+    slug: 'aquarius-limon-1l-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Aquarius',
+    price: null,
+    image: '../media/images/products/aquarius-limon-1l-freskagarriak.png',
+    name: 'Aquarius Limón 1L',
+    excerpt: { eu: 'Aquarius produktua.', es: 'Producto Aquarius.' }
+  },
+  {
+    slug: 'aquarius-limon-lata-33cl-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Aquarius',
+    price: null,
+    image: '../media/images/products/aquarius-limon-lata-33cl-freskagarriak.png',
+    name: 'Aquarius Limón Lata 33cl',
+    excerpt: { eu: 'Aquarius produktua.', es: 'Producto Aquarius.' }
+  },
+  {
+    slug: 'aquarius-naranja-lata-33cl-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Aquarius',
+    price: null,
+    image: '../media/images/products/aquarius-naranja-lata-33cl-freskagarriak.png',
+    name: 'Aquarius Naranja Lata 33cl',
+    excerpt: { eu: 'Aquarius produktua.', es: 'Producto Aquarius.' }
+  },
+  {
+    slug: 'euskola-azukre-gabea-33cl-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Euskola',
+    price: null,
+    image: '../media/images/products/euskola-azukre-gabea-33cl-freskagarriak.png',
+    name: 'Euskola Azukre Gabea 33cl',
+    excerpt: { eu: 'Euskola produktua.', es: 'Producto Euskola.' }
+  },
+  {
+    slug: 'bitter-kas-20cl-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Kas',
+    price: null,
+    image: '../media/images/products/bitter-kas-20cl-freskagarriak.png',
+    name: 'Bitter Kas 20cl',
+    excerpt: { eu: 'Kas produktua.', es: 'Producto Kas.' }
+  },
+  {
+    slug: 'coca-cola-1l-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Coca-Cola',
+    price: null,
+    image: '../media/images/products/coca-cola-1l-freskagarriak.png',
+    name: 'Coca-Cola 1L',
+    excerpt: { eu: 'Coca-Cola produktua.', es: 'Producto Coca-Cola.' }
+  },
+  {
+    slug: 'coca-cola-20cl-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Coca-Cola',
+    price: null,
+    image: '../media/images/products/coca-cola-20cl-freskagarriak.png',
+    name: 'Coca-Cola 20cl',
+    excerpt: { eu: 'Coca-Cola produktua.', es: 'Producto Coca-Cola.' }
+  },
+  {
+    slug: 'coca-cola-2l-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Coca-Cola',
+    price: null,
+    image: '../media/images/products/coca-cola-2l-freskagarriak.png',
+    name: 'Coca-Cola 2L',
+    excerpt: { eu: 'Coca-Cola produktua.', es: 'Producto Coca-Cola.' }
+  },
+  {
+    slug: 'coca-cola-lata-33cl-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Coca-Cola',
+    price: null,
+    image: '../media/images/products/coca-cola-lata-33cl-freskagarriak.png',
+    name: 'Coca-Cola Lata 33cl',
+    excerpt: { eu: 'Coca-Cola produktua.', es: 'Producto Coca-Cola.' }
+  },
+  {
+    slug: 'coca-cola-zero-20cl-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Coca-Cola',
+    price: null,
+    image: '../media/images/products/coca-cola-zero-20cl-freskagarriak.png',
+    name: 'Coca-Cola Zero 20cl',
+    excerpt: { eu: 'Coca-Cola produktua.', es: 'Producto Coca-Cola.' }
+  },
+  {
+    slug: 'coca-cola-zero-lata-33cl-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Coca-Cola',
+    price: null,
+    image: '../media/images/products/coca-cola-zero-lata-33cl-freskagarriak.png',
+    name: 'Coca-Cola Zero Lata 33cl',
+    excerpt: { eu: 'Coca-Cola produktua.', es: 'Producto Coca-Cola.' }
+  },
+  {
+    slug: 'euskola-33cl-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Euskola',
+    price: null,
+    image: '../media/images/products/euskola-33cl-freskagarriak.png',
+    name: 'Euskola 33cl',
+    excerpt: { eu: 'Euskola produktua.', es: 'Producto Euskola.' }
+  },
+  {
+    slug: 'fanta-naranja-1l-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Fanta',
+    price: null,
+    image: '../media/images/products/fanta-naranja-1l-freskagarriak.png',
+    name: 'Fanta Naranja 1L',
+    excerpt: { eu: 'Fanta produktua.', es: 'Producto Fanta.' }
+  },
+  {
+    slug: 'fanta-naranja-lata-33cl-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Fanta',
+    price: null,
+    image: '../media/images/products/fanta-naranja-lata-33cl-freskagarriak.png',
+    name: 'Fanta Naranja Lata 33cl',
+    excerpt: { eu: 'Fanta produktua.', es: 'Producto Fanta.' }
+  },
+  {
+    slug: 'kas-limon-1l-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Kas',
+    price: null,
+    image: '../media/images/products/kas-limon-1l-freskagarriak.png',
+    name: 'Kas Limón 1L',
+    excerpt: { eu: 'Kas produktua.', es: 'Producto Kas.' }
+  },
+  {
+    slug: 'kas-limon-20cl-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Kas',
+    price: null,
+    image: '../media/images/products/kas-limon-20cl-freskagarriak.png',
+    name: 'Kas Limón 20cl',
+    excerpt: { eu: 'Kas produktua.', es: 'Producto Kas.' }
+  },
+  {
+    slug: 'kas-limon-2l-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Kas',
+    price: null,
+    image: '../media/images/products/kas-limon-2l-freskagarriak.png',
+    name: 'Kas Limón 2L',
+    excerpt: { eu: 'Kas produktua.', es: 'Producto Kas.' }
+  },
+  {
+    slug: 'kas-limon-lata-33cl-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Kas',
+    price: null,
+    image: '../media/images/products/kas-limon-lata-33cl-freskagarriak.png',
+    name: 'Kas Limón Lata 33cl',
+    excerpt: { eu: 'Kas produktua.', es: 'Producto Kas.' }
+  },
+  {
+    slug: 'kas-naranja-lata-20cl-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Kas',
+    price: null,
+    image: '../media/images/products/kas-naranja-lata-20cl-freskagarriak.png',
+    name: 'Kas Naranja Lata 20cl',
+    excerpt: { eu: 'Kas produktua.', es: 'Producto Kas.' }
+  },
+  {
+    slug: 'kas-naranja-20cl-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Kas',
+    price: null,
+    image: '../media/images/products/kas-naranja-20cl-freskagarriak.png',
+    name: 'Kas Naranja 20cl',
+    excerpt: { eu: 'Kas produktua.', es: 'Producto Kas.' }
+  },
+  {
+    slug: 'la-casera-0-5l-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'La Casera',
+    price: null,
+    image: '../media/images/products/la-casera-0-5l-freskagarriak.png',
+    name: 'La Casera 0,5L',
+    excerpt: { eu: 'La Casera produktua.', es: 'Producto La Casera.' }
+  },
+  {
+    slug: 'la-casera-1l-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'La Casera',
+    price: null,
+    image: '../media/images/products/la-casera-1l-freskagarriak.png',
+    name: 'La Casera 1L',
+    excerpt: { eu: 'La Casera produktua.', es: 'Producto La Casera.' }
+  },
+  {
+    slug: 'euskola-limonada-33cl-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Euskola',
+    price: null,
+    image: '../media/images/products/euskola-limonada-33cl-freskagarriak.png',
+    name: 'Euskola Limonada 33cl',
+    excerpt: { eu: 'Euskola produktua.', es: 'Producto Euskola.' }
+  },
+  {
+    slug: 'mosto-1l-freskagarriak',
+    type: 'freskagarriak',
+    price: null,
+    image: '../media/images/products/mosto-1l-freskagarriak.png',
+    name: 'Mosto 1L',
+    excerpt: { eu: 'Freskagarria.', es: 'Refresco.' }
+  },
+  {
+    slug: 'nestea-lata-33cl-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Nestea',
+    price: null,
+    image: '../media/images/products/nestea-lata-33cl-freskagarriak.png',
+    name: 'Nestea Lata 33cl',
+    excerpt: { eu: 'Nestea produktua.', es: 'Producto Nestea.' }
+  },
+  {
+    slug: 'euskola-20cl-pack-4-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Euskola',
+    price: null,
+    size: 4,
+    image: '../media/images/products/euskola-20cl-pack-4-freskagarriak.png',
+    name: 'Euskola 20cl (Pack 4)',
+    excerpt: { eu: 'Euskola produktua.', es: 'Producto Euskola.' }
+  },
+  {
+    slug: 'don-simon-zumos-200ml-pack-4-freskagarriak',
+    type: 'freskagarriak',
+    winery: 'Don Simón',
+    price: null,
+    size: 4,
+    image: '../media/images/products/don-simon-zumos-200ml-pack-4-freskagarriak.png',
+    name: 'Don Simón Zumos 200ml (Pack 4)',
+    excerpt: { eu: 'Don Simón produktua.', es: 'Producto Don Simón.' }
+  },
+  {
+    slug: 'sangria-75cl-freskagarriak',
+    type: 'freskagarriak',
+    price: null,
+    image: '../media/images/products/sangria-75cl-freskagarriak.png',
+    name: 'Sangría 75cl',
+    excerpt: { eu: 'Freskagarria.', es: 'Refresco.' }
+  },
+  {
+    slug: 'sangria-lata-33cl-freskagarriak',
+    type: 'freskagarriak',
+    price: null,
+    image: '../media/images/products/sangria-lata-33cl-freskagarriak.png',
+    name: 'Sangría Lata 33cl',
+    excerpt: { eu: 'Freskagarria.', es: 'Refresco.' }
+  },
+  {
+    slug: 'tinto-de-verano-27-5cl-freskagarriak',
+    type: 'freskagarriak',
+    price: null,
+    image: '../media/images/products/tinto-de-verano-27-5cl-freskagarriak.png',
+    name: 'Tinto de Verano 27,5cl',
+    excerpt: { eu: 'Freskagarria.', es: 'Refresco.' }
+  },
+  {
+    slug: 'tinto-de-verano-lata-33cl-freskagarriak',
+    type: 'freskagarriak',
+    price: null,
+    image: '../media/images/products/tinto-de-verano-lata-33cl-freskagarriak.png',
+    name: 'Tinto de Verano Lata 33cl',
+    excerpt: { eu: 'Freskagarria.', es: 'Refresco.' }
+  },
+  {
+    slug: 'tonica-cristal-20cl-freskagarriak',
+    type: 'freskagarriak',
+    price: null,
+    image: '../media/images/products/tonica-cristal-20cl-freskagarriak.png',
+    name: 'Tónica Cristal 20cl',
+    excerpt: { eu: 'Freskagarria.', es: 'Refresco.' }
+  },
+  {
+    slug: 'tonica-lata-33cl-freskagarriak',
+    type: 'freskagarriak',
+    price: null,
+    image: '../media/images/products/tonica-lata-33cl-freskagarriak.png',
+    name: 'Tónica Lata 33cl',
+    excerpt: { eu: 'Freskagarria.', es: 'Refresco.' }
+  },
+  {
+    slug: 'zumo-de-manzana-1l-freskagarriak',
+    type: 'freskagarriak',
+    price: null,
+    image: '../media/images/products/zumo-de-manzana-1l-freskagarriak.png',
+    name: 'Zumo de Manzana 1L',
+    excerpt: { eu: 'Freskagarria.', es: 'Refresco.' }
+  },
+  {
+    slug: 'cinzano-20cl-likoreak',
+    type: 'likoreak',
+    winery: 'Cinzano',
+    price: null,
+    image: '../media/images/products/cinzano-20cl-likoreak.png',
+    name: 'Cinzano 20cl',
+    excerpt: { eu: 'Cinzano produktua.', es: 'Producto Cinzano.' }
+  },
+  {
+    slug: 'cafe-250g-con-valvula-kafea',
+    type: 'kafea',
+    winery: 'La Brasileña',
+    price: null,
+    size: 2,
+    image: '../media/images/products/cafe-250g-con-valvula-kafea.png',
+    name: 'Café 250g con Válvula',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
+  },
+  {
+    slug: 'cafe-500g-con-valvula-y-rip-zip-kafea',
+    type: 'kafea',
+    winery: 'La Brasileña',
+    price: null,
+    size: 2,
+    image: '../media/images/products/cafe-500g-con-valvula-y-rip-zip-kafea.png',
+    name: 'Café 500g con Válvula y Rip Zip',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
+  },
+  {
+    slug: 'cafe-blend-arabicas-5-alturas-kafea',
+    type: 'kafea',
+    winery: 'La Brasileña',
+    price: null,
+    image: '../media/images/products/cafe-blend-arabicas-5-alturas-kafea.png',
+    name: 'Café Blend Arábicas 5 Alturas',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
+  },
+  {
+    slug: 'cafe-descafeinado-swiss-water-1000g-kafea',
+    type: 'kafea',
+    winery: 'La Brasileña',
+    price: null,
+    image: '../media/images/products/cafe-descafeinado-swiss-water-1000g-kafea.png',
+    name: 'Café Descafeinado Swiss Water 1000g',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
+  },
+  {
+    slug: 'cafe-ecologico-kafea',
+    type: 'kafea',
+    winery: 'La Brasileña',
+    price: null,
+    image: '../media/images/products/cafe-ecologico-kafea.png',
+    name: 'Café Ecológico',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
+  },
+  {
+    slug: 'cafe-gama-superior-mezcla-bares-kafea',
+    type: 'kafea',
+    winery: 'La Brasileña',
+    price: null,
+    image: '../media/images/products/cafe-gama-superior-mezcla-bares-kafea.png',
+    name: 'Café Gama Superior Mezcla Bares',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
+  },
+  {
+    slug: 'cafe-1000g-con-valvula-kafea',
+    type: 'kafea',
+    winery: 'La Brasileña',
+    price: null,
+    image: '../media/images/products/cafe-1000g-con-valvula-kafea.png',
+    name: 'Café 1000g con Válvula',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
+  },
+  {
+    slug: 'cafe-certificado-fairtrade-kafea',
+    type: 'kafea',
+    winery: 'La Brasileña',
+    price: null,
+    image: '../media/images/products/cafe-certificado-fairtrade-kafea.png',
+    name: 'Café Certificado Fairtrade',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
+  },
+  {
+    slug: 'cafe-en-capsulas-blend-arabicas-5-alturas-kafea',
+    type: 'kafea',
+    winery: 'La Brasileña',
+    price: null,
+    order: 1,
+    size: 2,
+    image: '../media/images/products/cafe-en-capsulas-blend-arabicas-5-alturas-kafea.png',
+    name: 'Café en Cápsulas Blend Arábicas 5 Alturas',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
+  },
+  {
+    slug: 'cafe-en-capsulas-blend-arabicas-descafeinado-kafea',
+    type: 'kafea',
+    winery: 'La Brasileña',
+    price: null,
+    order: 1,
+    size: 2,
+    image: '../media/images/products/cafe-en-capsulas-blend-arabicas-descafeinado-kafea.png',
+    name: 'Café en Cápsulas Blend Arábicas Descafeinado',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
+  },
+  {
+    slug: 'cafe-en-capsulas-cafe-forza-kafea',
+    type: 'kafea',
+    winery: 'La Brasileña',
+    price: null,
+    order: 1,
+    size: 2,
+    image: '../media/images/products/cafe-en-capsulas-cafe-forza-kafea.png',
+    name: 'Café en Cápsulas Café Forza',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
+  },
+  {
+    slug: 'cafe-en-capsulas-costa-rica-kafea',
+    type: 'kafea',
+    winery: 'La Brasileña',
+    price: null,
+    order: 1,
+    size: 2,
+    image: '../media/images/products/cafe-en-capsulas-costa-rica-kafea.png',
+    name: 'Café en Cápsulas Costa Rica',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
+  },
+  {
+    slug: 'cafe-en-capsulas-kenya-aa-kafea',
+    type: 'kafea',
+    winery: 'La Brasileña',
+    price: null,
+    order: 1,
+    size: 2,
+    image: '../media/images/products/cafe-en-capsulas-kenya-aa-kafea.png',
+    name: 'Café en Cápsulas Kenya AA',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
+  },
+  {
+    slug: 'cafe-gama-cremisimo-descafeinado-espresso-kafea',
+    type: 'kafea',
+    winery: 'La Brasileña',
+    price: null,
+    image: '../media/images/products/cafe-gama-cremisimo-descafeinado-espresso-kafea.png',
+    name: 'Café Gama Cremísimo Descafeinado Espresso',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
+  },
+  {
+    slug: 'cafe-gama-cremisimo-espresso-kafea',
+    type: 'kafea',
+    winery: 'La Brasileña',
+    price: null,
+    image: '../media/images/products/cafe-gama-cremisimo-espresso-kafea.png',
+    name: 'Café Gama Cremísimo Espresso',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
+  },
+  {
+    slug: 'cafe-gama-cremisimo-natural-kafea',
+    type: 'kafea',
+    winery: 'La Brasileña',
+    price: null,
+    image: '../media/images/products/cafe-gama-cremisimo-natural-kafea.png',
+    name: 'Café Gama Cremísimo Natural',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
+  },
+  {
+    slug: 'cafe-gama-especial-natural-kafea',
+    type: 'kafea',
+    winery: 'La Brasileña',
+    price: null,
+    image: '../media/images/products/cafe-gama-especial-natural-kafea.png',
+    name: 'Café Gama Especial Natural',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
+  },
+  {
+    slug: 'cafe-gama-superior-blend-arabicas-descafeinado-kafea',
+    type: 'kafea',
+    winery: 'La Brasileña',
+    price: null,
+    image: '../media/images/products/cafe-gama-superior-blend-arabicas-descafeinado-kafea.png',
+    name: 'Café Gama Superior Blend Arábicas Descafeinado',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
+  },
+  {
+    slug: 'cafe-soluble-monodosis-caja-de-150u-kafea',
+    type: 'kafea',
+    winery: 'La Brasileña',
+    price: null,
+    size: 2,
+    image: '../media/images/products/cafe-soluble-monodosis-caja-de-150u-kafea.png',
+    name: 'Café Soluble Monodosis (Caja de 150u)',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
+  },
+  {
+    slug: 'cafe-en-capsulas-colombia-narino-el-tambo-kafea',
+    type: 'kafea',
+    winery: 'La Brasileña',
+    price: null,
+    order: 1,
+    size: 2,
+    image: '../media/images/products/cafe-en-capsulas-colombia-narino-el-tambo-kafea.png',
+    name: 'Café en Cápsulas Colombia Nariño El Tambo',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
+  },
+  {
+    slug: 'cafetera-expobar-kafea',
+    type: 'kafea',
+    winery: 'Expobar',
+    price: null,
+    order: 2,
+    size: 2,
+    image: '../media/images/products/cafetera-expobar-kafea.jpeg',
+    name: 'Cafetera Expobar',
+    excerpt: { eu: 'Expobar produktua.', es: 'Producto Expobar.' }
+  },
+  {
+    slug: 'cafeteras-orhi-markibar-kafea',
+    type: 'kafea',
+    winery: 'Orhi Markibar',
+    price: null,
+    order: 2,
+    image: '../media/images/products/cafeteras-orhi-markibar-kafea.jpeg',
+    name: 'Cafeteras Orhi Markibar',
+    excerpt: { eu: 'Orhi Markibar produktua.', es: 'Producto Orhi Markibar.' }
+  },
+  {
+    slug: 'manzanilla-infusioak',
+    type: 'infusioak',
+    price: null,
+    size: 2,
+    image: '../media/images/products/manzanilla-infusioak.png',
+    name: 'Manzanilla',
+    excerpt: { eu: 'Infusioa.', es: 'Infusión.' }
+  },
+  {
+    slug: 'poleo-menta-infusioak',
+    type: 'infusioak',
+    price: null,
+    size: 2,
+    image: '../media/images/products/poleo-menta-infusioak.png',
+    name: 'Poleo-Menta',
+    excerpt: { eu: 'Infusioa.', es: 'Infusión.' }
+  },
+  {
+    slug: 'tila-infusioak',
+    type: 'infusioak',
+    price: null,
+    size: 2,
+    image: '../media/images/products/tila-infusioak.png',
+    name: 'Tila',
+    excerpt: { eu: 'Infusioa.', es: 'Infusión.' }
+  },
+  {
+    slug: 'la-explanada-aceitunas-kontserbak',
+    type: 'kontserbak',
+    winery: 'La Explanada',
+    price: null,
+    size: 2,
+    image: '../media/images/products/la-explanada-aceitunas-kontserbak.png',
+    name: 'La Explanada Aceitunas',
+    excerpt: { eu: 'La Explanada produktua.', es: 'Producto La Explanada.' }
+  },
+  {
+    slug: 'nardin-atun-kontserbak',
+    type: 'kontserbak',
+    winery: 'Nardin',
+    price: null,
+    size: 2,
+    image: '../media/images/products/nardin-atun-kontserbak.png',
+    name: 'Nardín Atún',
+    excerpt: { eu: 'Nardín produktua.', es: 'Producto Nardín.' }
+  },
+  {
+    slug: 'nardin-boqueron-kontserbak',
+    type: 'kontserbak',
+    winery: 'Nardin',
+    price: null,
+    size: 2,
+    image: '../media/images/products/nardin-boqueron-kontserbak.png',
+    name: 'Nardín Boquerón',
+    excerpt: { eu: 'Nardín produktua.', es: 'Producto Nardín.' }
+  },
+  {
+    slug: 'zubelzu-gilda-guindilla-kontserbak',
+    type: 'kontserbak',
+    winery: 'Zubelzu',
+    price: null,
+    size: 2,
+    image: '../media/images/products/zubelzu-gilda-guindilla-kontserbak.png',
+    name: 'Zubelzu Gilda (Guindilla)',
+    excerpt: { eu: 'Zubelzu produktua.', es: 'Producto Zubelzu.' }
   }
 ];

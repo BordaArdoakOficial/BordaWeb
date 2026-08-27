@@ -50,10 +50,15 @@
     sagardoak: { eu: 'Sagardoak', es: 'Sidras' },
     txakolinak: { eu: 'Txakoliñak', es: 'Txakolis' },
     cavak: { eu: 'Cavak', es: 'Cavas' },
+    garagardoak: { eu: 'Garagardoak', es: 'Cervezas' },
     freskagarriak: { eu: 'Freskagarriak', es: 'Refrescos' },
-    esneak: { eu: 'Esneak', es: 'Lácteos' },
+    likoreak: { eu: 'Likoreak', es: 'Licores' },
+    kafea: { eu: 'Kafea', es: 'Café' },
+    infusioak: { eu: 'Infusioak', es: 'Infusiones' },
+    esneak: { eu: 'Esneak / Esnekiak', es: 'Lácteos' },
     patatak: { eu: 'Patatak', es: 'Patatas' },
     kontserbak: { eu: 'Kontserbak', es: 'Conservas' },
+    ostalaritza: { eu: 'Ostalaritza', es: 'Hostelería' },
     olioak: { eu: 'Olioak', es: 'Aceites' }
   };
   var DOK_LABELS = {
@@ -71,11 +76,23 @@
   function typeLabel(key) { return key && TYPE_LABELS[key] ? TYPE_LABELS[key][lang] : ''; }
   function dokLabel(key) { return key && DOK_LABELS[key] ? DOK_LABELS[key][lang] : (key || ''); }
 
+  /* "Upategia/Bodega" (winery/cellar) only makes sense for wine-ish products;
+     everything else (beer, soft drinks, coffee...) reuses the same `winery`
+     field for its brand, so the label shown next to it should say
+     Marka/Marca there instead. */
+  var WINERY_TYPES = { urtekoak: 1, onduak: 1, erreserbak: 1, zuriak: 1, gorriak: 1, cavak: 1, txakolinak: 1, sagardoak: 1 };
+  function wineryFieldLabel(type) {
+    var isWinery = !!WINERY_TYPES[type];
+    if (isWinery) return inEs ? 'Bodega' : 'Upategia';
+    return inEs ? 'Marca' : 'Marka';
+  }
+
   /* Same priority order as the Mota/DOK/Upategia facets in products-filter.js,
      so the grid lists products grouped by type, then D.O., then winery. */
   var TYPE_ORDER = [
     'urtekoak', 'onduak', 'erreserbak', 'zuriak', 'gorriak',
-    'sagardoak', 'txakolinak', 'cavak', 'freskagarriak', 'esneak', 'patatak', 'kontserbak', 'olioak'
+    'sagardoak', 'txakolinak', 'cavak', 'garagardoak', 'freskagarriak', 'likoreak', 'kafea', 'infusioak',
+    'esneak', 'patatak', 'kontserbak', 'ostalaritza', 'olioak'
   ];
   var DOK_ORDER = ['rioja', 'navarra', 'bierzo', 'ribera-duero', 'rueda', 'somontano', 'rias-baixas', 'valdeorras', 'ribeiro', 'besteak'];
   function rank(order, v) {
@@ -83,8 +100,12 @@
     return i === -1 ? order.length : i;
   }
 
+  /* Optional manual `order` weight (default 0) lets a few products within the
+     same type be grouped before/after the rest — e.g. coffee capsules after
+     bagged coffee, and coffee machines last of all within "Kafea". */
   var data = (window.PRODUCTS_DATA || []).slice().sort(function (a, b) {
     return rank(TYPE_ORDER, a.type) - rank(TYPE_ORDER, b.type) ||
+      (a.order || 0) - (b.order || 0) ||
       rank(DOK_ORDER, a.dok) - rank(DOK_ORDER, b.dok) ||
       (a.winery || '').localeCompare(b.winery || '');
   });
@@ -95,7 +116,8 @@
 
   function productCard(p) {
     var category = typeLabel(p.type);
-    return '<a class="product-card" href="' + detailPage + '?slug=' + p.slug + '"' +
+    var sizeClass = p.size === 4 ? ' size-4' : p.size === 2 ? ' size-2' : '';
+    return '<a class="product-card' + sizeClass + '" href="' + detailPage + '?slug=' + p.slug + '"' +
       ' data-category="' + attr(category) + '" data-name="' + attr(p.name.toLowerCase()) + '"' +
       ' data-type="' + attr(category) + '" data-dok="' + attr(dokLabel(p.dok)) + '" data-winery="' + attr(p.winery || '') + '">' +
       '<img src="' + imgPrefix + p.image + '" alt="' + attr(p.name) + '" loading="lazy" />' +
@@ -157,16 +179,21 @@
         var metaRows = [
           { label: inEs ? 'Tipo' : 'Mota', value: category },
           { label: 'DOK', value: dokLabel(product.dok) },
-          { label: inEs ? 'Bodega' : 'Upategia', value: product.winery }
+          { label: wineryFieldLabel(product.type), value: product.winery }
         ].filter(function (r) { return r.value; });
         metaEl.innerHTML = metaRows.map(function (r) {
           return '<li><span>' + r.label + '</span><strong>' + r.value + '</strong></li>';
         }).join('');
       }
 
-      var related = data.filter(function (p) {
-        return p.type === product.type && p.slug !== product.slug;
-      }).slice(0, 3);
+      /* Prefer showing the rest of the same producer's range (e.g. every
+         other David Moreno wine) over just "same type" — a shopper picking
+         one bottle from a bodega usually wants to see what else it makes. If
+         the product has no winery/brand, fall back to same-type, capped so
+         the section doesn't balloon to an entire category. */
+      var related = product.winery
+        ? data.filter(function (p) { return p.winery === product.winery && p.slug !== product.slug; })
+        : data.filter(function (p) { return p.type === product.type && p.slug !== product.slug; }).slice(0, 3);
 
       var relatedSection = document.getElementById('related-products');
       var relatedGrid = document.getElementById('related-products-grid');

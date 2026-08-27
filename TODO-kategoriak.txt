@@ -1,0 +1,29 @@
+Pendiente: categoría del carrusel "Produktu nabarmenak" / "Productos destacados"
+(home.html / es/home.html) que hoy NO tiene productos ni filtro asociado:
+
+  - Ostalaritzako hainbat produktu / Diversos productos de hostelería
+
+Cuando se añadan productos de este tipo, para dejarlo funcionando como las
+demás categorías (que ya llevan directo a la lista de productos filtrada):
+
+1. content/products-data.js
+   Añadir los productos nuevos con un campo `type` en minúsculas
+   (p.ej. "ostalaritza").
+
+2. pages/render-products.js
+   Añadir ese tipo a TYPE_LABELS (eu/es) y a TYPE_ORDER.
+
+3. pages/products-filter.js
+   Añadir la etiqueta correspondiente a FIXED_FACET_ITEMS.type (eu y es),
+   para que aparezca como checkbox en la barra de filtros de productos.
+
+4. pages/home.html y pages/es/home.html
+   Cambiar el <span class="category-pill">...</span> de esa categoría por un
+   <a class="category-pill" href="produktuak.html?type=Etiqueta">...</a>.
+   El valor debe coincidir exactamente con la etiqueta usada en el filtro
+   (paso 3).
+
+Ya funcionan (enlazan y filtran de verdad):
+  Ardoak/Vinos, Freskagarriak/Refrescos, Esnekiak (-> Esneak)/Lácteos,
+  Olioak/Aceites, Kontserbak/Conservas, Garagardoak/Cervezas,
+  Likoreak/Licores, Kafea/Café
