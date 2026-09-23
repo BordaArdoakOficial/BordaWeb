@@ -130,6 +130,7 @@ a:hover { text-decoration: underline; }
 
 /* ---------- Header / Navigation ---------- */
 .site-header {
+  margin-top: 0;
   position: sticky;
   top: 0;
   z-index: 50;
@@ -260,6 +261,7 @@ body.admin-bar .site-header { top: 32px; }
 
 /* ---------- Hero ---------- */
 .hero {
+  margin-top: 0;
   min-height: min(88vh, 720px);
   display: flex;
   align-items: center;
