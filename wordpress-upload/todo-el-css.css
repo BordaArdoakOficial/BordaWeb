@@ -1693,12 +1693,14 @@ form textarea { min-height: 11rem; resize: vertical; }
 }
 
 @media (max-width: 640px) {
-  .footer-columns { grid-template-columns: 1fr; gap: 2.5rem; text-align: center; }
+  .site-footer { padding-top: 3rem; margin-top: 2.5rem; }
+  .footer-columns { grid-template-columns: 1fr; gap: 2rem; text-align: center; padding-bottom: 2rem; }
   .footer-columns > div { align-items: center; }
   .footer-logo-badge { margin: 0 auto 1.5rem; }
   .footer-contact-list { justify-items: center; }
+  .footer-contact-list p { align-items: center; text-align: left; }
   .social-links { justify-content: center; }
-  .footer-nav-center { justify-items: center; text-align: center; }
+  .footer-nav-center { grid-template-columns: repeat(2, 1fr); justify-items: center; text-align: center; column-gap: 1.5rem; }
   .footer-badges { grid-column: auto; justify-content: center; }
   .footer-bottom { flex-direction: column; text-align: center; gap: 0.85rem; }
   .footer-bottom .footer-links { justify-content: center; }
