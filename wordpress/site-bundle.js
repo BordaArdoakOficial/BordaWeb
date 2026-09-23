@@ -1144,7 +1144,7 @@ window.PRODUCTS_DATA = [
     winery: 'Zaramendil',
     price: null,
     image: '../media/images/products/zaramendil-gorriak.png',
-    name: 'zaramendil',
+    name: 'Zaramendil',
     excerpt: { eu: 'Ardo gorria (arrosea), Zaramendil upategiak egina.', es: 'Vino rosado, elaborado por la bodega Zaramendil.' }
   },
   {
@@ -1397,7 +1397,7 @@ window.PRODUCTS_DATA = [
     winery: 'Aburuza',
     price: null,
     image: '../media/images/products/aburuza-sagardoak.png',
-    name: 'aburuza',
+    name: 'Aburuza',
     excerpt: { eu: 'Sagardoa, Aburuza egina.', es: 'Sidra elaborada por Aburuza.' }
   },
   {
@@ -1547,11 +1547,11 @@ window.PRODUCTS_DATA = [
   {
     slug: 'primo-txakolinak',
     type: 'txakolinak',
-    winery: 'primo',
+    winery: 'Primo',
     price: null,
     image: '../media/images/products/primo-txakolinak.png',
-    name: 'primo',
-    excerpt: { eu: 'Txakolina, primo upategiak egina.', es: 'Txakoli elaborado por la bodega primo.' }
+    name: 'Primo',
+    excerpt: { eu: 'Txakolina, Primo upategiak egina.', es: 'Txakoli elaborado por la bodega Primo.' }
   },
   {
     slug: 'talai-berri-txakolinak',
@@ -1797,7 +1797,7 @@ window.PRODUCTS_DATA = [
     winery: 'Lasierpe',
     price: null,
     image: '../media/images/products/lasierpe-chardonnay-zuriak-navarra.png',
-    name: 'lasierpe chardonnay',
+    name: 'Lasierpe Chardonnay',
     excerpt: { eu: 'Navarra D.O.ko ardo zuria, Lasierpe upategiak egina.', es: 'Vino blanco con D.O. Navarra, elaborado por la bodega Lasierpe.' }
   },
   {
@@ -1807,7 +1807,7 @@ window.PRODUCTS_DATA = [
     winery: 'Ledea',
     price: null,
     image: '../media/images/products/ledea-chardonnay-zuriak-navarra.png',
-    name: 'ledea chardonnay',
+    name: 'Ledea Chardonnay',
     excerpt: { eu: 'Navarra D.O.ko ardo zuria, Ledea upategiak egina.', es: 'Vino blanco con D.O. Navarra, elaborado por la bodega Ledea.' }
   },
   {
@@ -1844,11 +1844,11 @@ window.PRODUCTS_DATA = [
     slug: 'o-ventosela-zuriak-ribeiro',
     type: 'zuriak',
     dok: 'ribeiro',
-    winery: 'o\'ventosela',
+    winery: 'O\'Ventonella',
     price: null,
     image: '../media/images/products/o-ventosela-zuriak-ribeiro.png',
-    name: 'o\'ventosela',
-    excerpt: { eu: 'Ribeiro D.O.ko ardo zuria, o\'ventosela upategiak egina.', es: 'Vino blanco con D.O. Ribeiro, elaborado por la bodega o\'ventosela.' }
+    name: 'O\'Ventonella',
+    excerpt: { eu: 'Ribeiro D.O.ko ardo zuria, O\'Ventonella upategiak egina.', es: 'Vino blanco con D.O. Ribeiro, elaborado por la bodega O\'Ventonella.' }
   },
   {
     slug: 'vina-leirina-treixadura-godello-albarino-zuriak-ribeiro',
@@ -1857,7 +1857,7 @@ window.PRODUCTS_DATA = [
     winery: 'Viña Leiriña',
     price: null,
     image: '../media/images/products/vina-leirina-treixadura-godello-albarino-zuriak-ribeiro.png',
-    name: 'Viña Leiriña (Treixadura, Godello, albariño)',
+    name: 'Viña Leiriña (Treixadura, Godello, Albariño)',
     excerpt: { eu: 'Ribeiro D.O.ko ardo zuria, Viña Leiriña upategiak egina.', es: 'Vino blanco con D.O. Ribeiro, elaborado por la bodega Viña Leiriña.' }
   },
   {
@@ -1917,7 +1917,7 @@ window.PRODUCTS_DATA = [
     winery: 'Mayor de Castilla',
     price: null,
     image: '../media/images/products/mayor-de-castilla-verdejo-zuriak-rueda.png',
-    name: 'Mayor de castilla verdejo',
+    name: 'Mayor de Castilla Verdejo',
     excerpt: { eu: 'Rueda D.O.ko ardo zuria, Mayor de Castilla upategiak egina.', es: 'Vino blanco con D.O. Rueda, elaborado por la bodega Mayor de Castilla.' }
   },
   {
@@ -1927,7 +1927,7 @@ window.PRODUCTS_DATA = [
     winery: 'Valdihuete',
     price: null,
     image: '../media/images/products/valdihuete-verdejo-zuriak-rueda.png',
-    name: 'valdihuete verdejo',
+    name: 'Valdihuete Verdejo',
     excerpt: { eu: 'Rueda D.O.ko ardo zuria, Valdihuete upategiak egina.', es: 'Vino blanco con D.O. Rueda, elaborado por la bodega Valdihuete.' }
   },
   {
@@ -1937,7 +1937,7 @@ window.PRODUCTS_DATA = [
     winery: 'Enate',
     price: null,
     image: '../media/images/products/enate-chardonnay-zuriak-somontano.png',
-    name: 'enate chardonnay',
+    name: 'Enate Chardonnay',
     excerpt: { eu: 'Somontano D.O.ko ardo zuria, Enate upategiak egina.', es: 'Vino blanco con D.O. Somontano, elaborado por la bodega Enate.' }
   },
   {
@@ -2780,8 +2780,6 @@ window.PRODUCTS_DATA = [
 // ];
 
 window.CATALOGS_DATA = [];
-
-
 /* ---- render-products.js ---- */
 (function () {
   var DOMAIN = 'https://bordaardoak.eus';
