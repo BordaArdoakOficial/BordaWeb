@@ -3,7 +3,7 @@
   var DOMAIN = 'https://bordaardoak.eus';
   var inEs = /-es\/?$/.test(location.pathname);
   var lang = inEs ? 'es' : 'eu';
-  var imgPrefix = inEs ? '../' : '';
+  var imgPrefix = '';
   var detailPage = inEs ? '/producto-es/' : 'produktua.html';
   var listPage = inEs ? '/productos-es/' : 'produktuak.html';
 
