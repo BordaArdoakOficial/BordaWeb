@@ -4,7 +4,7 @@
   if (localStorage.getItem(STORAGE_KEY)) return;
 
   var inEs = /\/es\//.test(location.pathname);
-  var policyHref = inEs ? 'politica-cookies.html' : 'cookies-politika.html';
+  var policyHref = inEs ? '/politica-cookies-es/' : 'cookies-politika.html';
 
   var text = inEs
     ? 'Utilizamos cookies propias y de terceros para mejorar tu experiencia de navegación. Puedes aceptarlas, rechazar las no esenciales o consultar más información en nuestra <a href="' + policyHref + '">Política de Cookies</a>.'
