@@ -1844,11 +1844,11 @@ window.PRODUCTS_DATA = [
     slug: 'o-ventosela-zuriak-ribeiro',
     type: 'zuriak',
     dok: 'ribeiro',
-    winery: 'O\'Ventonella',
+    winery: 'O\'Ventosela',
     price: null,
     image: '../media/images/products/o-ventosela-zuriak-ribeiro.png',
-    name: 'O\'Ventonella',
-    excerpt: { eu: 'Ribeiro D.O.ko ardo zuria, O\'Ventonella upategiak egina.', es: 'Vino blanco con D.O. Ribeiro, elaborado por la bodega O\'Ventonella.' }
+    name: 'O\'Ventosela',
+    excerpt: { eu: 'Ribeiro D.O.ko ardo zuria, O\'Ventosela upategiak egina.', es: 'Vino blanco con D.O. Ribeiro, elaborado por la bodega O\'Ventosela.' }
   },
   {
     slug: 'vina-leirina-treixadura-godello-albarino-zuriak-ribeiro',
