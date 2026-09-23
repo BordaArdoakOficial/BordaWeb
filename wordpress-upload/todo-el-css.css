@@ -1698,7 +1698,8 @@ form textarea { min-height: 11rem; resize: vertical; }
   .footer-columns > div { align-items: center; }
   .footer-logo-badge { margin: 0 auto 1.5rem; }
   .footer-contact-list { justify-items: center; }
-  .footer-contact-list p { align-items: center; text-align: left; }
+  .footer-contact-list p { flex-direction: column; align-items: center; text-align: center; gap: 0.3rem; }
+  .footer-contact-list svg { margin-top: 0; }
   .social-links { justify-content: center; }
   .footer-nav-center { grid-template-columns: repeat(2, 1fr); justify-items: center; text-align: center; column-gap: 1.5rem; }
   .footer-badges { grid-column: auto; justify-content: center; }
