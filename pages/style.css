@@ -23,6 +23,18 @@
 
 * { box-sizing: border-box; }
 
+/* WordPress adds a solid focus outline to every element on click; keep it
+   for keyboard navigation (accessibility) but drop it for mouse/touch clicks,
+   where it just shows as a stray white box/ring on dark sections. */
+a:focus:not(:focus-visible),
+button:focus:not(:focus-visible),
+label:focus:not(:focus-visible),
+input:focus:not(:focus-visible),
+.site-header :focus:not(:focus-visible),
+.site-footer :focus:not(:focus-visible) {
+  outline: none;
+}
+
 html {
   scroll-behavior: smooth;
   scrollbar-gutter: stable;
