@@ -8,7 +8,7 @@ window.PRODUCTS_DATA = [
     price: null,
     image: '../media/images/products/carlos-bujanda-tinaja-urtekoak-rioja.png',
     name: 'Carlos Bujanda Tinaja',
-    excerpt: { eu: 'Rioja D.O.ko urtekoak, Carlos Bujanda upategiak egina.', es: 'Vino del aÃ±o con D.O. Rioja, elaborado por la bodega Carlos Bujanda.' }
+    excerpt: { eu: 'Rioja D.O.ko urtekoak, Carlos Bujanda upategiak egina.', es: 'Vino del año con D.O. Rioja, elaborado por la bodega Carlos Bujanda.' }
   },
   {
     slug: 'castillo-lagomar-urtekoak-rioja',
@@ -18,7 +18,7 @@ window.PRODUCTS_DATA = [
     price: null,
     image: '../media/images/products/castillo-lagomar-urtekoak-rioja.png',
     name: 'Castillo Lagomar',
-    excerpt: { eu: 'Rioja D.O.ko urtekoak, Castillo Lagomar upategiak egina.', es: 'Vino del aÃ±o con D.O. Rioja, elaborado por la bodega Castillo Lagomar.' }
+    excerpt: { eu: 'Rioja D.O.ko urtekoak, Castillo Lagomar upategiak egina.', es: 'Vino del año con D.O. Rioja, elaborado por la bodega Castillo Lagomar.' }
   },
   {
     slug: 'david-moreno-urtekoak-rioja',
@@ -28,7 +28,7 @@ window.PRODUCTS_DATA = [
     price: null,
     image: '../media/images/products/david-moreno-urtekoak-rioja.png',
     name: 'David Moreno',
-    excerpt: { eu: 'Rioja D.O.ko urtekoak, David Moreno upategiak egina.', es: 'Vino del aÃ±o con D.O. Rioja, elaborado por la bodega David Moreno.' }
+    excerpt: { eu: 'Rioja D.O.ko urtekoak, David Moreno upategiak egina.', es: 'Vino del año con D.O. Rioja, elaborado por la bodega David Moreno.' }
   },
   {
     slug: 'labraz-urtekoak-rioja',
@@ -38,17 +38,17 @@ window.PRODUCTS_DATA = [
     price: null,
     image: '../media/images/products/labraz-urtekoak-rioja.png',
     name: 'Labraz',
-    excerpt: { eu: 'Rioja D.O.ko urtekoak, Labraz upategiak egina.', es: 'Vino del aÃ±o con D.O. Rioja, elaborado por la bodega Labraz.' }
+    excerpt: { eu: 'Rioja D.O.ko urtekoak, Labraz upategiak egina.', es: 'Vino del año con D.O. Rioja, elaborado por la bodega Labraz.' }
   },
   {
     slug: 'antano-tempranillo-urtekoak-rioja',
     type: 'urtekoak',
     dok: 'rioja',
-    winery: 'MarquÃ©s de AntaÃ±o (GarcÃ­a CarriÃ³n)',
+    winery: 'Marqués de Antaño (García Carrión)',
     price: null,
     image: '../media/images/products/antano-tempranillo-urtekoak-rioja.png',
-    name: 'AntaÃ±o Tempranillo',
-    excerpt: { eu: 'Rioja D.O.ko urtekoak, MarquÃ©s de AntaÃ±o (GarcÃ­a CarriÃ³n) upategiak egina.', es: 'Vino del aÃ±o con D.O. Rioja, elaborado por la bodega MarquÃ©s de AntaÃ±o (GarcÃ­a CarriÃ³n).' }
+    name: 'Antaño Tempranillo',
+    excerpt: { eu: 'Rioja D.O.ko urtekoak, Marqués de Antaño (García Carrión) upategiak egina.', es: 'Vino del año con D.O. Rioja, elaborado por la bodega Marqués de Antaño (García Carrión).' }
   },
   {
     slug: 'sonsierra-urtekoak-rioja',
@@ -58,7 +58,7 @@ window.PRODUCTS_DATA = [
     price: null,
     image: '../media/images/products/sonsierra-urtekoak-rioja.png',
     name: 'Sonsierra',
-    excerpt: { eu: 'Rioja D.O.ko urtekoak, Sonsierra upategiak egina.', es: 'Vino del aÃ±o con D.O. Rioja, elaborado por la bodega Sonsierra.' }
+    excerpt: { eu: 'Rioja D.O.ko urtekoak, Sonsierra upategiak egina.', es: 'Vino del año con D.O. Rioja, elaborado por la bodega Sonsierra.' }
   },
   {
     slug: 'inurrieta-pct-100-mimao-garnacha-urtekoak-navarra',
@@ -68,7 +68,7 @@ window.PRODUCTS_DATA = [
     price: null,
     image: '../media/images/products/inurrieta-pct-100-mimao-garnacha-urtekoak-navarra.png',
     name: 'Inurrieta %100 Mimao GARNACHA',
-    excerpt: { eu: 'Navarra D.O.ko urtekoak, Inurrieta upategiak egina.', es: 'Vino del aÃ±o con D.O. Navarra, elaborado por la bodega Inurrieta.' }
+    excerpt: { eu: 'Navarra D.O.ko urtekoak, Inurrieta upategiak egina.', es: 'Vino del año con D.O. Navarra, elaborado por la bodega Inurrieta.' }
   },
   {
     slug: 'inurrieta-norte-cabernet-saugvinon-merlon-y-otras-variedades-urtekoak-navarra',
@@ -78,7 +78,7 @@ window.PRODUCTS_DATA = [
     price: null,
     image: '../media/images/products/inurrieta-norte-cabernet-saugvinon-merlon-y-otras-variedades-urtekoak-navarra.png',
     name: 'Inurrieta Norte ( Cabernet, saugvinon, Merlon y otras variedades )',
-    excerpt: { eu: 'Navarra D.O.ko urtekoak, Inurrieta upategiak egina.', es: 'Vino del aÃ±o con D.O. Navarra, elaborado por la bodega Inurrieta.' }
+    excerpt: { eu: 'Navarra D.O.ko urtekoak, Inurrieta upategiak egina.', es: 'Vino del año con D.O. Navarra, elaborado por la bodega Inurrieta.' }
   },
   {
     slug: 'inurrieta-sur-syrah-garnacha-y-otras-variedades-urtekoak-navarra',
@@ -88,7 +88,7 @@ window.PRODUCTS_DATA = [
     price: null,
     image: '../media/images/products/inurrieta-sur-syrah-garnacha-y-otras-variedades-urtekoak-navarra.png',
     name: 'Inurrieta Sur ( Syrah, Garnacha y otras variedades )',
-    excerpt: { eu: 'Navarra D.O.ko urtekoak, Inurrieta upategiak egina.', es: 'Vino del aÃ±o con D.O. Navarra, elaborado por la bodega Inurrieta.' }
+    excerpt: { eu: 'Navarra D.O.ko urtekoak, Inurrieta upategiak egina.', es: 'Vino del año con D.O. Navarra, elaborado por la bodega Inurrieta.' }
   },
   {
     slug: 'zaramendil-tinto-urtekoak-navarra',
@@ -98,7 +98,7 @@ window.PRODUCTS_DATA = [
     price: null,
     image: '../media/images/products/zaramendil-tinto-urtekoak-navarra.png',
     name: 'Zaramendil tinto',
-    excerpt: { eu: 'Navarra D.O.ko urtekoak, Zaramendil upategiak egina.', es: 'Vino del aÃ±o con D.O. Navarra, elaborado por la bodega Zaramendil.' }
+    excerpt: { eu: 'Navarra D.O.ko urtekoak, Zaramendil upategiak egina.', es: 'Vino del año con D.O. Navarra, elaborado por la bodega Zaramendil.' }
   },
   {
     slug: 'luna-beberide-pct-100-mencia-urtekoak-bierzo',
@@ -108,7 +108,7 @@ window.PRODUCTS_DATA = [
     price: null,
     image: '../media/images/products/luna-beberide-pct-100-mencia-urtekoak-bierzo.png',
     name: 'Luna Beberide %100 Mencia',
-    excerpt: { eu: 'Bierzo D.O.ko urtekoak, Luna Beberide upategiak egina.', es: 'Vino del aÃ±o con D.O. Bierzo, elaborado por la bodega Luna Beberide.' }
+    excerpt: { eu: 'Bierzo D.O.ko urtekoak, Luna Beberide upategiak egina.', es: 'Vino del año con D.O. Bierzo, elaborado por la bodega Luna Beberide.' }
   },
   {
     slug: 'azpilicueta-onduak-rioja',
@@ -144,11 +144,11 @@ window.PRODUCTS_DATA = [
     slug: 'carlos-martinez-canas-el-onduak-rioja',
     type: 'onduak',
     dok: 'rioja',
-    winery: 'Carlos MartÃ­nez CaÃ±as',
+    winery: 'Carlos Martínez Cañas',
     price: null,
     image: '../media/images/products/carlos-martinez-canas-el-onduak-rioja.png',
-    name: 'Carlos Martinez CaÃ±as EL',
-    excerpt: { eu: 'Rioja D.O.ko onduak, Carlos MartÃ­nez CaÃ±as upategiak egina.', es: 'Vino crianza con D.O. Rioja, elaborado por la bodega Carlos MartÃ­nez CaÃ±as.' }
+    name: 'Carlos Martinez Cañas EL',
+    excerpt: { eu: 'Rioja D.O.ko onduak, Carlos Martínez Cañas upategiak egina.', es: 'Vino crianza con D.O. Rioja, elaborado por la bodega Carlos Martínez Cañas.' }
   },
   {
     slug: 'david-moreno-onduak-rioja',
@@ -194,31 +194,31 @@ window.PRODUCTS_DATA = [
     slug: 'heras-cordon-onduak-rioja',
     type: 'onduak',
     dok: 'rioja',
-    winery: 'Heras CordÃ³n',
+    winery: 'Heras Cordón',
     price: null,
     image: '../media/images/products/heras-cordon-onduak-rioja.png',
     name: 'Heras Cordon',
-    excerpt: { eu: 'Rioja D.O.ko onduak, Heras CordÃ³n upategiak egina.', es: 'Vino crianza con D.O. Rioja, elaborado por la bodega Heras CordÃ³n.' }
+    excerpt: { eu: 'Rioja D.O.ko onduak, Heras Cordón upategiak egina.', es: 'Vino crianza con D.O. Rioja, elaborado por la bodega Heras Cordón.' }
   },
   {
     slug: 'antano-onduak-rioja',
     type: 'onduak',
     dok: 'rioja',
-    winery: 'MarquÃ©s de AntaÃ±o (GarcÃ­a CarriÃ³n)',
+    winery: 'Marqués de Antaño (García Carrión)',
     price: null,
     image: '../media/images/products/antano-onduak-rioja.png',
-    name: 'AntaÃ±o',
-    excerpt: { eu: 'Rioja D.O.ko onduak, MarquÃ©s de AntaÃ±o (GarcÃ­a CarriÃ³n) upategiak egina.', es: 'Vino crianza con D.O. Rioja, elaborado por la bodega MarquÃ©s de AntaÃ±o (GarcÃ­a CarriÃ³n).' }
+    name: 'Antaño',
+    excerpt: { eu: 'Rioja D.O.ko onduak, Marqués de Antaño (García Carrión) upategiak egina.', es: 'Vino crianza con D.O. Rioja, elaborado por la bodega Marqués de Antaño (García Carrión).' }
   },
   {
     slug: 'pierola-onduak-rioja',
     type: 'onduak',
     dok: 'rioja',
-    winery: 'Pierola (FernÃ¡ndez de PiÃ©rola)',
+    winery: 'Pierola (Fernández de Piérola)',
     price: null,
     image: '../media/images/products/pierola-onduak-rioja.png',
     name: 'Pierola',
-    excerpt: { eu: 'Rioja D.O.ko onduak, Pierola (FernÃ¡ndez de PiÃ©rola) upategiak egina.', es: 'Vino crianza con D.O. Rioja, elaborado por la bodega Pierola (FernÃ¡ndez de PiÃ©rola).' }
+    excerpt: { eu: 'Rioja D.O.ko onduak, Pierola (Fernández de Piérola) upategiak egina.', es: 'Vino crianza con D.O. Rioja, elaborado por la bodega Pierola (Fernández de Piérola).' }
   },
   {
     slug: 'sonsierra-onduak-rioja',
@@ -244,21 +244,21 @@ window.PRODUCTS_DATA = [
     slug: 'castillo-monjardin-pct-100-garnacha-vinas-viejas-6-meses-barrica-onduak-navarra',
     type: 'onduak',
     dok: 'navarra',
-    winery: 'Castillo de MonjardÃ­n',
+    winery: 'Castillo de Monjardín',
     price: null,
     image: '../media/images/products/castillo-monjardin-pct-100-garnacha-vinas-viejas-6-meses-barrica-onduak-navarra.png',
-    name: 'Castillo Monjardin %100 Garnacha ViÃ±as Viejas 6 MESES BARRICA',
-    excerpt: { eu: 'Navarra D.O.ko onduak, Castillo de MonjardÃ­n upategiak egina.', es: 'Vino crianza con D.O. Navarra, elaborado por la bodega Castillo de MonjardÃ­n.' }
+    name: 'Castillo Monjardin %100 Garnacha Viñas Viejas 6 MESES BARRICA',
+    excerpt: { eu: 'Navarra D.O.ko onduak, Castillo de Monjardín upategiak egina.', es: 'Vino crianza con D.O. Navarra, elaborado por la bodega Castillo de Monjardín.' }
   },
   {
     slug: 'castillo-monjardin-crianza-onduak-navarra',
     type: 'onduak',
     dok: 'navarra',
-    winery: 'Castillo de MonjardÃ­n',
+    winery: 'Castillo de Monjardín',
     price: null,
     image: '../media/images/products/castillo-monjardin-crianza-onduak-navarra.png',
     name: 'Castillo Monjardin Crianza',
-    excerpt: { eu: 'Navarra D.O.ko onduak, Castillo de MonjardÃ­n upategiak egina.', es: 'Vino crianza con D.O. Navarra, elaborado por la bodega Castillo de MonjardÃ­n.' }
+    excerpt: { eu: 'Navarra D.O.ko onduak, Castillo de Monjardín upategiak egina.', es: 'Vino crianza con D.O. Navarra, elaborado por la bodega Castillo de Monjardín.' }
   },
   {
     slug: 'inurrieta-cuatrocientos-onduak-navarra',
@@ -364,11 +364,11 @@ window.PRODUCTS_DATA = [
     slug: 'teofilo-reyes-tamiz-onduak-ribera-duero',
     type: 'onduak',
     dok: 'ribera-duero',
-    winery: 'TeÃ³filo Reyes',
+    winery: 'Teófilo Reyes',
     price: null,
     image: '../media/images/products/teofilo-reyes-tamiz-onduak-ribera-duero.png',
-    name: 'TeÃ³filo Reyes Tamiz',
-    excerpt: { eu: 'Ribera del Duero D.O.ko onduak, TeÃ³filo Reyes upategiak egina.', es: 'Vino crianza con D.O. Ribera del Duero, elaborado por la bodega TeÃ³filo Reyes.' }
+    name: 'Teófilo Reyes Tamiz',
+    excerpt: { eu: 'Ribera del Duero D.O.ko onduak, Teófilo Reyes upategiak egina.', es: 'Vino crianza con D.O. Ribera del Duero, elaborado por la bodega Teófilo Reyes.' }
   },
   {
     slug: 'traslascuestas-crianza-onduak-ribera-duero',
@@ -414,11 +414,11 @@ window.PRODUCTS_DATA = [
     slug: 'gontes-expresion-erreserbak-rioja',
     type: 'erreserbak',
     dok: 'rioja',
-    winery: 'GontÃ©s',
+    winery: 'Gontés',
     price: null,
     image: '../media/images/products/gontes-expresion-erreserbak-rioja.png',
-    name: 'GontÃ©s ExpresiÃ³n',
-    excerpt: { eu: 'Rioja D.O.ko erreserbak, GontÃ©s upategiak egina.', es: 'Vino reservas con D.O. Rioja, elaborado por la bodega GontÃ©s.' }
+    name: 'Gontés Expresión',
+    excerpt: { eu: 'Rioja D.O.ko erreserbak, Gontés upategiak egina.', es: 'Vino reservas con D.O. Rioja, elaborado por la bodega Gontés.' }
   },
   {
     slug: 'goren-erreserbak-rioja',
@@ -434,21 +434,21 @@ window.PRODUCTS_DATA = [
     slug: 'pierola-erreserbak-rioja',
     type: 'erreserbak',
     dok: 'rioja',
-    winery: 'Pierola (FernÃ¡ndez de PiÃ©rola)',
+    winery: 'Pierola (Fernández de Piérola)',
     price: null,
     image: '../media/images/products/pierola-erreserbak-rioja.png',
     name: 'Pierola',
-    excerpt: { eu: 'Rioja D.O.ko erreserbak, Pierola (FernÃ¡ndez de PiÃ©rola) upategiak egina.', es: 'Vino reservas con D.O. Rioja, elaborado por la bodega Pierola (FernÃ¡ndez de PiÃ©rola).' }
+    excerpt: { eu: 'Rioja D.O.ko erreserbak, Pierola (Fernández de Piérola) upategiak egina.', es: 'Vino reservas con D.O. Rioja, elaborado por la bodega Pierola (Fernández de Piérola).' }
   },
   {
     slug: 'pierola-vitium-erreserbak-rioja',
     type: 'erreserbak',
     dok: 'rioja',
-    winery: 'Pierola (FernÃ¡ndez de PiÃ©rola)',
+    winery: 'Pierola (Fernández de Piérola)',
     price: null,
     image: '../media/images/products/pierola-vitium-erreserbak-rioja.png',
     name: 'Pierola Vitium',
-    excerpt: { eu: 'Rioja D.O.ko erreserbak, Pierola (FernÃ¡ndez de PiÃ©rola) upategiak egina.', es: 'Vino reservas con D.O. Rioja, elaborado por la bodega Pierola (FernÃ¡ndez de PiÃ©rola).' }
+    excerpt: { eu: 'Rioja D.O.ko erreserbak, Pierola (Fernández de Piérola) upategiak egina.', es: 'Vino reservas con D.O. Rioja, elaborado por la bodega Pierola (Fernández de Piérola).' }
   },
   {
     slug: 'vado-de-la-reina-erreserbak-rioja',
@@ -514,56 +514,56 @@ window.PRODUCTS_DATA = [
     slug: 'teofilo-reyes-edicion-limitada-erreserbak-ribera-duero',
     type: 'erreserbak',
     dok: 'ribera-duero',
-    winery: 'TeÃ³filo Reyes',
+    winery: 'Teófilo Reyes',
     price: null,
     image: '../media/images/products/teofilo-reyes-edicion-limitada-erreserbak-ribera-duero.png',
-    name: 'TeÃ³filo Reyes EdiciÃ³n Limitada',
-    excerpt: { eu: 'Ribera del Duero D.O.ko erreserbak, TeÃ³filo Reyes upategiak egina.', es: 'Vino reservas con D.O. Ribera del Duero, elaborado por la bodega TeÃ³filo Reyes.' }
+    name: 'Teófilo Reyes Edición Limitada',
+    excerpt: { eu: 'Ribera del Duero D.O.ko erreserbak, Teófilo Reyes upategiak egina.', es: 'Vino reservas con D.O. Ribera del Duero, elaborado por la bodega Teófilo Reyes.' }
   },
   {
     slug: 'anna-codorniu-brut-nature-cavak',
     type: 'cavak',
-    winery: 'CodornÃ­u',
+    winery: 'Codorníu',
     price: null,
     image: '../media/images/products/anna-codorniu-brut-nature-cavak.png',
     name: 'Anna Codorniu Brut Nature',
-    excerpt: { eu: 'Cava, CodornÃ­u upategiak egina.', es: 'Cava elaborado por la bodega CodornÃ­u.' }
+    excerpt: { eu: 'Cava, Codorníu upategiak egina.', es: 'Cava elaborado por la bodega Codorníu.' }
   },
   {
     slug: 'bejamin-1551-codorniu-20cl-cavak',
     type: 'cavak',
-    winery: 'CodornÃ­u',
+    winery: 'Codorníu',
     price: null,
     image: '../media/images/products/bejamin-1551-codorniu-20cl-cavak.png',
     name: 'Bejamin 1551 Codorniu 20cl',
-    excerpt: { eu: 'Cava, CodornÃ­u upategiak egina.', es: 'Cava elaborado por la bodega CodornÃ­u.' }
+    excerpt: { eu: 'Cava, Codorníu upategiak egina.', es: 'Cava elaborado por la bodega Codorníu.' }
   },
   {
     slug: 'castillo-monjardin-chardonnay-brut-nature-cavak',
     type: 'cavak',
-    winery: 'Castillo de MonjardÃ­n',
+    winery: 'Castillo de Monjardín',
     price: null,
     image: '../media/images/products/castillo-monjardin-chardonnay-brut-nature-cavak.png',
     name: 'Castillo Monjardin Chardonnay Brut Nature',
-    excerpt: { eu: 'Cava, Castillo de MonjardÃ­n upategiak egina.', es: 'Cava elaborado por la bodega Castillo de MonjardÃ­n.' }
+    excerpt: { eu: 'Cava, Castillo de Monjardín upategiak egina.', es: 'Cava elaborado por la bodega Castillo de Monjardín.' }
   },
   {
     slug: 'castillo-monjardin-rose-brut-nature-cavak',
     type: 'cavak',
-    winery: 'Castillo de MonjardÃ­n',
+    winery: 'Castillo de Monjardín',
     price: null,
     image: '../media/images/products/castillo-monjardin-rose-brut-nature-cavak.png',
     name: 'Castillo Monjardin Rose Brut Nature',
-    excerpt: { eu: 'Cava, Castillo de MonjardÃ­n upategiak egina.', es: 'Cava elaborado por la bodega Castillo de MonjardÃ­n.' }
+    excerpt: { eu: 'Cava, Castillo de Monjardín upategiak egina.', es: 'Cava elaborado por la bodega Castillo de Monjardín.' }
   },
   {
     slug: 'codorniu-1551-cavak',
     type: 'cavak',
-    winery: 'CodornÃ­u',
+    winery: 'Codorníu',
     price: null,
     image: '../media/images/products/codorniu-1551-cavak.png',
     name: 'Codorniu 1551',
-    excerpt: { eu: 'Cava, CodornÃ­u upategiak egina.', es: 'Cava elaborado por la bodega CodornÃ­u.' }
+    excerpt: { eu: 'Cava, Codorníu upategiak egina.', es: 'Cava elaborado por la bodega Codorníu.' }
   },
   {
     slug: 'delavenne-brut-grand-cru-cavak',
@@ -595,11 +595,11 @@ window.PRODUCTS_DATA = [
   {
     slug: 'fernandez-de-pierola-brut-nature-espumoso-cavak',
     type: 'cavak',
-    winery: 'Pierola (FernÃ¡ndez de PiÃ©rola)',
+    winery: 'Pierola (Fernández de Piérola)',
     price: null,
     image: '../media/images/products/fernandez-de-pierola-brut-nature-espumoso-cavak.png',
-    name: 'FernÃ¡ndez de PiÃ©rola Brut Nature Espumoso',
-    excerpt: { eu: 'Cava, Pierola (FernÃ¡ndez de PiÃ©rola) upategiak egina.', es: 'Cava elaborado por la bodega Pierola (FernÃ¡ndez de PiÃ©rola).' }
+    name: 'Fernández de Piérola Brut Nature Espumoso',
+    excerpt: { eu: 'Cava, Pierola (Fernández de Piérola) upategiak egina.', es: 'Cava elaborado por la bodega Pierola (Fernández de Piérola).' }
   },
   {
     slug: 'jaume-serra-brut-nature-20cl-cavak',
@@ -622,11 +622,11 @@ window.PRODUCTS_DATA = [
   {
     slug: 'juve-camps-reserva-de-familia-cavak',
     type: 'cavak',
-    winery: 'JuvÃ© & Camps',
+    winery: 'Juvé & Camps',
     price: null,
     image: '../media/images/products/juve-camps-reserva-de-familia-cavak.png',
     name: 'Juve & Camps Reserva de familia',
-    excerpt: { eu: 'Cava, JuvÃ© & Camps upategiak egina.', es: 'Cava elaborado por la bodega JuvÃ© & Camps.' }
+    excerpt: { eu: 'Cava, Juvé & Camps upategiak egina.', es: 'Cava elaborado por la bodega Juvé & Camps.' }
   },
   {
     slug: 'louis-roederer-cavak',
@@ -658,11 +658,11 @@ window.PRODUCTS_DATA = [
   {
     slug: 'moet-chandon-cavak',
     type: 'cavak',
-    winery: 'MoÃ«t & Chandon',
+    winery: 'Moët & Chandon',
     price: null,
     image: '../media/images/products/moet-chandon-cavak.png',
-    name: 'MoÃ«t & Chandon',
-    excerpt: { eu: 'Cava, MoÃ«t & Chandon upategiak egina.', es: 'Cava elaborado por la bodega MoÃ«t & Chandon.' }
+    name: 'Moët & Chandon',
+    excerpt: { eu: 'Cava, Moët & Chandon upategiak egina.', es: 'Cava elaborado por la bodega Moët & Chandon.' }
   },
   {
     slug: 'mumm-cavak',
@@ -715,7 +715,7 @@ window.PRODUCTS_DATA = [
     winery: 'Rimarts',
     price: null,
     image: '../media/images/products/rimarts-rose-martinez-cavak.png',
-    name: 'Rimarts Rose MartÃ­nez',
+    name: 'Rimarts Rose Martínez',
     excerpt: { eu: 'Cava, Rimarts upategiak egina.', es: 'Cava elaborado por la bodega Rimarts.' }
   },
   {
@@ -749,31 +749,31 @@ window.PRODUCTS_DATA = [
     slug: 'castillo-monjardin-cabernet-tempranillo-merlot-12-meses-barrica-roble-frances-onduak-navarra',
     type: 'onduak',
     dok: 'navarra',
-    winery: 'Castillo de MonjardÃ­n',
+    winery: 'Castillo de Monjardín',
     price: null,
     image: '../media/images/products/castillo-monjardin-cabernet-tempranillo-merlot-12-meses-barrica-roble-frances-onduak-navarra.png',
-    name: 'Castillo Monjardin Cabernet Tempranillo Merlot 12 meses barrica roble FrancÃ©s',
-    excerpt: { eu: 'Navarra D.O.ko onduak, Castillo de MonjardÃ­n upategiak egina.', es: 'Vino crianza con D.O. Navarra, elaborado por la bodega Castillo de MonjardÃ­n.' }
+    name: 'Castillo Monjardin Cabernet Tempranillo Merlot 12 meses barrica roble Francés',
+    excerpt: { eu: 'Navarra D.O.ko onduak, Castillo de Monjardín upategiak egina.', es: 'Vino crianza con D.O. Navarra, elaborado por la bodega Castillo de Monjardín.' }
   },
   {
     slug: 'gomez-de-segura-onduak-rioja',
     type: 'onduak',
     dok: 'rioja',
-    winery: 'GÃ³mez de Segura',
+    winery: 'Gómez de Segura',
     price: null,
     image: '../media/images/products/gomez-de-segura-onduak-rioja.png',
-    name: 'GÃ³mez de segura',
-    excerpt: { eu: 'Rioja D.O.ko onduak, GÃ³mez de Segura upategiak egina.', es: 'Vino crianza con D.O. Rioja, elaborado por la bodega GÃ³mez de Segura.' }
+    name: 'Gómez de segura',
+    excerpt: { eu: 'Rioja D.O.ko onduak, Gómez de Segura upategiak egina.', es: 'Vino crianza con D.O. Rioja, elaborado por la bodega Gómez de Segura.' }
   },
   {
     slug: 'luis-canas-onduak-rioja',
     type: 'onduak',
     dok: 'rioja',
-    winery: 'Luis CaÃ±as',
+    winery: 'Luis Cañas',
     price: null,
     image: '../media/images/products/luis-canas-onduak-rioja.png',
-    name: 'Luis CaÃ±as',
-    excerpt: { eu: 'Rioja D.O.ko onduak, Luis CaÃ±as upategiak egina.', es: 'Vino crianza con D.O. Rioja, elaborado por la bodega Luis CaÃ±as.' }
+    name: 'Luis Cañas',
+    excerpt: { eu: 'Rioja D.O.ko onduak, Luis Cañas upategiak egina.', es: 'Vino crianza con D.O. Rioja, elaborado por la bodega Luis Cañas.' }
   },
   {
     slug: 'monasterio-de-yuso-onduak-rioja',
@@ -789,11 +789,11 @@ window.PRODUCTS_DATA = [
     slug: 'saltavinas-onduak-rioja',
     type: 'onduak',
     dok: 'rioja',
-    winery: 'SaltaviÃ±as',
+    winery: 'Saltaviñas',
     price: null,
     image: '../media/images/products/saltavinas-onduak-rioja.png',
-    name: 'SaltaviÃ±as',
-    excerpt: { eu: 'Rioja D.O.ko onduak, SaltaviÃ±as upategiak egina.', es: 'Vino crianza con D.O. Rioja, elaborado por la bodega SaltaviÃ±as.' }
+    name: 'Saltaviñas',
+    excerpt: { eu: 'Rioja D.O.ko onduak, Saltaviñas upategiak egina.', es: 'Vino crianza con D.O. Rioja, elaborado por la bodega Saltaviñas.' }
   },
   {
     slug: 'ugarte-onduak-rioja',
@@ -809,11 +809,11 @@ window.PRODUCTS_DATA = [
     slug: 'vina-arnaiz-onduak-rioja',
     type: 'onduak',
     dok: 'rioja',
-    winery: 'ViÃ±a Arnaiz',
+    winery: 'Viña Arnaiz',
     price: null,
     image: '../media/images/products/vina-arnaiz-onduak-rioja.png',
-    name: 'ViÃ±a Arnaiz',
-    excerpt: { eu: 'Rioja D.O.ko onduak, ViÃ±a Arnaiz upategiak egina.', es: 'Vino crianza con D.O. Rioja, elaborado por la bodega ViÃ±a Arnaiz.' }
+    name: 'Viña Arnaiz',
+    excerpt: { eu: 'Rioja D.O.ko onduak, Viña Arnaiz upategiak egina.', es: 'Vino crianza con D.O. Rioja, elaborado por la bodega Viña Arnaiz.' }
   },
   {
     slug: 'asturiana-alpro-avena-esneak',
@@ -884,7 +884,7 @@ window.PRODUCTS_DATA = [
     winery: 'Asturiana',
     price: null,
     image: '../media/images/products/asturiana-grand-creme-esneak.png',
-    name: 'Asturiana Grand CrÃ©me',
+    name: 'Asturiana Grand Créme',
     excerpt: { eu: 'Asturiana produktua.', es: 'Producto Asturiana.' }
   },
   {
@@ -992,7 +992,7 @@ window.PRODUCTS_DATA = [
     winery: 'Frutanea',
     price: null,
     image: '../media/images/products/frutanea-confitura-extra-de-melocoton-kontserbak.png',
-    name: 'Frutanea Confitura Extra de MelocotÃ³n',
+    name: 'Frutanea Confitura Extra de Melocotón',
     excerpt: { eu: 'Frutanea produktua.', es: 'Producto Frutanea.' }
   },
   {
@@ -1052,11 +1052,11 @@ window.PRODUCTS_DATA = [
   {
     slug: 'castillo-monjardin-rosado-alba-navarra-gorriak',
     type: 'gorriak',
-    winery: 'Castillo de MonjardÃ­n',
+    winery: 'Castillo de Monjardín',
     price: null,
     image: '../media/images/products/castillo-monjardin-rosado-alba-navarra-gorriak.png',
     name: 'Castillo Monjardin Rosado Alba (Navarra)',
-    excerpt: { eu: 'Ardo gorria (arrosea), Castillo de MonjardÃ­n upategiak egina.', es: 'Vino rosado, elaborado por la bodega Castillo de MonjardÃ­n.' }
+    excerpt: { eu: 'Ardo gorria (arrosea), Castillo de Monjardín upategiak egina.', es: 'Vino rosado, elaborado por la bodega Castillo de Monjardín.' }
   },
   {
     slug: 'cresta-rosa-aguja-gorriak',
@@ -1298,31 +1298,31 @@ window.PRODUCTS_DATA = [
     slug: 'gomez-de-segura-finca-raton-erreserbak-rioja',
     type: 'erreserbak',
     dok: 'rioja',
-    winery: 'GÃ³mez de Segura',
+    winery: 'Gómez de Segura',
     price: null,
     image: '../media/images/products/gomez-de-segura-finca-raton-erreserbak-rioja.png',
-    name: 'GÃ³mez de Segura Finca RatÃ³n',
-    excerpt: { eu: 'Rioja D.O.ko erreserbak, GÃ³mez de Segura upategiak egina.', es: 'Vino reservas con D.O. Rioja, elaborado por la bodega GÃ³mez de Segura.' }
+    name: 'Gómez de Segura Finca Ratón',
+    excerpt: { eu: 'Rioja D.O.ko erreserbak, Gómez de Segura upategiak egina.', es: 'Vino reservas con D.O. Rioja, elaborado por la bodega Gómez de Segura.' }
   },
   {
     slug: 'gomez-de-segura-mitxarro-erreserbak-rioja',
     type: 'erreserbak',
     dok: 'rioja',
-    winery: 'GÃ³mez de Segura',
+    winery: 'Gómez de Segura',
     price: null,
     image: '../media/images/products/gomez-de-segura-mitxarro-erreserbak-rioja.png',
-    name: 'GÃ³mez de Segura Mitxarro',
-    excerpt: { eu: 'Rioja D.O.ko erreserbak, GÃ³mez de Segura upategiak egina.', es: 'Vino reservas con D.O. Rioja, elaborado por la bodega GÃ³mez de Segura.' }
+    name: 'Gómez de Segura Mitxarro',
+    excerpt: { eu: 'Rioja D.O.ko erreserbak, Gómez de Segura upategiak egina.', es: 'Vino reservas con D.O. Rioja, elaborado por la bodega Gómez de Segura.' }
   },
   {
     slug: 'gomez-de-segura-erreserbak-rioja',
     type: 'erreserbak',
     dok: 'rioja',
-    winery: 'GÃ³mez de Segura',
+    winery: 'Gómez de Segura',
     price: null,
     image: '../media/images/products/gomez-de-segura-erreserbak-rioja.png',
-    name: 'GÃ³mez de Segura',
-    excerpt: { eu: 'Rioja D.O.ko erreserbak, GÃ³mez de Segura upategiak egina.', es: 'Vino reservas con D.O. Rioja, elaborado por la bodega GÃ³mez de Segura.' }
+    name: 'Gómez de Segura',
+    excerpt: { eu: 'Rioja D.O.ko erreserbak, Gómez de Segura upategiak egina.', es: 'Vino reservas con D.O. Rioja, elaborado por la bodega Gómez de Segura.' }
   },
   {
     slug: 'hiru-3-racimos-erreserbak-rioja',
@@ -1338,31 +1338,31 @@ window.PRODUCTS_DATA = [
     slug: 'luis-canas-gran-reserva-erreserbak-rioja',
     type: 'erreserbak',
     dok: 'rioja',
-    winery: 'Luis CaÃ±as',
+    winery: 'Luis Cañas',
     price: null,
     image: '../media/images/products/luis-canas-gran-reserva-erreserbak-rioja.png',
-    name: 'Luis CaÃ±as Gran Reserva',
-    excerpt: { eu: 'Rioja D.O.ko erreserbak, Luis CaÃ±as upategiak egina.', es: 'Vino reservas con D.O. Rioja, elaborado por la bodega Luis CaÃ±as.' }
+    name: 'Luis Cañas Gran Reserva',
+    excerpt: { eu: 'Rioja D.O.ko erreserbak, Luis Cañas upategiak egina.', es: 'Vino reservas con D.O. Rioja, elaborado por la bodega Luis Cañas.' }
   },
   {
     slug: 'luis-canas-reserva-familia-erreserbak-rioja',
     type: 'erreserbak',
     dok: 'rioja',
-    winery: 'Luis CaÃ±as',
+    winery: 'Luis Cañas',
     price: null,
     image: '../media/images/products/luis-canas-reserva-familia-erreserbak-rioja.png',
-    name: 'Luis CaÃ±as Reserva Familia',
-    excerpt: { eu: 'Rioja D.O.ko erreserbak, Luis CaÃ±as upategiak egina.', es: 'Vino reservas con D.O. Rioja, elaborado por la bodega Luis CaÃ±as.' }
+    name: 'Luis Cañas Reserva Familia',
+    excerpt: { eu: 'Rioja D.O.ko erreserbak, Luis Cañas upategiak egina.', es: 'Vino reservas con D.O. Rioja, elaborado por la bodega Luis Cañas.' }
   },
   {
     slug: 'luis-canas-erreserbak-rioja',
     type: 'erreserbak',
     dok: 'rioja',
-    winery: 'Luis CaÃ±as',
+    winery: 'Luis Cañas',
     price: null,
     image: '../media/images/products/luis-canas-erreserbak-rioja.png',
-    name: 'Luis CaÃ±as',
-    excerpt: { eu: 'Rioja D.O.ko erreserbak, Luis CaÃ±as upategiak egina.', es: 'Vino reservas con D.O. Rioja, elaborado por la bodega Luis CaÃ±as.' }
+    name: 'Luis Cañas',
+    excerpt: { eu: 'Rioja D.O.ko erreserbak, Luis Cañas upategiak egina.', es: 'Vino reservas con D.O. Rioja, elaborado por la bodega Luis Cañas.' }
   },
   {
     slug: 'martin-cendoya-erreserbak-rioja',
@@ -1404,11 +1404,11 @@ window.PRODUCTS_DATA = [
   {
     slug: 'gaztanaga-sagardoak',
     type: 'sagardoak',
-    winery: 'GaztaÃ±aga',
+    winery: 'Gaztañaga',
     price: null,
     image: '../media/images/products/gaztanaga-sagardoak.png',
-    name: 'GaztaÃ±aga',
-    excerpt: { eu: 'Sagardoa, GaztaÃ±aga egina.', es: 'Sidra elaborada por GaztaÃ±aga.' }
+    name: 'Gaztañaga',
+    excerpt: { eu: 'Sagardoa, Gaztañaga egina.', es: 'Sidra elaborada por Gaztañaga.' }
   },
   {
     slug: 'saizar-37-5-cl-sagardoak',
@@ -1503,11 +1503,11 @@ window.PRODUCTS_DATA = [
   {
     slug: 'ganeta-txakolinak',
     type: 'txakolinak',
-    winery: 'GaÃ±eta',
+    winery: 'Gañeta',
     price: null,
     image: '../media/images/products/ganeta-txakolinak.png',
-    name: 'GaÃ±eta',
-    excerpt: { eu: 'Txakolina, GaÃ±eta upategiak egina.', es: 'Txakoli elaborado por la bodega GaÃ±eta.' }
+    name: 'Gañeta',
+    excerpt: { eu: 'Txakolina, Gañeta upategiak egina.', es: 'Txakoli elaborado por la bodega Gañeta.' }
   },
   {
     slug: 'k-pilota-txakolinak',
@@ -1615,11 +1615,11 @@ window.PRODUCTS_DATA = [
     slug: 'marques-de-vizhoja-vino-de-galicia-zuriak-besteak',
     type: 'zuriak',
     dok: 'besteak',
-    winery: 'MarquÃ©s de Vizhoja',
+    winery: 'Marqués de Vizhoja',
     price: null,
     image: '../media/images/products/marques-de-vizhoja-vino-de-galicia-zuriak-besteak.png',
-    name: 'MarquÃ©s de Vizhoja (Vino de Galicia)',
-    excerpt: { eu: 'Ardo zuria, MarquÃ©s de Vizhoja upategiak egina.', es: 'Vino blanco elaborado por la bodega MarquÃ©s de Vizhoja.' }
+    name: 'Marqués de Vizhoja (Vino de Galicia)',
+    excerpt: { eu: 'Ardo zuria, Marqués de Vizhoja upategiak egina.', es: 'Vino blanco elaborado por la bodega Marqués de Vizhoja.' }
   },
   {
     slug: 'vega-verde-0-0-sparkling-zuriak-besteak',
@@ -1685,11 +1685,11 @@ window.PRODUCTS_DATA = [
     slug: 'gomez-de-segura-viura-zuriak-rioja',
     type: 'zuriak',
     dok: 'rioja',
-    winery: 'GÃ³mez de Segura',
+    winery: 'Gómez de Segura',
     price: null,
     image: '../media/images/products/gomez-de-segura-viura-zuriak-rioja.png',
-    name: 'GÃ³mez de Segura (Viura)',
-    excerpt: { eu: 'Rioja D.O.ko ardo zuria, GÃ³mez de Segura upategiak egina.', es: 'Vino blanco con D.O. Rioja, elaborado por la bodega GÃ³mez de Segura.' }
+    name: 'Gómez de Segura (Viura)',
+    excerpt: { eu: 'Rioja D.O.ko ardo zuria, Gómez de Segura upategiak egina.', es: 'Vino blanco con D.O. Rioja, elaborado por la bodega Gómez de Segura.' }
   },
   {
     slug: 'haritz-zuriak-rioja',
@@ -1705,31 +1705,31 @@ window.PRODUCTS_DATA = [
     slug: 'luis-canas-viejas-viejas-zuriak-rioja',
     type: 'zuriak',
     dok: 'rioja',
-    winery: 'Luis CaÃ±as',
+    winery: 'Luis Cañas',
     price: null,
     image: '../media/images/products/luis-canas-viejas-viejas-zuriak-rioja.png',
-    name: 'Luis CaÃ±as Viejas Viejas',
-    excerpt: { eu: 'Rioja D.O.ko ardo zuria, Luis CaÃ±as upategiak egina.', es: 'Vino blanco con D.O. Rioja, elaborado por la bodega Luis CaÃ±as.' }
+    name: 'Luis Cañas Viejas Viejas',
+    excerpt: { eu: 'Rioja D.O.ko ardo zuria, Luis Cañas upategiak egina.', es: 'Vino blanco con D.O. Rioja, elaborado por la bodega Luis Cañas.' }
   },
   {
     slug: 'luis-canas-zuriak-rioja',
     type: 'zuriak',
     dok: 'rioja',
-    winery: 'Luis CaÃ±as',
+    winery: 'Luis Cañas',
     price: null,
     image: '../media/images/products/luis-canas-zuriak-rioja.png',
-    name: 'Luis CaÃ±as',
-    excerpt: { eu: 'Rioja D.O.ko ardo zuria, Luis CaÃ±as upategiak egina.', es: 'Vino blanco con D.O. Rioja, elaborado por la bodega Luis CaÃ±as.' }
+    name: 'Luis Cañas',
+    excerpt: { eu: 'Rioja D.O.ko ardo zuria, Luis Cañas upategiak egina.', es: 'Vino blanco con D.O. Rioja, elaborado por la bodega Luis Cañas.' }
   },
   {
     slug: 'pierola-tempranillo-blanco-zuriak-rioja',
     type: 'zuriak',
     dok: 'rioja',
-    winery: 'Pierola (FernÃ¡ndez de PiÃ©rola)',
+    winery: 'Pierola (Fernández de Piérola)',
     price: null,
     image: '../media/images/products/pierola-tempranillo-blanco-zuriak-rioja.png',
     name: 'Pierola Tempranillo blanco',
-    excerpt: { eu: 'Rioja D.O.ko ardo zuria, Pierola (FernÃ¡ndez de PiÃ©rola) upategiak egina.', es: 'Vino blanco con D.O. Rioja, elaborado por la bodega Pierola (FernÃ¡ndez de PiÃ©rola).' }
+    excerpt: { eu: 'Rioja D.O.ko ardo zuria, Pierola (Fernández de Piérola) upategiak egina.', es: 'Vino blanco con D.O. Rioja, elaborado por la bodega Pierola (Fernández de Piérola).' }
   },
   {
     slug: 'ugarte-viura-zuriak-rioja',
@@ -1755,11 +1755,11 @@ window.PRODUCTS_DATA = [
     slug: 'castillo-monjardin-pct-100-chardonnay-zuriak-navarra',
     type: 'zuriak',
     dok: 'navarra',
-    winery: 'Castillo de MonjardÃ­n',
+    winery: 'Castillo de Monjardín',
     price: null,
     image: '../media/images/products/castillo-monjardin-pct-100-chardonnay-zuriak-navarra.png',
     name: 'Castillo Monjardin %100 Chardonnay',
-    excerpt: { eu: 'Navarra D.O.ko ardo zuria, Castillo de MonjardÃ­n upategiak egina.', es: 'Vino blanco con D.O. Navarra, elaborado por la bodega Castillo de MonjardÃ­n.' }
+    excerpt: { eu: 'Navarra D.O.ko ardo zuria, Castillo de Monjardín upategiak egina.', es: 'Vino blanco con D.O. Navarra, elaborado por la bodega Castillo de Monjardín.' }
   },
   {
     slug: 'inurrieta-cuvee-sauvignon-blanc-barrica-zuriak-navarra',
@@ -1815,11 +1815,11 @@ window.PRODUCTS_DATA = [
     slug: 'gran-leirina-traixadura-zuriak-ribeiro',
     type: 'zuriak',
     dok: 'ribeiro',
-    winery: 'Gran LeiriÃ±a',
+    winery: 'Gran Leiriña',
     price: null,
     image: '../media/images/products/gran-leirina-traixadura-zuriak-ribeiro.png',
-    name: 'Gran LeiriÃ±a (Traixadura)',
-    excerpt: { eu: 'Ribeiro D.O.ko ardo zuria, Gran LeiriÃ±a upategiak egina.', es: 'Vino blanco con D.O. Ribeiro, elaborado por la bodega Gran LeiriÃ±a.' }
+    name: 'Gran Leiriña (Traixadura)',
+    excerpt: { eu: 'Ribeiro D.O.ko ardo zuria, Gran Leiriña upategiak egina.', es: 'Vino blanco con D.O. Ribeiro, elaborado por la bodega Gran Leiriña.' }
   },
   {
     slug: 'juan-miguez-godello-zuriak-ribeiro',
@@ -1838,7 +1838,7 @@ window.PRODUCTS_DATA = [
     winery: 'Juan Miguez',
     price: null,
     image: '../media/images/products/juan-miguez-torrontes-zuriak-ribeiro.png',
-    name: 'Juan Miguez (TorrontÃ©s)',
+    name: 'Juan Miguez (Torrontés)',
     excerpt: { eu: 'Ribeiro D.O.ko ardo zuria, Juan Miguez upategiak egina.', es: 'Vino blanco con D.O. Ribeiro, elaborado por la bodega Juan Miguez.' }
   },
   {
@@ -1855,11 +1855,11 @@ window.PRODUCTS_DATA = [
     slug: 'vina-leirina-treixadura-godello-albarino-zuriak-ribeiro',
     type: 'zuriak',
     dok: 'ribeiro',
-    winery: 'ViÃ±a LeiriÃ±a',
+    winery: 'Viña Leiriña',
     price: null,
     image: '../media/images/products/vina-leirina-treixadura-godello-albarino-zuriak-ribeiro.png',
-    name: 'ViÃ±a LeiriÃ±a (Treixadura, Godello, albariÃ±o)',
-    excerpt: { eu: 'Ribeiro D.O.ko ardo zuria, ViÃ±a LeiriÃ±a upategiak egina.', es: 'Vino blanco con D.O. Ribeiro, elaborado por la bodega ViÃ±a LeiriÃ±a.' }
+    name: 'Viña Leiriña (Treixadura, Godello, albariño)',
+    excerpt: { eu: 'Ribeiro D.O.ko ardo zuria, Viña Leiriña upategiak egina.', es: 'Vino blanco con D.O. Ribeiro, elaborado por la bodega Viña Leiriña.' }
   },
   {
     slug: 'animoso-verdejo-zuriak-rueda',
@@ -1888,7 +1888,7 @@ window.PRODUCTS_DATA = [
     winery: 'Chapirete',
     price: null,
     image: '../media/images/products/chapirete-verdejo-prefiloxerico-zuriak-rueda.png',
-    name: 'Chapirete Verdejo PrefiloxÃ©rico',
+    name: 'Chapirete Verdejo Prefiloxérico',
     excerpt: { eu: 'Rueda D.O.ko ardo zuria, Chapirete upategiak egina.', es: 'Vino blanco con D.O. Rueda, elaborado por la bodega Chapirete.' }
   },
   {
@@ -1948,7 +1948,7 @@ window.PRODUCTS_DATA = [
     winery: 'Enate',
     price: null,
     image: '../media/images/products/enate-gewurtraminer-zuriak-somontano.png',
-    name: 'Enate GewÃ¼rtraminer',
+    name: 'Enate Gewürtraminer',
     excerpt: { eu: 'Somontano D.O.ko ardo zuria, Enate upategiak egina.', es: 'Vino blanco con D.O. Somontano, elaborado por la bodega Enate.' }
   },
   {
@@ -2138,11 +2138,11 @@ window.PRODUCTS_DATA = [
   {
     slug: 'pacifico-clara-garagardoak',
     type: 'garagardoak',
-    winery: 'PacÃ­fico',
+    winery: 'Pacífico',
     price: null,
     image: '../media/images/products/pacifico-clara-garagardoak.png',
-    name: 'PacÃ­fico Clara',
-    excerpt: { eu: 'PacÃ­fico produktua.', es: 'Producto PacÃ­fico.' }
+    name: 'Pacífico Clara',
+    excerpt: { eu: 'Pacífico produktua.', es: 'Producto Pacífico.' }
   },
   {
     slug: '7up-20cl-freskagarriak',
@@ -2159,7 +2159,7 @@ window.PRODUCTS_DATA = [
     winery: 'Aquarius',
     price: null,
     image: '../media/images/products/aquarius-limon-1l-freskagarriak.png',
-    name: 'Aquarius LimÃ³n 1L',
+    name: 'Aquarius Limón 1L',
     excerpt: { eu: 'Aquarius produktua.', es: 'Producto Aquarius.' }
   },
   {
@@ -2168,7 +2168,7 @@ window.PRODUCTS_DATA = [
     winery: 'Aquarius',
     price: null,
     image: '../media/images/products/aquarius-limon-lata-33cl-freskagarriak.png',
-    name: 'Aquarius LimÃ³n Lata 33cl',
+    name: 'Aquarius Limón Lata 33cl',
     excerpt: { eu: 'Aquarius produktua.', es: 'Producto Aquarius.' }
   },
   {
@@ -2285,7 +2285,7 @@ window.PRODUCTS_DATA = [
     winery: 'Kas',
     price: null,
     image: '../media/images/products/kas-limon-1l-freskagarriak.png',
-    name: 'Kas LimÃ³n 1L',
+    name: 'Kas Limón 1L',
     excerpt: { eu: 'Kas produktua.', es: 'Producto Kas.' }
   },
   {
@@ -2294,7 +2294,7 @@ window.PRODUCTS_DATA = [
     winery: 'Kas',
     price: null,
     image: '../media/images/products/kas-limon-20cl-freskagarriak.png',
-    name: 'Kas LimÃ³n 20cl',
+    name: 'Kas Limón 20cl',
     excerpt: { eu: 'Kas produktua.', es: 'Producto Kas.' }
   },
   {
@@ -2303,7 +2303,7 @@ window.PRODUCTS_DATA = [
     winery: 'Kas',
     price: null,
     image: '../media/images/products/kas-limon-2l-freskagarriak.png',
-    name: 'Kas LimÃ³n 2L',
+    name: 'Kas Limón 2L',
     excerpt: { eu: 'Kas produktua.', es: 'Producto Kas.' }
   },
   {
@@ -2312,7 +2312,7 @@ window.PRODUCTS_DATA = [
     winery: 'Kas',
     price: null,
     image: '../media/images/products/kas-limon-lata-33cl-freskagarriak.png',
-    name: 'Kas LimÃ³n Lata 33cl',
+    name: 'Kas Limón Lata 33cl',
     excerpt: { eu: 'Kas produktua.', es: 'Producto Kas.' }
   },
   {
@@ -2390,19 +2390,19 @@ window.PRODUCTS_DATA = [
   {
     slug: 'don-simon-zumos-200ml-pack-4-freskagarriak',
     type: 'freskagarriak',
-    winery: 'Don SimÃ³n',
+    winery: 'Don Simón',
     price: null,
     size: 4,
     image: '../media/images/products/don-simon-zumos-200ml-pack-4-freskagarriak.png',
-    name: 'Don SimÃ³n Zumos 200ml (Pack 4)',
-    excerpt: { eu: 'Don SimÃ³n produktua.', es: 'Producto Don SimÃ³n.' }
+    name: 'Don Simón Zumos 200ml (Pack 4)',
+    excerpt: { eu: 'Don Simón produktua.', es: 'Producto Don Simón.' }
   },
   {
     slug: 'sangria-75cl-freskagarriak',
     type: 'freskagarriak',
     price: null,
     image: '../media/images/products/sangria-75cl-freskagarriak.png',
-    name: 'SangrÃ­a 75cl',
+    name: 'Sangría 75cl',
     excerpt: { eu: 'Freskagarria.', es: 'Refresco.' }
   },
   {
@@ -2410,7 +2410,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     price: null,
     image: '../media/images/products/sangria-lata-33cl-freskagarriak.png',
-    name: 'SangrÃ­a Lata 33cl',
+    name: 'Sangría Lata 33cl',
     excerpt: { eu: 'Freskagarria.', es: 'Refresco.' }
   },
   {
@@ -2434,7 +2434,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     price: null,
     image: '../media/images/products/tonica-cristal-20cl-freskagarriak.png',
-    name: 'TÃ³nica Cristal 20cl',
+    name: 'Tónica Cristal 20cl',
     excerpt: { eu: 'Freskagarria.', es: 'Refresco.' }
   },
   {
@@ -2442,7 +2442,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     price: null,
     image: '../media/images/products/tonica-lata-33cl-freskagarriak.png',
-    name: 'TÃ³nica Lata 33cl',
+    name: 'Tónica Lata 33cl',
     excerpt: { eu: 'Freskagarria.', es: 'Refresco.' }
   },
   {
@@ -2465,197 +2465,197 @@ window.PRODUCTS_DATA = [
   {
     slug: 'cafe-250g-con-valvula-kafea',
     type: 'kafea',
-    winery: 'La BrasileÃ±a',
+    winery: 'La Brasileña',
     price: null,
     size: 2,
     image: '../media/images/products/cafe-250g-con-valvula-kafea.png',
-    name: 'CafÃ© 250g con VÃ¡lvula',
-    excerpt: { eu: 'La BrasileÃ±a produktua.', es: 'Producto La BrasileÃ±a.' }
+    name: 'Café 250g con Válvula',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
   },
   {
     slug: 'cafe-500g-con-valvula-y-rip-zip-kafea',
     type: 'kafea',
-    winery: 'La BrasileÃ±a',
+    winery: 'La Brasileña',
     price: null,
     size: 2,
     image: '../media/images/products/cafe-500g-con-valvula-y-rip-zip-kafea.png',
-    name: 'CafÃ© 500g con VÃ¡lvula y Rip Zip',
-    excerpt: { eu: 'La BrasileÃ±a produktua.', es: 'Producto La BrasileÃ±a.' }
+    name: 'Café 500g con Válvula y Rip Zip',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
   },
   {
     slug: 'cafe-blend-arabicas-5-alturas-kafea',
     type: 'kafea',
-    winery: 'La BrasileÃ±a',
+    winery: 'La Brasileña',
     price: null,
     image: '../media/images/products/cafe-blend-arabicas-5-alturas-kafea.png',
-    name: 'CafÃ© Blend ArÃ¡bicas 5 Alturas',
-    excerpt: { eu: 'La BrasileÃ±a produktua.', es: 'Producto La BrasileÃ±a.' }
+    name: 'Café Blend Arábicas 5 Alturas',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
   },
   {
     slug: 'cafe-descafeinado-swiss-water-1000g-kafea',
     type: 'kafea',
-    winery: 'La BrasileÃ±a',
+    winery: 'La Brasileña',
     price: null,
     image: '../media/images/products/cafe-descafeinado-swiss-water-1000g-kafea.png',
-    name: 'CafÃ© Descafeinado Swiss Water 1000g',
-    excerpt: { eu: 'La BrasileÃ±a produktua.', es: 'Producto La BrasileÃ±a.' }
+    name: 'Café Descafeinado Swiss Water 1000g',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
   },
   {
     slug: 'cafe-ecologico-kafea',
     type: 'kafea',
-    winery: 'La BrasileÃ±a',
+    winery: 'La Brasileña',
     price: null,
     image: '../media/images/products/cafe-ecologico-kafea.png',
-    name: 'CafÃ© EcolÃ³gico',
-    excerpt: { eu: 'La BrasileÃ±a produktua.', es: 'Producto La BrasileÃ±a.' }
+    name: 'Café Ecológico',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
   },
   {
     slug: 'cafe-gama-superior-mezcla-bares-kafea',
     type: 'kafea',
-    winery: 'La BrasileÃ±a',
+    winery: 'La Brasileña',
     price: null,
     image: '../media/images/products/cafe-gama-superior-mezcla-bares-kafea.png',
-    name: 'CafÃ© Gama Superior Mezcla Bares',
-    excerpt: { eu: 'La BrasileÃ±a produktua.', es: 'Producto La BrasileÃ±a.' }
+    name: 'Café Gama Superior Mezcla Bares',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
   },
   {
     slug: 'cafe-1000g-con-valvula-kafea',
     type: 'kafea',
-    winery: 'La BrasileÃ±a',
+    winery: 'La Brasileña',
     price: null,
     image: '../media/images/products/cafe-1000g-con-valvula-kafea.png',
-    name: 'CafÃ© 1000g con VÃ¡lvula',
-    excerpt: { eu: 'La BrasileÃ±a produktua.', es: 'Producto La BrasileÃ±a.' }
+    name: 'Café 1000g con Válvula',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
   },
   {
     slug: 'cafe-certificado-fairtrade-kafea',
     type: 'kafea',
-    winery: 'La BrasileÃ±a',
+    winery: 'La Brasileña',
     price: null,
     image: '../media/images/products/cafe-certificado-fairtrade-kafea.png',
-    name: 'CafÃ© Certificado Fairtrade',
-    excerpt: { eu: 'La BrasileÃ±a produktua.', es: 'Producto La BrasileÃ±a.' }
+    name: 'Café Certificado Fairtrade',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
   },
   {
     slug: 'cafe-en-capsulas-blend-arabicas-5-alturas-kafea',
     type: 'kafea',
-    winery: 'La BrasileÃ±a',
+    winery: 'La Brasileña',
     price: null,
     order: 1,
     size: 2,
     image: '../media/images/products/cafe-en-capsulas-blend-arabicas-5-alturas-kafea.png',
-    name: 'CafÃ© en CÃ¡psulas Blend ArÃ¡bicas 5 Alturas',
-    excerpt: { eu: 'La BrasileÃ±a produktua.', es: 'Producto La BrasileÃ±a.' }
+    name: 'Café en Cápsulas Blend Arábicas 5 Alturas',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
   },
   {
     slug: 'cafe-en-capsulas-blend-arabicas-descafeinado-kafea',
     type: 'kafea',
-    winery: 'La BrasileÃ±a',
+    winery: 'La Brasileña',
     price: null,
     order: 1,
     size: 2,
     image: '../media/images/products/cafe-en-capsulas-blend-arabicas-descafeinado-kafea.png',
-    name: 'CafÃ© en CÃ¡psulas Blend ArÃ¡bicas Descafeinado',
-    excerpt: { eu: 'La BrasileÃ±a produktua.', es: 'Producto La BrasileÃ±a.' }
+    name: 'Café en Cápsulas Blend Arábicas Descafeinado',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
   },
   {
     slug: 'cafe-en-capsulas-cafe-forza-kafea',
     type: 'kafea',
-    winery: 'La BrasileÃ±a',
+    winery: 'La Brasileña',
     price: null,
     order: 1,
     size: 2,
     image: '../media/images/products/cafe-en-capsulas-cafe-forza-kafea.png',
-    name: 'CafÃ© en CÃ¡psulas CafÃ© Forza',
-    excerpt: { eu: 'La BrasileÃ±a produktua.', es: 'Producto La BrasileÃ±a.' }
+    name: 'Café en Cápsulas Café Forza',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
   },
   {
     slug: 'cafe-en-capsulas-costa-rica-kafea',
     type: 'kafea',
-    winery: 'La BrasileÃ±a',
+    winery: 'La Brasileña',
     price: null,
     order: 1,
     size: 2,
     image: '../media/images/products/cafe-en-capsulas-costa-rica-kafea.png',
-    name: 'CafÃ© en CÃ¡psulas Costa Rica',
-    excerpt: { eu: 'La BrasileÃ±a produktua.', es: 'Producto La BrasileÃ±a.' }
+    name: 'Café en Cápsulas Costa Rica',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
   },
   {
     slug: 'cafe-en-capsulas-kenya-aa-kafea',
     type: 'kafea',
-    winery: 'La BrasileÃ±a',
+    winery: 'La Brasileña',
     price: null,
     order: 1,
     size: 2,
     image: '../media/images/products/cafe-en-capsulas-kenya-aa-kafea.png',
-    name: 'CafÃ© en CÃ¡psulas Kenya AA',
-    excerpt: { eu: 'La BrasileÃ±a produktua.', es: 'Producto La BrasileÃ±a.' }
+    name: 'Café en Cápsulas Kenya AA',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
   },
   {
     slug: 'cafe-gama-cremisimo-descafeinado-espresso-kafea',
     type: 'kafea',
-    winery: 'La BrasileÃ±a',
+    winery: 'La Brasileña',
     price: null,
     image: '../media/images/products/cafe-gama-cremisimo-descafeinado-espresso-kafea.png',
-    name: 'CafÃ© Gama CremÃ­simo Descafeinado Espresso',
-    excerpt: { eu: 'La BrasileÃ±a produktua.', es: 'Producto La BrasileÃ±a.' }
+    name: 'Café Gama Cremísimo Descafeinado Espresso',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
   },
   {
     slug: 'cafe-gama-cremisimo-espresso-kafea',
     type: 'kafea',
-    winery: 'La BrasileÃ±a',
+    winery: 'La Brasileña',
     price: null,
     image: '../media/images/products/cafe-gama-cremisimo-espresso-kafea.png',
-    name: 'CafÃ© Gama CremÃ­simo Espresso',
-    excerpt: { eu: 'La BrasileÃ±a produktua.', es: 'Producto La BrasileÃ±a.' }
+    name: 'Café Gama Cremísimo Espresso',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
   },
   {
     slug: 'cafe-gama-cremisimo-natural-kafea',
     type: 'kafea',
-    winery: 'La BrasileÃ±a',
+    winery: 'La Brasileña',
     price: null,
     image: '../media/images/products/cafe-gama-cremisimo-natural-kafea.png',
-    name: 'CafÃ© Gama CremÃ­simo Natural',
-    excerpt: { eu: 'La BrasileÃ±a produktua.', es: 'Producto La BrasileÃ±a.' }
+    name: 'Café Gama Cremísimo Natural',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
   },
   {
     slug: 'cafe-gama-especial-natural-kafea',
     type: 'kafea',
-    winery: 'La BrasileÃ±a',
+    winery: 'La Brasileña',
     price: null,
     image: '../media/images/products/cafe-gama-especial-natural-kafea.png',
-    name: 'CafÃ© Gama Especial Natural',
-    excerpt: { eu: 'La BrasileÃ±a produktua.', es: 'Producto La BrasileÃ±a.' }
+    name: 'Café Gama Especial Natural',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
   },
   {
     slug: 'cafe-gama-superior-blend-arabicas-descafeinado-kafea',
     type: 'kafea',
-    winery: 'La BrasileÃ±a',
+    winery: 'La Brasileña',
     price: null,
     image: '../media/images/products/cafe-gama-superior-blend-arabicas-descafeinado-kafea.png',
-    name: 'CafÃ© Gama Superior Blend ArÃ¡bicas Descafeinado',
-    excerpt: { eu: 'La BrasileÃ±a produktua.', es: 'Producto La BrasileÃ±a.' }
+    name: 'Café Gama Superior Blend Arábicas Descafeinado',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
   },
   {
     slug: 'cafe-soluble-monodosis-caja-de-150u-kafea',
     type: 'kafea',
-    winery: 'La BrasileÃ±a',
+    winery: 'La Brasileña',
     price: null,
     size: 2,
     image: '../media/images/products/cafe-soluble-monodosis-caja-de-150u-kafea.png',
-    name: 'CafÃ© Soluble Monodosis (Caja de 150u)',
-    excerpt: { eu: 'La BrasileÃ±a produktua.', es: 'Producto La BrasileÃ±a.' }
+    name: 'Café Soluble Monodosis (Caja de 150u)',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
   },
   {
     slug: 'cafe-en-capsulas-colombia-narino-el-tambo-kafea',
     type: 'kafea',
-    winery: 'La BrasileÃ±a',
+    winery: 'La Brasileña',
     price: null,
     order: 1,
     size: 2,
     image: '../media/images/products/cafe-en-capsulas-colombia-narino-el-tambo-kafea.png',
-    name: 'CafÃ© en CÃ¡psulas Colombia NariÃ±o El Tambo',
-    excerpt: { eu: 'La BrasileÃ±a produktua.', es: 'Producto La BrasileÃ±a.' }
+    name: 'Café en Cápsulas Colombia Nariño El Tambo',
+    excerpt: { eu: 'La Brasileña produktua.', es: 'Producto La Brasileña.' }
   },
   {
     slug: 'cafetera-expobar-kafea',
@@ -2685,7 +2685,7 @@ window.PRODUCTS_DATA = [
     size: 2,
     image: '../media/images/products/manzanilla-infusioak.png',
     name: 'Manzanilla',
-    excerpt: { eu: 'Infusioa.', es: 'InfusiÃ³n.' }
+    excerpt: { eu: 'Infusioa.', es: 'Infusión.' }
   },
   {
     slug: 'poleo-menta-infusioak',
@@ -2694,7 +2694,7 @@ window.PRODUCTS_DATA = [
     size: 2,
     image: '../media/images/products/poleo-menta-infusioak.png',
     name: 'Poleo-Menta',
-    excerpt: { eu: 'Infusioa.', es: 'InfusiÃ³n.' }
+    excerpt: { eu: 'Infusioa.', es: 'Infusión.' }
   },
   {
     slug: 'tila-infusioak',
@@ -2703,7 +2703,7 @@ window.PRODUCTS_DATA = [
     size: 2,
     image: '../media/images/products/tila-infusioak.png',
     name: 'Tila',
-    excerpt: { eu: 'Infusioa.', es: 'InfusiÃ³n.' }
+    excerpt: { eu: 'Infusioa.', es: 'Infusión.' }
   },
   {
     slug: 'la-explanada-aceitunas-kontserbak',
@@ -2722,8 +2722,8 @@ window.PRODUCTS_DATA = [
     price: null,
     size: 2,
     image: '../media/images/products/nardin-atun-kontserbak.png',
-    name: 'NardÃ­n AtÃºn',
-    excerpt: { eu: 'NardÃ­n produktua.', es: 'Producto NardÃ­n.' }
+    name: 'Nardín Atún',
+    excerpt: { eu: 'Nardín produktua.', es: 'Producto Nardín.' }
   },
   {
     slug: 'nardin-boqueron-kontserbak',
@@ -2732,8 +2732,8 @@ window.PRODUCTS_DATA = [
     price: null,
     size: 2,
     image: '../media/images/products/nardin-boqueron-kontserbak.png',
-    name: 'NardÃ­n BoquerÃ³n',
-    excerpt: { eu: 'NardÃ­n produktua.', es: 'Producto NardÃ­n.' }
+    name: 'Nardín Boquerón',
+    excerpt: { eu: 'Nardín produktua.', es: 'Producto Nardín.' }
   },
   {
     slug: 'zubelzu-gilda-guindilla-kontserbak',
@@ -2749,10 +2749,9 @@ window.PRODUCTS_DATA = [
 
 
 
-
 // ================= ARCHIVO ORIGINAL: content\blog-data.js =================
 // ============================================================
-// BLOG â€” WordPress-eko "Entradak" (Posts) automatikoki ekartzen
+// BLOG — WordPress-eko "Entradak" (Posts) automatikoki ekartzen
 // ditu, WP REST API bidez (ez da PHP-rik, ez plugin berezirik
 // behar). WordPress-en artikulu bat sortzeko, joan zure WP
 // admin-era: Entradak > Gehitu berria, eta bete beti bezala:
@@ -2767,10 +2766,9 @@ window.WP_BLOG_BASE = "https://bordaardoak.eus";
 
 
 
-
 // ================= ARCHIVO ORIGINAL: content\social-data.js =================
 // ============================================================
-// RRSS â€” sare sozial bakoitzaren txartela.
+// RRSS — sare sozial bakoitzaren txartela.
 //
 // Instagram / YouTube / TikTok: Elfsight-en widgetekin (elfsight.com)
 // automatikoki eguneratzen dira. Elfsight-en kontua sortu, sarea
@@ -2808,7 +2806,6 @@ window.SOCIAL_DATA = [
 
 
 
-
 // ================= ARCHIVO ORIGINAL: content\catalogs-data.js =================
 // Katalogorik ez dagoenean, array hau hutsik utzi: window.CATALOGS_DATA = [];
 // Katalogo bat gehitzeko, kopiatu beheko eredua eta bete datuak.
@@ -2823,9 +2820,9 @@ window.SOCIAL_DATA = [
 //       description: "Zarautzeko dendarako katalogoa. Ardo hautatuak, xanpainak eta gourmet produktuak, prezio eta eskaintza berrituekin."
 //     },
 //     es: {
-//       title: "CatÃ¡logo Zarautz",
-//       edition: "EdiciÃ³n 2026",
-//       description: "CatÃ¡logo para la tienda de Zarautz. Vinos seleccionados, cavas y productos gourmet, con precios y ofertas actualizados."
+//       title: "Catálogo Zarautz",
+//       edition: "Edición 2026",
+//       description: "Catálogo para la tienda de Zarautz. Vinos seleccionados, cavas y productos gourmet, con precios y ofertas actualizados."
 //     }
 //   },
 //   {
@@ -2837,15 +2834,14 @@ window.SOCIAL_DATA = [
 //       description: "Donostiarako katalogoa. Ardo hautatuak, xanpainak eta gourmet produktuak, prezio eta eskaintza berrituekin."
 //     },
 //     es: {
-//       title: "CatÃ¡logo Donostia",
-//       edition: "EdiciÃ³n 2026",
-//       description: "CatÃ¡logo para Donostia. Vinos seleccionados, cavas y productos gourmet, con precios y ofertas actualizados."
+//       title: "Catálogo Donostia",
+//       edition: "Edición 2026",
+//       description: "Catálogo para Donostia. Vinos seleccionados, cavas y productos gourmet, con precios y ofertas actualizados."
 //     }
 //   }
 // ];
 
 window.CATALOGS_DATA = [];
-
 
 
 
@@ -2894,23 +2890,23 @@ window.CATALOGS_DATA = [];
      tables translate them to the label shown on cards and matched against the
      facet checkboxes in products-filter.js (whose values differ by language). */
   var TYPE_LABELS = {
-    urtekoak: { eu: 'Urtekoak', es: 'Del aÃ±o' },
+    urtekoak: { eu: 'Urtekoak', es: 'Del año' },
     onduak: { eu: 'Onduak', es: 'Crianza' },
     erreserbak: { eu: 'Erreserbak', es: 'Reservas' },
     zuriak: { eu: 'Zuriak', es: 'Blancos' },
     gorriak: { eu: 'Gorriak', es: 'Rosados' },
     sagardoak: { eu: 'Sagardoak', es: 'Sidras' },
-    txakolinak: { eu: 'TxakoliÃ±ak', es: 'Txakolis' },
+    txakolinak: { eu: 'Txakoliñak', es: 'Txakolis' },
     cavak: { eu: 'Cavak', es: 'Cavas' },
     garagardoak: { eu: 'Garagardoak', es: 'Cervezas' },
     freskagarriak: { eu: 'Freskagarriak', es: 'Refrescos' },
     likoreak: { eu: 'Likoreak', es: 'Licores' },
-    kafea: { eu: 'Kafea', es: 'CafÃ©' },
+    kafea: { eu: 'Kafea', es: 'Café' },
     infusioak: { eu: 'Infusioak', es: 'Infusiones' },
-    esneak: { eu: 'Esneak / Esnekiak', es: 'LÃ¡cteos' },
+    esneak: { eu: 'Esneak / Esnekiak', es: 'Lácteos' },
     patatak: { eu: 'Patatak', es: 'Patatas' },
     kontserbak: { eu: 'Kontserbak', es: 'Conservas' },
-    ostalaritza: { eu: 'Ostalaritza', es: 'HostelerÃ­a' },
+    ostalaritza: { eu: 'Ostalaritza', es: 'Hostelería' },
     olioak: { eu: 'Olioak', es: 'Aceites' }
   };
   var DOK_LABELS = {
@@ -2953,7 +2949,7 @@ window.CATALOGS_DATA = [];
   }
 
   /* Optional manual `order` weight (default 0) lets a few products within the
-     same type be grouped before/after the rest â€” e.g. coffee capsules after
+     same type be grouped before/after the rest — e.g. coffee capsules after
      bagged coffee, and coffee machines last of all within "Kafea". */
   var data = (window.PRODUCTS_DATA || []).slice().sort(function (a, b) {
     return rank(TYPE_ORDER, a.type) - rank(TYPE_ORDER, b.type) ||
@@ -3000,7 +2996,7 @@ window.CATALOGS_DATA = [];
 
       setSeo({
         title: product.name + ' | Borda Ardoak',
-        description: excerpt || description || (product.name + ' â€” ' + category + ', ' + dokLabel(product.dok) + '.'),
+        description: excerpt || description || (product.name + ' — ' + category + ', ' + dokLabel(product.dok) + '.'),
         image: absImage,
         url: pageUrl,
         euUrl: DOMAIN + '/produktua.html?slug=' + encodeURIComponent(slug),
@@ -3039,7 +3035,7 @@ window.CATALOGS_DATA = [];
       }
 
       /* Prefer showing the rest of the same producer's range (e.g. every
-         other David Moreno wine) over just "same type" â€” a shopper picking
+         other David Moreno wine) over just "same type" — a shopper picking
          one bottle from a bodega usually wants to see what else it makes. If
          the product has no winery/brand, fall back to same-type, capped so
          the section doesn't balloon to an entire category. */
@@ -3057,7 +3053,6 @@ window.CATALOGS_DATA = [];
     }
   }
 })();
-
 
 
 
@@ -3086,7 +3081,7 @@ window.CATALOGS_DATA = [];
   var visibleLimit = PAGE_SIZE;
 
   /* Checking/clearing a facet can hide most of the grid, shrinking the page
-     height under the current scroll position â€” the browser then clamps
+     height under the current scroll position — the browser then clamps
      scroll to the new bottom, which reads as an unwanted jump down. Scroll
      back to the top of the results whenever the filter selection changes. */
   function scrollToResultsTop() {
@@ -3108,40 +3103,40 @@ window.CATALOGS_DATA = [];
      "Ardoak/Vinos" is itself a checkbox followed by its nested wine subtypes
      (Urtekoak..Gorriak); no other category has subgroups. Winery names are
      proper nouns, so they're shared between eu/es. */
-  /* Generic words ("Bodegas", "Txakolina", "SidrerÃ­a", "Champagne"...) are
-     trimmed off â€” the facet already says Upategia/Bodega, so repeating it in
+  /* Generic words ("Bodegas", "Txakolina", "Sidrería", "Champagne"...) are
+     trimmed off — the facet already says Upategia/Bodega, so repeating it in
      every option just adds noise. */
   var FIXED_WINERIES = [
-    'David Moreno', 'Pierola (FernÃ¡ndez de PiÃ©rola)', 'Luis CaÃ±as',
-    'Eguren Ugarte', 'Sonsierra', 'GÃ³mez de Segura', 'Carlos Bujanda',
-    'Beronia', 'Azpilicueta', 'Heras CordÃ³n', 'Faustino (FyA)',
-    'MarquÃ©s de AntaÃ±o (GarcÃ­a CarriÃ³n)', 'Carlos MartÃ­nez CaÃ±as', 'Abel Estebas (Cordovin)',
-    'Castillo Lagomar', 'Labraz', 'GontÃ©s', 'Goren', 'Vado de la Reina', 'Vobiscum',
-    'Inurrieta', 'Castillo de MonjardÃ­n', 'Lasierpe', 'Ledea',
-    'TeÃ³filo Reyes', 'Traslascuesta', 'Roa',
+    'David Moreno', 'Pierola (Fernández de Piérola)', 'Luis Cañas',
+    'Eguren Ugarte', 'Sonsierra', 'Gómez de Segura', 'Carlos Bujanda',
+    'Beronia', 'Azpilicueta', 'Heras Cordón', 'Faustino (FyA)',
+    'Marqués de Antaño (García Carrión)', 'Carlos Martínez Cañas', 'Abel Estebas (Cordovin)',
+    'Castillo Lagomar', 'Labraz', 'Gontés', 'Goren', 'Vado de la Reina', 'Vobiscum',
+    'Inurrieta', 'Castillo de Monjardín', 'Lasierpe', 'Ledea',
+    'Teófilo Reyes', 'Traslascuesta', 'Roa',
     'Tarsus', 'Chapirete', 'Animoso',
     'Cyatho', 'Mayor de Castilla', 'Valdihuete',
     'Luna Beberide', 'Paixar', 'La Recuperada', 'Zaramendil', 'Quinta da Peza',
-    'MarquÃ©s de Vizhoja',
-    'Juan Miguez', "o'ventosela", 'Enate', 'Agerre', 'GaÃ±eta',
+    'Marqués de Vizhoja',
+    'Juan Miguez', "o'ventosela", 'Enate', 'Agerre', 'Gañeta',
     'Gaintza', 'Ulacia', 'Arregi', 'Mokoroa',
     'Aizpurua', 'Ameztoi', 'Katxina', 'Txomin Etxaniz',
     'Talai Berri', 'K5', 'Aburuza', 'Saizar',
-    'GaztaÃ±aga', 'Zapiain', 'Trabanco', 'Vallformosa', 'Mistinguett',
-    'Rimarts', 'Jaume Serra', 'CodornÃ­u', 'JuvÃ© & Camps',
-    'MoÃ«t & Chandon', 'Veuve Clicquot', 'G.H. Mumm',
+    'Gaztañaga', 'Zapiain', 'Trabanco', 'Vallformosa', 'Mistinguett',
+    'Rimarts', 'Jaume Serra', 'Codorníu', 'Juvé & Camps',
+    'Moët & Chandon', 'Veuve Clicquot', 'G.H. Mumm',
     'Louis Roederer', 'Delavenne', 'SANDUA', 'Ybarra', 'Frutanea', 'Frutos Secos',
     /* Added with the second product batch (gorriak, esneak, kontserbak, zuriak besteak/ribeiro): */
     'Cresta Rosa (Aguja)', 'Don Luciano', 'La cacciatora', 'Matteus',
     'Asturiana', 'Cola Cao', 'Euskal Herria', 'Maribel', 'Vermeiren',
-    'El Palacio', 'Gran LeiriÃ±a', 'Haritz', 'Hiru 3 racimos', 'K Pilota',
-    'Martin Cendoya', 'Monasterio de Yuso', 'SaltaviÃ±as', 'Ugarte',
-    'Vega Verde', 'ViÃ±a Arnaiz', 'ViÃ±a LeiriÃ±a', 'Fizzy (Fizzante)', 'primo',
-    /* Added with the cervezas/refrescos/cafÃ© batch: */
+    'El Palacio', 'Gran Leiriña', 'Haritz', 'Hiru 3 racimos', 'K Pilota',
+    'Martin Cendoya', 'Monasterio de Yuso', 'Saltaviñas', 'Ugarte',
+    'Vega Verde', 'Viña Arnaiz', 'Viña Leiriña', 'Fizzy (Fizzante)', 'primo',
+    /* Added with the cervezas/refrescos/café batch: */
     'Corona', 'Franziskaner', 'Leffe', 'Mahou', 'Modelo', 'Stella Artois',
-    'Budweiser', 'Hoegaarden', 'PacÃ­fico', '7UP', 'Aquarius', 'Euskola', 'Kas',
-    'Coca-Cola', 'Fanta', 'La Casera', 'Nestea', 'Don SimÃ³n', 'Cinzano',
-    'La BrasileÃ±a', 'Expobar', 'Orhi Markibar',
+    'Budweiser', 'Hoegaarden', 'Pacífico', '7UP', 'Aquarius', 'Euskola', 'Kas',
+    'Coca-Cola', 'Fanta', 'La Casera', 'Nestea', 'Don Simón', 'Cinzano',
+    'La Brasileña', 'Expobar', 'Orhi Markibar',
     /* Added with the conservas batch: */
     'La Explanada', 'Nardin', 'Zubelzu'
   ];
@@ -3149,13 +3144,13 @@ window.CATALOGS_DATA = [];
   var FIXED_FACET_ITEMS = {
     type: isES
       ? [
-          { value: 'Vinos', children: ['Del aÃ±o', 'Crianza', 'Reservas', 'Blancos', 'Rosados'] },
-          'Sidras', 'Txakolis', 'Cavas', 'Cervezas', 'Refrescos', 'Licores', 'CafÃ©', 'Infusiones',
-          'LÃ¡cteos', 'Patatas', 'Conservas', 'HostelerÃ­a', 'Aceites'
+          { value: 'Vinos', children: ['Del año', 'Crianza', 'Reservas', 'Blancos', 'Rosados'] },
+          'Sidras', 'Txakolis', 'Cavas', 'Cervezas', 'Refrescos', 'Licores', 'Café', 'Infusiones',
+          'Lácteos', 'Patatas', 'Conservas', 'Hostelería', 'Aceites'
         ]
       : [
           { value: 'Ardoak', children: ['Urtekoak', 'Onduak', 'Erreserbak', 'Zuriak', 'Gorriak'] },
-          'Sagardoak', 'TxakoliÃ±ak', 'Cavak', 'Garagardoak', 'Freskagarriak', 'Likoreak', 'Kafea', 'Infusioak',
+          'Sagardoak', 'Txakoliñak', 'Cavak', 'Garagardoak', 'Freskagarriak', 'Likoreak', 'Kafea', 'Infusioak',
           'Esneak / Esnekiak', 'Patatak', 'Kontserbak', 'Ostalaritza', 'Olioak'
         ],
     dok: isES
@@ -3178,12 +3173,12 @@ window.CATALOGS_DATA = [];
      es productos.html get separate keys) so that clicking into a product and
      coming back with the browser's Back button restores it instead of
      starting over. sessionStorage clears itself when the tab closes, which
-     is the right lifetime here â€” it shouldn't outlive the visit. */
+     is the right lifetime here — it shouldn't outlive the visit. */
   var STORAGE_KEY = 'borda-product-filters:' + location.pathname;
   function saveFilterState() {
     try {
       sessionStorage.setItem(STORAGE_KEY, JSON.stringify({ query: query, selected: selected }));
-    } catch (e) { /* storage unavailable (private mode, quota...) â€” ignore */ }
+    } catch (e) { /* storage unavailable (private mode, quota...) — ignore */ }
   }
   function loadFilterState() {
     try {
@@ -3355,7 +3350,7 @@ window.CATALOGS_DATA = [];
     FACETS.forEach(function (f) {
       selected[f.key].forEach(function (v) {
         /* A child whose parent is also selected (e.g. "Onduak" once "Ardoak"
-           is checked) is redundant here â€” the parent's own chip already
+           is checked) is redundant here — the parent's own chip already
            covers it, and removing that one chip should clear the whole
            group via setFacetValueCascade. */
         var parent = CHILD_TO_PARENT[f.key] && CHILD_TO_PARENT[f.key][v];
@@ -3424,7 +3419,7 @@ window.CATALOGS_DATA = [];
           }
         }
       }
-      /* Only paginate the unfiltered "all products" view â€” while searching or
+      /* Only paginate the unfiltered "all products" view — while searching or
          filtering, show every match so results never get hidden by the cap. */
       if (show && !isFiltering) {
         shown++;
@@ -3448,7 +3443,6 @@ window.CATALOGS_DATA = [];
   renderActive();
   apply();
 })();
-
 
 
 
@@ -3490,15 +3484,15 @@ window.CATALOGS_DATA = [];
 
   var TEXT = inEs
     ? {
-        readMore: 'Leer mÃ¡s â†’',
+        readMore: 'Leer más →',
         related: 'Otras Noticias',
-        notFound: 'No se ha encontrado el artÃ­culo. ',
+        notFound: 'No se ha encontrado el artículo. ',
         backLink: 'Volver al blog',
-        empty: 'TodavÃ­a no hay artÃ­culos publicados.',
-        error: 'No se han podido cargar los artÃ­culos. IntÃ©ntalo mÃ¡s tarde.'
+        empty: 'Todavía no hay artículos publicados.',
+        error: 'No se han podido cargar los artículos. Inténtalo más tarde.'
       }
     : {
-        readMore: 'Irakurri gehiago â†’',
+        readMore: 'Irakurri gehiago →',
         related: 'Beste Berriak',
         notFound: 'Artikulua ez da aurkitu. ',
         backLink: 'Itzuli blogera',
@@ -3538,7 +3532,7 @@ window.CATALOGS_DATA = [];
       date: wp.date,
       tags: tags,
       image: (media && media.source_url) || '',
-      excerpt: stripHtml(wp.excerpt && wp.excerpt.rendered).replace(/\[â€¦\]\s*$/, 'â€¦'),
+      excerpt: stripHtml(wp.excerpt && wp.excerpt.rendered).replace(/\[…\]\s*$/, '…'),
       content: (wp.content && wp.content.rendered) || ''
     };
   }
@@ -3715,18 +3709,17 @@ window.CATALOGS_DATA = [];
 
 
 
-
 // ================= ARCHIVO ORIGINAL: pages\render-social.js =================
 (function () {
   var inEs = /\/es\//.test(location.pathname);
   var followLabel = inEs
-    ? { instagram: 'SÃ­guenos en Instagram', tiktok: 'SÃ­guenos en TikTok', facebook: 'SÃ­guenos en Facebook' }
+    ? { instagram: 'Síguenos en Instagram', tiktok: 'Síguenos en TikTok', facebook: 'Síguenos en Facebook' }
     : { instagram: 'Jarraitu gu Instagramen', tiktok: 'Jarraitu gu TikToken', facebook: 'Jarraitu gu Facebooken' };
   var followText = inEs
-    ? 'No se ha podido cargar la Ãºltima publicaciÃ³n automÃ¡ticamente. MÃ­ranos directamente en el perfil.'
+    ? 'No se ha podido cargar la última publicación automáticamente. Míranos directamente en el perfil.'
     : 'Ezin izan da azken argitalpena automatikoki kargatu. Ikusi zuzenean gure profilean.';
-  var loadingText = inEs ? 'Cargando Ãºltima publicaciÃ³nâ€¦' : 'Azken argitalpena kargatzenâ€¦';
-  var viewPostLabel = inEs ? 'Ver publicaciÃ³n' : 'Ikusi argitalpena';
+  var loadingText = inEs ? 'Cargando última publicación…' : 'Azken argitalpena kargatzen…';
+  var viewPostLabel = inEs ? 'Ver publicación' : 'Ikusi argitalpena';
   var profileLabel = inEs ? 'Ver perfil' : 'Ikusi profila';
 
   var ICONS = {
@@ -3742,7 +3735,7 @@ window.CATALOGS_DATA = [];
 
   function truncate(s, max) {
     s = String(s || '').replace(/\s+/g, ' ').trim();
-    return s.length > max ? s.slice(0, max - 1).trim() + 'â€¦' : s;
+    return s.length > max ? s.slice(0, max - 1).trim() + '…' : s;
   }
 
   function formatDate(value) {
@@ -3770,7 +3763,7 @@ window.CATALOGS_DATA = [];
     return '<div class="social-card social-card-soon" id="social-card-' + item.platform + '">' +
       badge(item) +
       '<p class="social-card-soon-text">' + followText + '</p>' +
-      '<a class="read-more" href="' + attr(item.profileUrl) + '" target="_blank" rel="noopener">' + (followLabel[item.platform] || profileLabel) + ' â†’</a>' +
+      '<a class="read-more" href="' + attr(item.profileUrl) + '" target="_blank" rel="noopener">' + (followLabel[item.platform] || profileLabel) + ' →</a>' +
       '</div>';
   }
 
@@ -3788,7 +3781,7 @@ window.CATALOGS_DATA = [];
     return '<div class="social-card social-card-post" id="social-card-' + item.platform + '">' +
       badge(item) + img +
       '<div class="social-post-body">' + text + date +
-      '<a class="read-more" href="' + attr(post.permalink || item.profileUrl) + '" target="_blank" rel="noopener">' + viewPostLabel + ' â†’</a>' +
+      '<a class="read-more" href="' + attr(post.permalink || item.profileUrl) + '" target="_blank" rel="noopener">' + viewPostLabel + ' →</a>' +
       '</div></div>';
   }
 
@@ -3884,7 +3877,6 @@ window.CATALOGS_DATA = [];
 
 
 
-
 // ================= ARCHIVO ORIGINAL: pages\render-catalogs.js =================
 (function () {
   var DOMAIN = 'https://bordaardoak.eus';
@@ -3917,12 +3909,12 @@ window.CATALOGS_DATA = [];
     if (hreflangEs) hreflangEs.setAttribute('href', opts.esUrl);
     if (hreflangDefault) hreflangDefault.setAttribute('href', opts.euUrl);
   }
-  var viewLabel = inEs ? 'Ver CatÃ¡logo' : 'Ikusi Katalogoa';
+  var viewLabel = inEs ? 'Ver Catálogo' : 'Ikusi Katalogoa';
   var emptyHtml = inEs
-    ? '<p>Ahora mismo no hay catÃ¡logos disponibles.</p>'
+    ? '<p>Ahora mismo no hay catálogos disponibles.</p>'
     : '<p>Une honetan ez dago katalogorik eskuragarri.</p>';
   var notFoundHtml = inEs
-    ? '<p>CatÃ¡logo no encontrado. <a href="' + listPage + '">Volver a catÃ¡logos</a>.</p>'
+    ? '<p>Catálogo no encontrado. <a href="' + listPage + '">Volver a catálogos</a>.</p>'
     : '<p>Katalogoa ez da aurkitu. <a href="' + listPage + '">Itzuli katalogoetara</a>.</p>';
 
   var data = window.CATALOGS_DATA || [];
@@ -3968,7 +3960,7 @@ window.CATALOGS_DATA = [];
 
       /* Use the browser's own PDF viewer toolbar (not a custom one): it has
          working zoom, page navigation and crisp re-rendering at any zoom
-         level out of the box, across multi-page PDFs â€” a hand-rolled zoom
+         level out of the box, across multi-page PDFs — a hand-rolled zoom
          control kept breaking one of those (page scroll, reload flicker, or
          blurry scaled rendering). */
       var iframeEl = document.getElementById('catalog-iframe');
@@ -3977,7 +3969,6 @@ window.CATALOGS_DATA = [];
     }
   }
 })();
-
 
 
 
@@ -4026,7 +4017,6 @@ window.CATALOGS_DATA = [];
 
 
 
-
 // ================= ARCHIVO ORIGINAL: pages\cookie-consent.js =================
 (function () {
   var STORAGE_KEY = 'bordaardoak_cookie_consent';
@@ -4037,7 +4027,7 @@ window.CATALOGS_DATA = [];
   var policyHref = inEs ? 'politica-cookies.html' : 'cookies-politika.html';
 
   var text = inEs
-    ? 'Utilizamos cookies propias y de terceros para mejorar tu experiencia de navegaciÃ³n. Puedes aceptarlas, rechazar las no esenciales o consultar mÃ¡s informaciÃ³n en nuestra <a href="' + policyHref + '">PolÃ­tica de Cookies</a>.'
+    ? 'Utilizamos cookies propias y de terceros para mejorar tu experiencia de navegación. Puedes aceptarlas, rechazar las no esenciales o consultar más información en nuestra <a href="' + policyHref + '">Política de Cookies</a>.'
     : 'Gure/hirugarrenen cookieak erabiltzen ditugu zure nabigazio-esperientzia hobetzeko. Onar ditzakezu, ez-funtsezkoak ezetsi edo informazio gehiago kontsultatu gure <a href="' + policyHref + '">Cookien Politikan</a>.';
 
   var acceptLabel = inEs ? 'Aceptar todas' : 'Onartu Guztiak';
@@ -4071,7 +4061,6 @@ window.CATALOGS_DATA = [];
 
 
 
-
 // ================= ARCHIVO ORIGINAL: pages\scroll-top.js =================
 (function () {
   var btn = document.querySelector('.scroll-top');
@@ -4084,7 +4073,6 @@ window.CATALOGS_DATA = [];
   toggle();
   window.addEventListener('scroll', toggle, { passive: true });
 })();
-
 
 
 
@@ -4128,7 +4116,6 @@ window.CATALOGS_DATA = [];
 
 
 
-
 // ================= ARCHIVO ORIGINAL: pages\contact-form.js =================
 (function () {
   var form = document.getElementById('contact-form');
@@ -4143,7 +4130,7 @@ window.CATALOGS_DATA = [];
     ? {
         sending: 'Enviando...',
         success: 'Gracias, tu mensaje se ha enviado correctamente.',
-        error: 'No se ha podido enviar el mensaje. IntÃ©ntalo de nuevo o escrÃ­benos a info@bordaardoak.eus.'
+        error: 'No se ha podido enviar el mensaje. Inténtalo de nuevo o escríbenos a info@bordaardoak.eus.'
       }
     : {
         sending: 'Bidaltzen...',
@@ -4188,7 +4175,6 @@ window.CATALOGS_DATA = [];
 
 
 
-
 // ================= ARCHIVO ORIGINAL: pages\contact-map.js =================
 document.addEventListener('DOMContentLoaded', () => {
   const el = document.getElementById('contact-map');
@@ -4208,7 +4194,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
   map.fitBounds([store, warehouse], { padding: [40, 40] });
 });
-
-
-
-
