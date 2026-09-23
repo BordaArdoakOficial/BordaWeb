@@ -49,7 +49,7 @@ body {
 
 /* Pins the footer to the viewport bottom on short pages (e.g. an empty
    catalog/product list) instead of letting it float up under the content. */
-body main { flex: 1 0 auto; }
+body > main { flex: 1 0 auto; }
 .site-footer { flex-shrink: 0; }
 
 img { max-width: 100%; height: auto; display: block; }
@@ -825,14 +825,14 @@ a.category-pill:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg
 
 /* Images embedded in WordPress content float right so text wraps around them on the left,
    instead of each image sitting alone on its own full-width row. */
-.article-body p:has(img),
-.article-body p:has(a img) {
+.article-body p:has(> img),
+.article-body p:has(> a > img) {
   float: right;
   width: min(340px, 42%);
   margin: 0 0 1.25rem 1.75rem;
 }
-.article-body p:has(img) img,
-.article-body p:has(a img) img {
+.article-body p:has(> img) img,
+.article-body p:has(> a > img) img {
   display: block;
   width: 100%;
   height: auto;
@@ -840,16 +840,16 @@ a.category-pill:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg
   box-shadow: var(--shadow);
 }
 @media (max-width: 640px) {
-  .article-body p:has(img),
-  .article-body p:has(a img) {
+  .article-body p:has(> img),
+  .article-body p:has(> a > img) {
     float: none;
     width: 100%;
     margin: 0 0 1.5rem;
   }
 }
 
-/* Markdown-style "-" lines get converted into real list-item elements (see render-blog.js);
-   this also styles any UL list WordPress renders natively. Wine-colored dot instead of a default disc. */
+/* Markdown-style "-" lines get converted into real <li> elements (see render-blog.js);
+   this also styles any <ul> WordPress renders natively. Wine-colored dot instead of a default disc. */
 .article-body ul { list-style: none; margin: 0 0 1.5rem; padding: 0; }
 .article-body ul li {
   position: relative;
@@ -1463,7 +1463,7 @@ form textarea { min-height: 11rem; resize: vertical; }
   scrollbar-width: thin;
   scrollbar-color: var(--primary) transparent;
 }
-.social-widget-wrap div[class^="elfsight-app-"] { width: 100%; }
+.social-widget-wrap > div[class^="elfsight-app-"] { width: 100%; }
 .social-widget-cover {
   display: none;
   position: absolute;
@@ -1472,7 +1472,7 @@ form textarea { min-height: 11rem; resize: vertical; }
   background-size: 200% 100%;
   animation: social-shimmer 1.4s ease-in-out infinite;
 }
-.social-widget-wrap.is-loading div[class^="elfsight-app-"] { visibility: hidden; }
+.social-widget-wrap.is-loading > div[class^="elfsight-app-"] { visibility: hidden; }
 .social-widget-wrap.is-loading .social-widget-cover { display: block; }
 @keyframes social-shimmer {
   0% { background-position: 200% 0; }
@@ -1575,7 +1575,7 @@ form textarea { min-height: 11rem; resize: vertical; }
   align-items: start;
   padding-bottom: 3rem;
 }
-.footer-columns div { display: flex; flex-direction: column; gap: 0.5rem; }
+.footer-columns > div { display: flex; flex-direction: column; gap: 0.5rem; }
 .footer-columns strong { color: #fff; font-size: 1.1rem; margin-bottom: 0.35rem; }
 .footer-columns p { margin: 0; font-size: 0.95rem; }
 
@@ -1694,7 +1694,7 @@ form textarea { min-height: 11rem; resize: vertical; }
 
 @media (max-width: 640px) {
   .footer-columns { grid-template-columns: 1fr; gap: 2.5rem; text-align: center; }
-  .footer-columns div { align-items: center; }
+  .footer-columns > div { align-items: center; }
   .footer-logo-badge { margin: 0 auto 1.5rem; }
   .footer-contact-list { justify-items: center; }
   .social-links { justify-content: center; }
@@ -1737,7 +1737,7 @@ form textarea { min-height: 11rem; resize: vertical; }
     cursor: pointer;
   }
   .nav-toggle:checked ~ .nav-overlay { opacity: 1; visibility: visible; }
-  /* burger to X */
+  /* burger -> X */
   .nav-toggle:checked ~ .nav-burger span:nth-child(1) { transform: translateY(7.5px) rotate(45deg); }
   .nav-toggle:checked ~ .nav-burger span:nth-child(2) { opacity: 0; }
   .nav-toggle:checked ~ .nav-burger span:nth-child(3) { transform: translateY(-7.5px) rotate(-45deg); }
@@ -1835,4 +1835,39 @@ form textarea { min-height: 11rem; resize: vertical; }
   .cookie-consent-actions { width: 100%; }
   .cookie-consent-actions .button,
   .cookie-consent-actions .button-secondary { flex: 1; }
+}
+
+/* Elimina las dos líneas separadoras de la cabecera */
+header span, 
+header div, 
+header ul, 
+header li {
+    border-left: 0 !important;
+    border-right: 0 !important;
+    box-shadow: none !important;
+}
+
+/* Específico para listas sociales e idiomas */
+.wp-block-social-links,
+.wp-block-navigation__container {
+    border: none !important;
+}
+
+/* Quita los bordes/líneas verticales del header */
+header *,
+.site-header *,
+.fusion-navbar nav li,
+.main-menu li {
+    border-left: 0 !important;
+    border-right: 0 !important;
+    box-shadow: none !important;
+}
+
+/* Oculta posibles separadores por pseudo-elemento */
+header *::before,
+header *::after,
+.site-header *::before,
+.site-header *::after {
+    border: none !important;
+    content: none !important;
 }
