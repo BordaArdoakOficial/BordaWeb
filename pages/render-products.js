@@ -186,14 +186,21 @@
         }).join('');
       }
 
-      /* Prefer showing the rest of the same producer's range (e.g. every
-         other David Moreno wine) over just "same type" — a shopper picking
-         one bottle from a bodega usually wants to see what else it makes. If
-         the product has no winery/brand, fall back to same-type, capped so
-         the section doesn't balloon to an entire category. */
-      var related = product.winery
+      /* Show the rest of the same producer's range first (e.g. every other
+         David Moreno wine) — a shopper picking one bottle from a bodega
+         usually wants to see what else it makes — then fill any remaining
+         slots with other products of the same type (e.g. other onduak),
+         capped so the section doesn't balloon to an entire category. */
+      var sameWinery = product.winery
         ? data.filter(function (p) { return p.winery === product.winery && p.slug !== product.slug; })
-        : data.filter(function (p) { return p.type === product.type && p.slug !== product.slug; }).slice(0, 3);
+        : [];
+      var sameType = data.filter(function (p) {
+        return p.type === product.type && p.slug !== product.slug && p.winery !== product.winery;
+      });
+      var related = sameWinery.slice(0, 8);
+      for (var ri = 0; ri < sameType.length && related.length < 8; ri++) {
+        related.push(sameType[ri]);
+      }
 
       var relatedSection = document.getElementById('related-products');
       var relatedGrid = document.getElementById('related-products-grid');
