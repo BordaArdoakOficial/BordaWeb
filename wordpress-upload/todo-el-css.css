@@ -1318,8 +1318,14 @@ form textarea { min-height: 11rem; resize: vertical; }
 .contact-info { display: grid; gap: 1.25rem; }
 .contact-info strong { color: var(--text); display: block; margin-bottom: 0.15rem; }
 .contact-info p { margin: 0; color: var(--muted); }
-.map-wrapper { margin-top: 1.5rem; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+.map-wrapper { margin-top: 1.5rem; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); position: relative; z-index: 0; }
 .map-wrapper iframe { display: block; width: 100%; border: 0; }
+
+/* The "#top" anchor used by the back-to-top link is a raw HTML/link tag before it
+   in the page content, so it misses WordPress's automatic first-child margin
+   reset and gets a stray top margin from the site's flow-layout spacing, which
+   shows up as a white bar above the header. Zero it out explicitly. */
+#top { margin-top: 0; }
 
 /* ---------- Catalog ---------- */
 .catalog-page { display: grid; gap: 0.85rem; }
