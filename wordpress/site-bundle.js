@@ -2906,7 +2906,7 @@ window.CATALOGS_DATA = [];
       '<img src="' + imgPrefix + p.image + '" alt="' + attr(p.name) + '" loading="lazy" />' +
       '<div class="product-body">' +
       '<span class="tag">' + category + '</span>' +
-      '<h3>' + p.name + '</h3>' +
+      '<h3 title="' + attr(p.name) + '">' + p.name + '</h3>' +
       '</div></a>';
   }
 

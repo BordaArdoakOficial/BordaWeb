@@ -693,7 +693,18 @@ body.admin-bar .site-header { top: 32px; }
   padding: 0.2rem 0.6rem;
   border-radius: 999px;
 }
-.product-card h3 { margin: 0.15rem 0 0; font-size: 1rem; }
+/* A few product names run very long (full varietal lists, aging notes)
+   and were pushing some cards to 4-5 lines of title while neighbors sat
+   at 1-2, making the grid look uneven. Clamp to 3 lines with an ellipsis;
+   the full name is still available via the title attribute (tooltip). */
+.product-card h3 {
+  margin: 0.15rem 0 0;
+  font-size: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 
 /* Wider product photos (jars, capsule tins, multi-packs) look cramped and
    tiny in the default tall 3:4 slot — give them a shorter, wider image box
