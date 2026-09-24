@@ -76,7 +76,7 @@ window.PRODUCTS_DATA = [
     winery: 'Inurrieta',
     price: null,
     image: '../media/images/products/inurrieta-norte-cabernet-saugvinon-merlon-y-otras-variedades-urtekoak-navarra.png',
-    name: 'Inurrieta Norte ( Cabernet, saugvinon, Merlon y otras variedades )',
+    name: 'Inurrieta Norte ( Cabernet, Sauvignon, Merlot y otras variedades )',
     excerpt: { eu: 'Navarra D.O.ko urtekoak, Inurrieta upategiak egina.', es: 'Vino del año con D.O. Navarra, elaborado por la bodega Inurrieta.' }
   },
   {
@@ -186,7 +186,7 @@ window.PRODUCTS_DATA = [
     winery: 'Faustino (FyA)',
     price: null,
     image: '../media/images/products/fya-matutana-tinta-onduak-rioja.png',
-    name: 'FyA Matutana tinta',
+    name: 'FyA Matutana Tinta',
     excerpt: { eu: 'Rioja D.O.ko onduak, Faustino (FyA) upategiak egina.', es: 'Vino crianza con D.O. Rioja, elaborado por la bodega Faustino (FyA).' }
   },
   {
@@ -761,7 +761,7 @@ window.PRODUCTS_DATA = [
     winery: 'Gómez de Segura',
     price: null,
     image: '../media/images/products/gomez-de-segura-onduak-rioja.png',
-    name: 'Gómez de segura',
+    name: 'Gómez de Segura',
     excerpt: { eu: 'Rioja D.O.ko onduak, Gómez de Segura upategiak egina.', es: 'Vino crianza con D.O. Rioja, elaborado por la bodega Gómez de Segura.' }
   },
   {
@@ -1105,11 +1105,11 @@ window.PRODUCTS_DATA = [
   {
     slug: 'la-cacciatora-gorriak',
     type: 'gorriak',
-    winery: 'La cacciatora',
+    winery: 'La Cacciatora',
     price: null,
     image: '../media/images/products/la-cacciatora-gorriak.png',
-    name: 'La cacciatora',
-    excerpt: { eu: 'Ardo gorria (arrosea), La cacciatora upategiak egina.', es: 'Vino rosado, elaborado por la bodega La cacciatora.' }
+    name: 'La Cacciatora',
+    excerpt: { eu: 'Ardo gorria (arrosea), La Cacciatora upategiak egina.', es: 'Vino rosado, elaborado por la bodega La Cacciatora.' }
   },
   {
     slug: 'lasierpe-navarra-gorriak',
@@ -1327,11 +1327,11 @@ window.PRODUCTS_DATA = [
     slug: 'hiru-3-racimos-erreserbak-rioja',
     type: 'erreserbak',
     dok: 'rioja',
-    winery: 'Hiru 3 racimos',
+    winery: 'Hiru 3 Racimos',
     price: null,
     image: '../media/images/products/hiru-3-racimos-erreserbak-rioja.png',
-    name: 'Hiru 3 racimos',
-    excerpt: { eu: 'Rioja D.O.ko erreserbak, Hiru 3 racimos upategiak egina.', es: 'Vino reservas con D.O. Rioja, elaborado por la bodega Hiru 3 racimos.' }
+    name: 'Hiru 3 Racimos',
+    excerpt: { eu: 'Rioja D.O.ko erreserbak, Hiru 3 Racimos upategiak egina.', es: 'Vino reservas con D.O. Rioja, elaborado por la bodega Hiru 3 Racimos.' }
   },
   {
     slug: 'luis-canas-gran-reserva-erreserbak-rioja',
