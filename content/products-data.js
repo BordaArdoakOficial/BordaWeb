@@ -2148,7 +2148,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: '7UP',
     price: null,
-    image: '../media/images/products/7up-20cl-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/7up-20cl-freskagarriak.png',
     name: '7UP 20cl',
     excerpt: { eu: '7UP produktua.', es: 'Producto 7UP.' }
   },
@@ -2157,7 +2157,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'Aquarius',
     price: null,
-    image: '../media/images/products/aquarius-limon-1l-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/aquarius-limon-1l-freskagarriak.png',
     name: 'Aquarius Limón 1L',
     excerpt: { eu: 'Aquarius produktua.', es: 'Producto Aquarius.' }
   },
@@ -2166,7 +2166,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'Aquarius',
     price: null,
-    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/aquarius-limon-lata-33cl-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/aquarius-limon-lata-33cl-freskagarriak-1.png',
     name: 'Aquarius Limón Lata 33cl',
     excerpt: { eu: 'Aquarius produktua.', es: 'Producto Aquarius.' }
   },
@@ -2175,7 +2175,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'Aquarius',
     price: null,
-    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/aquarius-naranja-lata-33cl-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/aquarius-naranja-lata-33cl-freskagarriak-1.png',
     name: 'Aquarius Naranja Lata 33cl',
     excerpt: { eu: 'Aquarius produktua.', es: 'Producto Aquarius.' }
   },
@@ -2202,7 +2202,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'Coca-Cola',
     price: null,
-    image: '../media/images/products/coca-cola-1l-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/coca-cola-1l-freskagarriak.png',
     name: 'Coca-Cola 1L',
     excerpt: { eu: 'Coca-Cola produktua.', es: 'Producto Coca-Cola.' }
   },
@@ -2211,7 +2211,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'Coca-Cola',
     price: null,
-    image: '../media/images/products/coca-cola-20cl-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/coca-cola-20cl-freskagarriak.png',
     name: 'Coca-Cola 20cl',
     excerpt: { eu: 'Coca-Cola produktua.', es: 'Producto Coca-Cola.' }
   },
@@ -2220,7 +2220,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'Coca-Cola',
     price: null,
-    image: '../media/images/products/coca-cola-2l-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/coca-cola-2l-freskagarriak.png',
     name: 'Coca-Cola 2L',
     excerpt: { eu: 'Coca-Cola produktua.', es: 'Producto Coca-Cola.' }
   },
@@ -2229,7 +2229,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'Coca-Cola',
     price: null,
-    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/coca-cola-lata-33cl-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/coca-cola-lata-33cl-freskagarriak-1.png',
     name: 'Coca-Cola Lata 33cl',
     excerpt: { eu: 'Coca-Cola produktua.', es: 'Producto Coca-Cola.' }
   },
@@ -2238,7 +2238,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'Coca-Cola',
     price: null,
-    image: '../media/images/products/coca-cola-zero-20cl-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/coca-cola-zero-20cl-freskagarriak.png',
     name: 'Coca-Cola Zero 20cl',
     excerpt: { eu: 'Coca-Cola produktua.', es: 'Producto Coca-Cola.' }
   },
@@ -2247,7 +2247,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'Coca-Cola',
     price: null,
-    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/coca-cola-zero-lata-33cl-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/coca-cola-zero-lata-33cl-freskagarriak-1.png',
     name: 'Coca-Cola Zero Lata 33cl',
     excerpt: { eu: 'Coca-Cola produktua.', es: 'Producto Coca-Cola.' }
   },
@@ -2265,7 +2265,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'Fanta',
     price: null,
-    image: '../media/images/products/fanta-naranja-1l-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/fanta-naranja-1l-freskagarriak.png',
     name: 'Fanta Naranja 1L',
     excerpt: { eu: 'Fanta produktua.', es: 'Producto Fanta.' }
   },
@@ -2274,7 +2274,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'Fanta',
     price: null,
-    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/fanta-naranja-lata-33cl-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/fanta-naranja-lata-33cl-freskagarriak-1.png',
     name: 'Fanta Naranja Lata 33cl',
     excerpt: { eu: 'Fanta produktua.', es: 'Producto Fanta.' }
   },
@@ -2283,7 +2283,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'Kas',
     price: null,
-    image: '../media/images/products/kas-limon-1l-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/kas-limon-1l-freskagarriak.png',
     name: 'Kas Limón 1L',
     excerpt: { eu: 'Kas produktua.', es: 'Producto Kas.' }
   },
@@ -2292,7 +2292,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'Kas',
     price: null,
-    image: '../media/images/products/kas-limon-20cl-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/kas-limon-20cl-freskagarriak.png',
     name: 'Kas Limón 20cl',
     excerpt: { eu: 'Kas produktua.', es: 'Producto Kas.' }
   },
@@ -2301,7 +2301,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'Kas',
     price: null,
-    image: '../media/images/products/kas-limon-2l-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/kas-limon-2l-freskagarriak.png',
     name: 'Kas Limón 2L',
     excerpt: { eu: 'Kas produktua.', es: 'Producto Kas.' }
   },
@@ -2310,7 +2310,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'Kas',
     price: null,
-    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/kas-limon-lata-33cl-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/kas-limon-lata-33cl-freskagarriak-1.png',
     name: 'Kas Limón Lata 33cl',
     excerpt: { eu: 'Kas produktua.', es: 'Producto Kas.' }
   },
@@ -2319,7 +2319,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'Kas',
     price: null,
-    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/kas-naranja-lata-20cl-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/kas-naranja-lata-20cl-freskagarriak-1.png',
     name: 'Kas Naranja Lata 20cl',
     excerpt: { eu: 'Kas produktua.', es: 'Producto Kas.' }
   },
@@ -2328,7 +2328,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'Kas',
     price: null,
-    image: '../media/images/products/kas-naranja-20cl-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/kas-naranja-20cl-freskagarriak.png',
     name: 'Kas Naranja 20cl',
     excerpt: { eu: 'Kas produktua.', es: 'Producto Kas.' }
   },
