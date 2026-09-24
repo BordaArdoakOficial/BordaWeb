@@ -66,7 +66,7 @@ window.PRODUCTS_DATA = [
     winery: 'Inurrieta',
     price: null,
     image: '../media/images/products/inurrieta-pct-100-mimao-garnacha-urtekoak-navarra.png',
-    name: 'Inurrieta %100 Mimao GARNACHA',
+    name: 'Inurrieta Mimao %100 Garnacha',
     excerpt: { eu: 'Navarra D.O.ko urtekoak, Inurrieta upategiak egina.', es: 'Vino del año con D.O. Navarra, elaborado por la bodega Inurrieta.' }
   },
   {
@@ -106,7 +106,7 @@ window.PRODUCTS_DATA = [
     winery: 'Luna Beberide',
     price: null,
     image: '../media/images/products/luna-beberide-pct-100-mencia-urtekoak-bierzo.png',
-    name: 'Luna Beberide %100 Mencia',
+    name: 'Luna Beberide Mencia %100',
     excerpt: { eu: 'Bierzo D.O.ko urtekoak, Luna Beberide upategiak egina.', es: 'Vino del año con D.O. Bierzo, elaborado por la bodega Luna Beberide.' }
   },
   {
@@ -246,7 +246,7 @@ window.PRODUCTS_DATA = [
     winery: 'Castillo de Monjardín',
     price: null,
     image: '../media/images/products/castillo-monjardin-pct-100-garnacha-vinas-viejas-6-meses-barrica-onduak-navarra.png',
-    name: 'Castillo Monjardin %100 Garnacha Viñas Viejas 6 MESES BARRICA',
+    name: 'Castillo Monjardin Garnacha %100 Viñas Viejas 6 Meses Barrica',
     excerpt: { eu: 'Navarra D.O.ko onduak, Castillo de Monjardín upategiak egina.', es: 'Vino crianza con D.O. Navarra, elaborado por la bodega Castillo de Monjardín.' }
   },
   {
@@ -286,7 +286,7 @@ window.PRODUCTS_DATA = [
     winery: 'Inurrieta',
     price: null,
     image: '../media/images/products/inurrieta-puro-vicio-pct-100-syrah-onduak-navarra.png',
-    name: 'Inurrieta Puro Vicio %100 Syrah',
+    name: 'Inurrieta Puro Vicio Syrah %100',
     excerpt: { eu: 'Navarra D.O.ko onduak, Inurrieta upategiak egina.', es: 'Vino crianza con D.O. Navarra, elaborado por la bodega Inurrieta.' }
   },
   {
@@ -486,7 +486,7 @@ window.PRODUCTS_DATA = [
     winery: 'Inurrieta',
     price: null,
     image: '../media/images/products/inurrieta-laderas-pct-100-graciano-erreserbak-navarra.png',
-    name: 'Inurrieta Laderas %100 Graciano',
+    name: 'Inurrieta Laderas Graciano %100',
     excerpt: { eu: 'Navarra D.O.ko erreserbak, Inurrieta upategiak egina.', es: 'Vino reservas con D.O. Navarra, elaborado por la bodega Inurrieta.' }
   },
   {
@@ -496,7 +496,7 @@ window.PRODUCTS_DATA = [
     winery: 'Inurrieta',
     price: null,
     image: '../media/images/products/inurrieta-puro-vicio-pct-100-syrah-erreserbak-navarra.png',
-    name: 'Inurrieta Puro Vicio %100 Syrah',
+    name: 'Inurrieta Puro Vicio Syrah %100',
     excerpt: { eu: 'Navarra D.O.ko erreserbak, Inurrieta upategiak egina.', es: 'Vino reservas con D.O. Navarra, elaborado por la bodega Inurrieta.' }
   },
   {
@@ -678,7 +678,7 @@ window.PRODUCTS_DATA = [
     winery: 'Rimarts',
     price: null,
     image: '../media/images/products/rimarts-brut-nature-reserva-24-cavak.png',
-    name: 'RIMARTS Brut Nature Reserva 24',
+    name: 'Rimarts Brut Nature Reserva 24',
     excerpt: { eu: 'Cava, Rimarts upategiak egina.', es: 'Cava elaborado por la bodega Rimarts.' }
   },
   {
@@ -687,7 +687,7 @@ window.PRODUCTS_DATA = [
     winery: 'Rimarts',
     price: null,
     image: '../media/images/products/rimarts-brut-reserva-18-cavak.png',
-    name: 'RIMARTS Brut Reserva 18',
+    name: 'Rimarts Brut Reserva 18',
     excerpt: { eu: 'Cava, Rimarts upategiak egina.', es: 'Cava elaborado por la bodega Rimarts.' }
   },
   {
@@ -696,7 +696,7 @@ window.PRODUCTS_DATA = [
     winery: 'Rimarts',
     price: null,
     image: '../media/images/products/rimarts-chardonnay-reserva-cavak.png',
-    name: 'RIMARTS Chardonnay Reserva',
+    name: 'Rimarts Chardonnay Reserva',
     excerpt: { eu: 'Cava, Rimarts upategiak egina.', es: 'Cava elaborado por la bodega Rimarts.' }
   },
   {
@@ -705,7 +705,7 @@ window.PRODUCTS_DATA = [
     winery: 'Rimarts',
     price: null,
     image: '../media/images/products/rimarts-gran-reserva-40-cavak.png',
-    name: 'RIMARTS Gran Reserva 40',
+    name: 'Rimarts Gran Reserva 40',
     excerpt: { eu: 'Cava, Rimarts upategiak egina.', es: 'Cava elaborado por la bodega Rimarts.' }
   },
   {
@@ -856,7 +856,7 @@ window.PRODUCTS_DATA = [
     winery: 'Asturiana',
     price: null,
     image: '../media/images/products/asturiana-cero-esneak.png',
-    name: 'Asturiana CERO',
+    name: 'Asturiana Cero',
     excerpt: { eu: 'Asturiana produktua.', es: 'Producto Asturiana.' }
   },
   {
@@ -955,7 +955,7 @@ window.PRODUCTS_DATA = [
     winery: 'Euskal Herria',
     price: null,
     image: '../media/images/products/euskal-herria-esnea-erdigaingabetua-litro-1-esneak.png',
-    name: 'EUSKAL HERRIA esnea ERDIGAINGABETUA LITRO 1',
+    name: 'Euskal Herria esnea Erdigaingabetua Litro 1',
     excerpt: { eu: 'Euskal Herria produktua.', es: 'Producto Euskal Herria.' }
   },
   {
@@ -964,7 +964,7 @@ window.PRODUCTS_DATA = [
     winery: 'Euskal Herria',
     price: null,
     image: '../media/images/products/euskal-herria-esnea-gaingabetua-litro-1-esneak.png',
-    name: 'EUSKAL HERRIA esnea GAINGABETUA LITRO 1',
+    name: 'Euskal Herria esnea Gaingabetua Litro 1',
     excerpt: { eu: 'Euskal Herria produktua.', es: 'Producto Euskal Herria.' }
   },
   {
@@ -973,7 +973,7 @@ window.PRODUCTS_DATA = [
     winery: 'Euskal Herria',
     price: null,
     image: '../media/images/products/euskal-herria-esnea-osoa-litro-1-esneak.png',
-    name: 'EUSKAL HERRIA esnea OSOA LITRO 1',
+    name: 'Euskal Herria esnea Osoa Litro 1',
     excerpt: { eu: 'Euskal Herria produktua.', es: 'Producto Euskal Herria.' }
   },
   {
@@ -1036,7 +1036,7 @@ window.PRODUCTS_DATA = [
     winery: 'Vermeiren',
     price: null,
     image: '../media/images/products/vermeiren-traditional-ostalaritza.png',
-    name: 'VERMEIREN TRADITIONAL',
+    name: 'Vermeiren Traditional',
     excerpt: { eu: 'Vermeiren produktua.', es: 'Producto Vermeiren.' }
   },
   {
@@ -1162,116 +1162,116 @@ window.PRODUCTS_DATA = [
     winery: 'Ybarra',
     price: null,
     image: '../media/images/products/mayonesa-ybarra-252x12ml-ostalaritza.png',
-    name: 'MAYONESA YBARRA (252x12ml)',
+    name: 'Mayonesa Ybarra (252x12ml)',
     excerpt: { eu: 'Ybarra produktua.', es: 'Producto Ybarra.' }
   },
   {
     slug: 'sandua-freidora-10l-25l-olioak',
     type: 'olioak',
-    winery: 'SANDUA',
+    winery: 'Sandua',
     price: null,
     image: '../media/images/products/sandua-freidora-10l-25l-olioak.png',
-    name: 'SANDUA Freidora 10L - 25L',
-    excerpt: { eu: 'SANDUA produktua.', es: 'Producto SANDUA.' }
+    name: 'Sandua Freidora 10L - 25L',
+    excerpt: { eu: 'Sandua produktua.', es: 'Producto Sandua.' }
   },
   {
     slug: 'sandua-mayonesa-olioak',
     type: 'olioak',
-    winery: 'SANDUA',
+    winery: 'Sandua',
     price: null,
     image: '../media/images/products/sandua-mayonesa-olioak.png',
-    name: 'SANDUA Mayonesa',
-    excerpt: { eu: 'SANDUA produktua.', es: 'Producto SANDUA.' }
+    name: 'Sandua Mayonesa',
+    excerpt: { eu: 'Sandua produktua.', es: 'Producto Sandua.' }
   },
   {
     slug: 'sandua-refinado-girasol-1l-olioak',
     type: 'olioak',
-    winery: 'SANDUA',
+    winery: 'Sandua',
     price: null,
     image: '../media/images/products/sandua-refinado-girasol-1l-olioak.png',
-    name: 'SANDUA Refinado Girasol 1L',
-    excerpt: { eu: 'SANDUA produktua.', es: 'Producto SANDUA.' }
+    name: 'Sandua Refinado Girasol 1L',
+    excerpt: { eu: 'Sandua produktua.', es: 'Producto Sandua.' }
   },
   {
     slug: 'sandua-refinado-girasol-5l-olioak',
     type: 'olioak',
-    winery: 'SANDUA',
+    winery: 'Sandua',
     price: null,
     image: '../media/images/products/sandua-refinado-girasol-5l-olioak.png',
-    name: 'SANDUA Refinado Girasol 5L',
-    excerpt: { eu: 'SANDUA produktua.', es: 'Producto SANDUA.' }
+    name: 'Sandua Refinado Girasol 5L',
+    excerpt: { eu: 'Sandua produktua.', es: 'Producto Sandua.' }
   },
   {
     slug: 'sandua-sabor-intenso-1l-olioak',
     type: 'olioak',
-    winery: 'SANDUA',
+    winery: 'Sandua',
     price: null,
     image: '../media/images/products/sandua-sabor-intenso-1l-olioak.png',
-    name: 'SANDUA Sabor Intenso 1L',
-    excerpt: { eu: 'SANDUA produktua.', es: 'Producto SANDUA.' }
+    name: 'Sandua Sabor Intenso 1L',
+    excerpt: { eu: 'Sandua produktua.', es: 'Producto Sandua.' }
   },
   {
     slug: 'sandua-sabor-suave-1l-olioak',
     type: 'olioak',
-    winery: 'SANDUA',
+    winery: 'Sandua',
     price: null,
     image: '../media/images/products/sandua-sabor-suave-1l-olioak.png',
-    name: 'SANDUA Sabor Suave 1L',
-    excerpt: { eu: 'SANDUA produktua.', es: 'Producto SANDUA.' }
+    name: 'Sandua Sabor Suave 1L',
+    excerpt: { eu: 'Sandua produktua.', es: 'Producto Sandua.' }
   },
   {
     slug: 'sandua-sal-1000-unid-ostalaritza',
     type: 'ostalaritza',
-    winery: 'SANDUA',
+    winery: 'Sandua',
     price: null,
     image: '../media/images/products/sandua-sal-1000-unid-ostalaritza.png',
-    name: 'SANDUA SAL 1000 unid',
-    excerpt: { eu: 'SANDUA produktua.', es: 'Producto SANDUA.' }
+    name: 'Sandua Sal 1000 unid',
+    excerpt: { eu: 'Sandua produktua.', es: 'Producto Sandua.' }
   },
   {
     slug: 'sandua-vinagre-blister-100x10ml-olioak',
     type: 'olioak',
-    winery: 'SANDUA',
+    winery: 'Sandua',
     price: null,
     image: '../media/images/products/sandua-vinagre-blister-100x10ml-olioak.png',
-    name: 'SANDUA VINAGRE Blister 100x10ml',
-    excerpt: { eu: 'SANDUA produktua.', es: 'Producto SANDUA.' }
+    name: 'Sandua Vinagre Blister 100x10ml',
+    excerpt: { eu: 'Sandua produktua.', es: 'Producto Sandua.' }
   },
   {
     slug: 'sandua-vinagre-olioak',
     type: 'olioak',
-    winery: 'SANDUA',
+    winery: 'Sandua',
     price: null,
     image: '../media/images/products/sandua-vinagre-olioak.png',
-    name: 'SANDUA Vinagre',
-    excerpt: { eu: 'SANDUA produktua.', es: 'Producto SANDUA.' }
+    name: 'Sandua Vinagre',
+    excerpt: { eu: 'Sandua produktua.', es: 'Producto Sandua.' }
   },
   {
     slug: 'sandua-virgen-extra-1l-olioak',
     type: 'olioak',
-    winery: 'SANDUA',
+    winery: 'Sandua',
     price: null,
     image: '../media/images/products/sandua-virgen-extra-1l-olioak.png',
-    name: 'SANDUA Virgen Extra 1L',
-    excerpt: { eu: 'SANDUA produktua.', es: 'Producto SANDUA.' }
+    name: 'Sandua Virgen Extra 1L',
+    excerpt: { eu: 'Sandua produktua.', es: 'Producto Sandua.' }
   },
   {
     slug: 'sandua-virgen-extra-5l-olioak',
     type: 'olioak',
-    winery: 'SANDUA',
+    winery: 'Sandua',
     price: null,
     image: '../media/images/products/sandua-virgen-extra-5l-olioak.png',
-    name: 'SANDUA Virgen Extra 5L',
-    excerpt: { eu: 'SANDUA produktua.', es: 'Producto SANDUA.' }
+    name: 'Sandua Virgen Extra 5L',
+    excerpt: { eu: 'Sandua produktua.', es: 'Producto Sandua.' }
   },
   {
     slug: 'sandua-virgen-extra-blister-100x10ml-olioak',
     type: 'olioak',
-    winery: 'SANDUA',
+    winery: 'Sandua',
     price: null,
     image: '../media/images/products/sandua-virgen-extra-blister-100x10ml-olioak.png',
-    name: 'SANDUA Virgen Extra Blister 100x10ml',
-    excerpt: { eu: 'SANDUA produktua.', es: 'Producto SANDUA.' }
+    name: 'Sandua Virgen Extra Blister 100x10ml',
+    excerpt: { eu: 'Sandua produktua.', es: 'Producto Sandua.' }
   },
   {
     slug: 'eguren-ugarte-erreserbak-rioja',
@@ -1757,7 +1757,7 @@ window.PRODUCTS_DATA = [
     winery: 'Castillo de Monjardín',
     price: null,
     image: '../media/images/products/castillo-monjardin-pct-100-chardonnay-zuriak-navarra.png',
-    name: 'Castillo Monjardin %100 Chardonnay',
+    name: 'Castillo Monjardin Chardonnay %100',
     excerpt: { eu: 'Navarra D.O.ko ardo zuria, Castillo de Monjardín upategiak egina.', es: 'Vino blanco con D.O. Navarra, elaborado por la bodega Castillo de Monjardín.' }
   },
   {
