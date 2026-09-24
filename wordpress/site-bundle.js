@@ -2392,7 +2392,7 @@ window.PRODUCTS_DATA = [
     winery: 'Don Simón',
     price: null,
     size: 4,
-    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/don-simon-zumos-200ml-pack-4-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/don-simon-zumos-200ml-pack-4-freskagarriak-v2.png',
     name: 'Don Simón Zumos 200ml (Pack 4)',
     excerpt: { eu: 'Don Simón produktua.', es: 'Producto Don Simón.' }
   },
