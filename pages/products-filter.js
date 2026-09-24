@@ -59,7 +59,7 @@
     'Cyatho', 'Mayor de Castilla', 'Valdihuete',
     'Luna Beberide', 'Paixar', 'La Recuperada', 'Zaramendil', 'Quinta da Peza',
     'Marqués de Vizhoja',
-    'Juan Miguez', "o'ventosela", 'Enate', 'Agerre', 'Gañeta',
+    'Juan Miguez', "O'Ventosela", 'Enate', 'Agerre', 'Gañeta',
     'Gaintza', 'Ulacia', 'Arregi', 'Mokoroa',
     'Aizpurua', 'Ameztoi', 'Katxina', 'Txomin Etxaniz',
     'Talai Berri', 'K5', 'Aburuza', 'Saizar',
@@ -72,7 +72,7 @@
     'Asturiana', 'Cola Cao', 'Euskal Herria', 'Maribel', 'Vermeiren',
     'El Palacio', 'Gran Leiriña', 'Haritz', 'Hiru 3 racimos', 'K Pilota',
     'Martin Cendoya', 'Monasterio de Yuso', 'Saltaviñas', 'Ugarte',
-    'Vega Verde', 'Viña Arnaiz', 'Viña Leiriña', 'Fizzy (Fizzante)', 'primo',
+    'Vega Verde', 'Viña Arnaiz', 'Viña Leiriña', 'Fizzy (Fizzante)', 'Primo',
     /* Added with the cervezas/refrescos/café batch: */
     'Corona', 'Franziskaner', 'Leffe', 'Mahou', 'Modelo', 'Stella Artois',
     'Budweiser', 'Hoegaarden', 'Pacífico', '7UP', 'Aquarius', 'Euskola', 'Kas',
