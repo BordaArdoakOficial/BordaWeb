@@ -29,7 +29,10 @@
     if (layout) layout.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
-  var isES = (document.documentElement.lang || 'eu').toLowerCase().indexOf('es') === 0;
+  /* WordPress sets <html lang="es"> site-wide regardless of page content
+     language, so it can't be used to tell EU pages from ES pages here.
+     Match the URL convention the rest of the site already uses instead. */
+  var isES = /-es\/?$/.test(location.pathname);
 
   var FACETS = [
     { key: 'type', label: isES ? 'Tipo' : 'Mota' },
