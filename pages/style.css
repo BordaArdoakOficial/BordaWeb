@@ -63,6 +63,17 @@ body {
 body > main { flex: 1 0 auto; }
 .site-footer { flex-shrink: 0; }
 
+/* On WordPress, header/main/footer are wrapped inside .entry-content instead
+   of being direct children of body, so the rule above never matches there
+   and short pages leave a gap below the footer. Re-apply the same fix
+   scoped to that wrapper. */
+.entry-content:has(> .site-header) {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.entry-content:has(> .site-header) > main { flex: 1 0 auto; }
+
 img { max-width: 100%; height: auto; display: block; }
 
 h1, h2, h3 { line-height: 1.15; font-weight: 700; }
