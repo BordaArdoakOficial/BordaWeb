@@ -2193,7 +2193,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'Kas',
     price: null,
-    image: '../media/images/products/bitter-kas-20cl-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/bitter-kas-20cl-freskagarriak.png',
     name: 'Bitter Kas 20cl',
     excerpt: { eu: 'Kas produktua.', es: 'Producto Kas.' }
   },
@@ -2337,7 +2337,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'La Casera',
     price: null,
-    image: '../media/images/products/la-casera-0-5l-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/la-casera-0-5l-freskagarriak.png',
     name: 'La Casera 0,5L',
     excerpt: { eu: 'La Casera produktua.', es: 'Producto La Casera.' }
   },
@@ -2346,7 +2346,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'La Casera',
     price: null,
-    image: '../media/images/products/la-casera-1l-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/la-casera-1l-freskagarriak.png',
     name: 'La Casera 1L',
     excerpt: { eu: 'La Casera produktua.', es: 'Producto La Casera.' }
   },
@@ -2372,7 +2372,7 @@ window.PRODUCTS_DATA = [
     type: 'freskagarriak',
     winery: 'Nestea',
     price: null,
-    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/nestea-lata-33cl-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/nestea-lata-33cl-freskagarriak-1.png',
     name: 'Nestea Lata 33cl',
     excerpt: { eu: 'Nestea produktua.', es: 'Producto Nestea.' }
   },
@@ -2392,7 +2392,7 @@ window.PRODUCTS_DATA = [
     winery: 'Don Simón',
     price: null,
     size: 4,
-    image: '../media/images/products/don-simon-zumos-200ml-pack-4-freskagarriak.png',
+    image: 'https://bordaardoak.eus/wp-content/uploads/2026/09/don-simon-zumos-200ml-pack-4-freskagarriak.png',
     name: 'Don Simón Zumos 200ml (Pack 4)',
     excerpt: { eu: 'Don Simón produktua.', es: 'Producto Don Simón.' }
   },
