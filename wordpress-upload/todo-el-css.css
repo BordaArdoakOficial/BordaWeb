@@ -712,6 +712,18 @@ body.admin-bar .site-header { top: 32px; }
   .product-card.size-4 img { aspect-ratio: 3 / 4; }
 }
 
+/* On phones, minmax(180px, 1fr) only leaves room for a single column
+   (two 180px tracks + gap don't fit typical phone widths), so each tall
+   3:4 card takes a full screen and browsing feels endless. Force 2
+   columns and shrink the image box so ~4 products fit within a
+   screen and a bit of scroll. */
+@media (max-width: 640px) {
+  .products-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem; }
+  .product-card img { aspect-ratio: 4 / 5; padding: 0.5rem; }
+  .product-card .product-body { padding: 0.75rem 0.75rem 0.85rem; }
+  .product-card h3 { font-size: 0.9rem; }
+}
+
 /* ---------- Category slider (home) ---------- */
 .category-slider {
   overflow: hidden;
